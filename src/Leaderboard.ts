@@ -55,10 +55,10 @@ const meleeEmbed = createStyleEmbed(meleeData, 'Melee', Colours.red, 'https://pu
 const magicEmbed = createStyleEmbed(magicData, 'Magic', Colours.blue, 'https://i.imgur.com/pxUotNE.png')
 const hybridEmbed = createStyleEmbed(hybridData, 'Mage/Ranged', Colours.aqua, 'https://i.imgur.com/jR9vfjY.png')
 
-if (createLeaderboardArray(rangedData)) embedsToSend.push(rangedEmbed);
-if (createLeaderboardArray(meleeData)) embedsToSend.push(meleeEmbed);
-if (createLeaderboardArray(magicData)) embedsToSend.push(magicEmbed);
-if (createLeaderboardArray(hybridData)) embedsToSend.push(hybridEmbed);
+if (createLeaderboardArray(rangedData).length) embedsToSend.push(rangedEmbed);
+if (createLeaderboardArray(meleeData).length) embedsToSend.push(meleeEmbed);
+if (createLeaderboardArray(magicData).length) embedsToSend.push(magicEmbed);
+if (createLeaderboardArray(hybridData).length) embedsToSend.push(hybridEmbed);
 
 // const channel = client.channels.fetch(baseChannelID).then(channel => {
 //     channel?.send({ embeds: [exampleEmbed] });
