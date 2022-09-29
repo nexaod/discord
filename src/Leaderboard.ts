@@ -15,6 +15,7 @@ const rangedData = require("./data/leaderboards/ranged.json");
 const meleeData = require("./data/leaderboards/melee.json");
 const magicData = require("./data/leaderboards/magic.json");
 const hybridData = require("./data/leaderboards/hybrid.json");
+const killTimeData = require("./data/leaderboards/killtime.json");
 
 const createLeaderboardArray = (data: any) => {
     const finalArray = [];
@@ -35,6 +36,51 @@ const createLeaderboardArray = (data: any) => {
         finalArray.push(roleObject)
     }
     return finalArray;
+}
+
+const createKillTimeEmbed = (data: any) => {
+    const killTimeFields = [];
+    for (let killtime in data) {
+        if (!data[killtime].time) {
+            continue;
+        }
+        let suffix;
+        switch (killtime) {
+            case "0":
+                suffix = `${Number(killtime) + 1}st`
+                break;
+            case "1":
+                suffix = `${Number(killtime) + 1}nd`
+                break;
+            default:
+                suffix = `${Number(killtime) + 1}rd`
+        }
+        const roleObject: any = {};
+        const emojiKey = `gem${Number(killtime) + 1}`;
+        roleObject.name = `${(Emojis as any)[emojiKey]}`;
+        roleObject.inline = true;
+        roleObject.value = `
+        ${data[killtime].time ? `**[${data[killtime].time}](${data[killtime].url})**` : ''}
+        ${data[killtime].base ? `${Emojis.voke} ${data[killtime].base}` : ''}
+        ${data[killtime].chin ? `${Emojis.chin} ${data[killtime].chin}` : ''}
+        ${data[killtime].free ? `${Emojis.freedom} ${data[killtime].free}` : ''}
+        ${data[killtime].umbra ? `${Emojis.umbra} ${data[killtime].umbra}` : ''}
+        ${data[killtime].glacies ? `${Emojis.glacies} ${data[killtime].glacies}` : ''}
+        ${data[killtime].cruor ? `${Emojis.cruor} ${data[killtime].cruor}` : ''}
+        ${data[killtime].fumus ? `${Emojis.fumus} ${data[killtime].fumus}` : ''}
+        `
+        killTimeFields.push(roleObject)
+    }
+    console.log(killTimeFields)
+    return {
+        color: Colours.gold,
+        text_title: 'Kill Time',
+        fields: killTimeFields,
+        timestamp: new Date().toISOString(),
+        footer: {
+            text: 'Last Updated'
+        },
+    };
 }
 
 const createStyleEmbed = (data: any, title: string, colour: number, thumbnail: string) => {
@@ -59,6 +105,7 @@ if (createLeaderboardArray(rangedData).length) embedsToSend.push(rangedEmbed);
 if (createLeaderboardArray(meleeData).length) embedsToSend.push(meleeEmbed);
 if (createLeaderboardArray(magicData).length) embedsToSend.push(magicEmbed);
 if (createLeaderboardArray(hybridData).length) embedsToSend.push(hybridEmbed);
+embedsToSend.push(createKillTimeEmbed(killTimeData))
 
 // const channel = client.channels.fetch(baseChannelID).then(channel => {
 //     channel?.send({ embeds: [exampleEmbed] });
