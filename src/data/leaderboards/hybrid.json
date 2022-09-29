@@ -1,0 +1,82 @@
+{
+    "ent": {
+        "title": "Mage/Ranged Ent",
+        "scores": [
+            {
+                "name": "",
+                "score": "",
+                "url": ""
+            },
+            {
+                "name": "",
+                "score": "",
+                "url": ""
+            },
+            {
+                "name": "",
+                "score": "",
+                "url": ""
+            }
+        ]
+    },
+    "chinner": {
+        "title": "Mage/Ranged Hammer",
+        "scores": [
+            {
+                "name": "",
+                "score": "",
+                "url": ""
+            },
+            {
+                "name": "",
+                "score": "",
+                "url": ""
+            },
+            {
+                "name": "",
+                "score": "",
+                "url": ""
+            }
+        ]
+    },
+    "free": {
+        "title": "Mage/Ranged Free",
+        "scores": [
+            {
+                "name": "Stuman131",
+                "score": "9845k",
+                "url": "https://imgur.com/MUBRcbL"
+            },
+            {
+                "name": "Dave J",
+                "score": "9500k",
+                "url": "https://cdn.discordapp.com/attachments/742114134400958589/1018472090673873016/unknown.png"
+            },
+            {
+                "name": "Rocket Cars",
+                "score": "9031k",
+                "url": "https://cdn.discordapp.com/attachments/742114134400958589/987835127725969448/unknown.png"
+            }
+        ]
+    },
+    "base": {
+        "title": "Mage/Ranged Base",
+        "scores": [
+            {
+                "name": "Seispip",
+                "score": "7427k",
+                "url": "https://cdn.discordapp.com/attachments/742114134400958589/993114020640997477/unknown.png"
+            },
+            {
+                "name": "",
+                "score": "",
+                "url": ""
+            },
+            {
+                "name": "",
+                "score": "",
+                "url": ""
+            }
+        ]
+    }
+}

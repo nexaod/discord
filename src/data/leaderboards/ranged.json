@@ -1,0 +1,82 @@
+{
+    "ent": {
+        "title": "Ranged Ent",
+        "scores": [
+            {
+                "name": "x Neon",
+                "score": "7991k",
+                "url": "https://cdn.discordapp.com/attachments/742114134400958589/1023401691703431238/unknown.png"
+            },
+            {
+                "name": "Sad Riven",
+                "score": "7894k",
+                "url": "https://cdn.discordapp.com/attachments/742114134400958589/1011391021982167161/unknown.png"
+            },
+            {
+                "name": "First Prod",
+                "score": "7719k",
+                "url": "https://imgur.com/17v6FoX"
+            }
+        ]
+    },
+    "chinner": {
+        "title": "Chinner",
+        "scores": [
+            {
+                "name": "",
+                "score": "",
+                "url": ""
+            },
+            {
+                "name": "",
+                "score": "",
+                "url": ""
+            },
+            {
+                "name": "",
+                "score": "",
+                "url": ""
+            }
+        ]
+    },
+    "free": {
+        "title": "Free Ranged",
+        "scores": [
+            {
+                "name": "",
+                "score": "",
+                "url": ""
+            },
+            {
+                "name": "",
+                "score": "",
+                "url": ""
+            },
+            {
+                "name": "",
+                "score": "",
+                "url": ""
+            }
+        ]
+    },
+    "base": {
+        "title": "Ranged Base",
+        "scores": [
+            {
+                "name": "",
+                "score": "",
+                "url": ""
+            },
+            {
+                "name": "",
+                "score": "",
+                "url": ""
+            },
+            {
+                "name": "",
+                "score": "",
+                "url": ""
+            }
+        ]
+    }
+}

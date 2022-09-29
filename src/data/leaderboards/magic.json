@@ -1,0 +1,62 @@
+{
+    "ent": {
+        "title": "Magic Ent",
+        "scores": [
+            {
+                "name": "Saint Blint",
+                "score": "8138k",
+                "url": "https://cdn.discordapp.com/attachments/742114134400958589/1019340773608652820/unknown.png"
+            },
+            {
+                "name": "",
+                "score": "",
+                "url": ""
+            },
+            {
+                "name": "",
+                "score": "",
+                "url": ""
+            }
+        ]
+    },
+    "free": {
+        "title": "Free Magic",
+        "scores": [
+            {
+                "name": "Dave J",
+                "score": "8148k",
+                "url": "https://cdn.discordapp.com/attachments/742114134400958589/971730109000196096/unknown.png"
+            },
+            {
+                "name": "",
+                "score": "",
+                "url": ""
+            },
+            {
+                "name": "",
+                "score": "",
+                "url": ""
+            }
+        ]
+    },
+    "base": {
+        "title": "Magic Base",
+        "scores": [
+            {
+                "name": "Grico",
+                "score": "6772k",
+                "url": "https://cdn.discordapp.com/attachments/742114134400958589/1022270319370698802/unknown.png"
+            },
+            {
+                "name": "",
+                "score": "",
+                "url": ""
+            },
+            {
+                "name": "",
+                "score": "",
+                "url": ""
+            }
+        ]
+    }
+}
