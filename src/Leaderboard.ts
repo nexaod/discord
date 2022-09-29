@@ -91,7 +91,7 @@ client.on("ready", async () => {
                 await (channel as TextChannel).send({ embeds: [embedsToSend[i]] })
             }
             // await (channel as TextChannel).send({ embeds: embedsToSend })
-            await process.exit(1)
+            await process.exit(0)
             // .then(() => (channel as TextChannel).send({ embeds: embedsToSend }))
             // .then(() => process.exit(1))
             // .catch(error => console.error);
