@@ -23,12 +23,10 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Use Node.js ${{ matrix.node-version }}
-      env:
-        DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
       uses: actions/setup-node@v3
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: npm ci
     - run: npm run build --if-present
-    - run: npm run leaderboard
+    - run: DISCORD_TOKEN=${{ secrets.DISCORD_TOKEN }} npm run leaderboard
