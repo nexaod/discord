@@ -124,7 +124,7 @@ const startingMessage = `
 `
 
 const startingEmbed = {
-    color: 5198940,
+    color: Colours.gold,
     title: "🏆 Nex AoD FC Leaderboards",
     description: startingMessage
 };
