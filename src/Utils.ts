@@ -8,7 +8,8 @@ export const Colours = {
 }
 
 export const Channels = {
-    leaderboard: '1024897631715069962'
+    leaderboard: '1024897631715069962',
+    applyforrank: '1025418108711731240',
 }
 
 export const Roles = {
