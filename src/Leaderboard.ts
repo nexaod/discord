@@ -125,7 +125,6 @@ const startingMessage = `
 
 const startingEmbed = {
     color: Colours.gold,
-    title: "🏆 Nex AoD FC Leaderboards",
     description: startingMessage
 };
 
@@ -136,6 +135,7 @@ client.on("ready", async () => {
     client.channels.fetch(Channels.leaderboard)
         .then(async channel => {
             await (channel as TextChannel).bulkDelete(100)
+            await (channel as TextChannel).send(`> __**Nex AoD FC Leaderboards**__`)
             await (channel as TextChannel).send({ embeds: [startingEmbed] })
             for (let i = 0; i < embedsToSend.length; i++) {
                 await (channel as TextChannel).send(`> __**${embedsToSend[i].text_title}**__`)
