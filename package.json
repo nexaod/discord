@@ -3,7 +3,8 @@
     "start": "ts-node src/Bot.ts",
     "action": "ts-node src/Action.ts",
     "leaderboard": "ts-node src/Leaderboard.ts",
-    "pe": "ts-node src/PerformanceExpectations.ts"
+    "expectations": "ts-node src/PerformanceExpectations.ts",
+    "rules": "ts-node src/Rules.ts"
   },
   "dependencies": {
     "@types/node": "^18.7.23",
