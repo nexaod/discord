@@ -6,6 +6,7 @@ export const Colours = {
     lightgrey: 10070709,
     gold: 12745742,
     default: 5198940,
+    lightblue: 302332
 }
 
 export const Channels = {
@@ -13,6 +14,7 @@ export const Channels = {
     applyForRank: '1025418108711731240',
     performanceExpectations: '1024896851436122145',
     additionalInfo: '1024897391549227038',
+    readingConfirmation: '1025994029290238032',
 }
 
 export const Roles = {
@@ -20,6 +22,10 @@ export const Roles = {
     extreme: '1024979670766194738',
     meleeEnt: '<@&1025444893931352084>',
     meleeUmbra: '<@&1025444129951449128>',
+    rangedEnt: '<@&1025639306045435904>',
+    rangedUmbra: '<@&1025639254300299434>',
+    magicEnt: '<@&1025676489770926081>',
+    ironman: '<@&1025996624318705747>',
 }
 
 export const Emojis = {
@@ -58,5 +64,26 @@ export const Emojis = {
     greaterFlurry: '<:gflurry:535532879283879977>',
     dragonBattleAxe: '<:DBA:603979368850653216>',
     cleave: '<:cleave:535532878616985610>',
-    zerk: '<:zerk:535532854004678657>'
+    zerk: '<:zerk:535532854004678657>',
+    reckless: '<:reckless:643505179378974748>',
+    grico: '<:grico:787904334812807238>',
+    sgbEof: '<:sgb:626466665848242186>',
+    eofSpec: '<:eofspec:746403211908481184>',
+    decimation: '<:decimation:643848618477879328>',
+    eof: '<:eofor:745279787471470713>',
+    ecb: '<:ecb:615618531937222657>',
+    gstaff: '<:gstaff:513203008608141314>',
+    dbow: '<:dbow:643848618553507843>',
+    hammer: '<:swh:641670143197446182>',
+    iceamalg: '<:iceamalg:878739231785222154>',
+    bloodamalg: '<:bloodamalg:878739232447938670>',
+    smokeamalg: '<:smokeamalg:878739232607318086>',
+    smokecloud: '<:smokecloud:856635090641879050>',
+    dbreath: '<:dbreath:535533833391702017>',
+    nami: '<:tsunami:535533809995874304>',
+    gconc: '<:gconc:869285393223254107>',
+}
+
+export const TextUtils = {
+    subpoint: '\n\u00a0\u00a0\u00a0\u00a0•',
 }
