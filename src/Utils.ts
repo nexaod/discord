@@ -15,17 +15,26 @@ export const Channels = {
     performanceExpectations: '1024896851436122145',
     additionalInfo: '1024897391549227038',
     readingConfirmation: '1025994029290238032',
+    rules: '1024896890648666112'
 }
 
 export const Roles = {
-    mainTrialHost: '1024973897621315584',
-    extreme: '1024979670766194738',
+    mainTrialHost: '<@&1024973897621315584>',
+    extreme: '<@&1024979670766194738>',
     meleeEnt: '<@&1025444893931352084>',
     meleeUmbra: '<@&1025444129951449128>',
     rangedEnt: '<@&1025639306045435904>',
     rangedUmbra: '<@&1025639254300299434>',
     magicEnt: '<@&1025676489770926081>',
     ironman: '<@&1025996624318705747>',
+    cdar: '<@&1026002395060248576>',
+    chinner: '<@&1026002430405660712>',
+    meleeFree: '<@&1026002457303732257>',
+    organiser: '<@&1026018780305948732>',
+    coOwner: '<@&1026018856952668160>',
+    applicationTeam: '<@&1026018904704831590>',
+    trialTeam: '<@&1026018931288313936>',
+    readyForTrial: '<@&1026018741852586096>',
 }
 
 export const Emojis = {
@@ -82,6 +91,7 @@ export const Emojis = {
     dbreath: '<:dbreath:535533833391702017>',
     nami: '<:tsunami:535533809995874304>',
     gconc: '<:gconc:869285393223254107>',
+    smiley: '<:friend:1026007098116546590>'
 }
 
 export const TextUtils = {
