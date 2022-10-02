@@ -3,7 +3,7 @@
     "start": "ts-node src/Bot.ts",
     "action": "ts-node src/Action.ts",
     "leaderboard": "ts-node src/Leaderboard.ts",
-    "expectations": "ts-node src/PerformanceExpectations.ts",
+    "expectations": "ts-node src/Expectations.ts",
     "rules": "ts-node src/Rules.ts"
   },
   "dependencies": {
