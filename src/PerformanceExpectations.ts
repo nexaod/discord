@@ -1,7 +1,5 @@
-import { Client, ClientOptions, SelectMenuOptionBuilder, TextChannel, Message } from "discord.js";
-import { title } from "process";
+import { Client, TextChannel, Message } from "discord.js";
 import { Colours, Emojis, Channels, Roles, TextUtils } from "./Utils";
-require('dotenv').config();
 
 const token = process.env.DISCORD_TOKEN; // add your token here
 
