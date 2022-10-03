@@ -1,0 +1,29 @@
+{
+    "killcount": {
+        "title": "Kill Count",
+        "1": {
+            "score": "7500",
+            "role": "t1AoD"
+        },
+        "2": {
+            "score": "12,500",
+            "role": "t2AoD"
+        },
+        "3": {
+            "score": "17,500",
+            "role": "t3AoD"
+        },
+        "4": {
+            "score": "22,500",
+            "role": "t4AoD"
+        },
+        "5": {
+            "score": "27,500",
+            "role": "aodFanatic"
+        },
+        "extreme": {
+            "score": "35,000",
+            "role": "angelSlayer"
+        }
+    }
+}

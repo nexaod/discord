@@ -1,0 +1,59 @@
+{
+    "ent": {
+        "title": "Magic Entangle",
+        "entry": {
+            "score": "5500K",
+            "role": "magicEnt"
+        },
+        "adept": {
+            "score": "6300K",
+            "role": "magicEntAdept"
+        },
+        "mastery": {
+            "score": "7200K",
+            "role": "magicEntMastery"
+        },
+        "extreme": {
+            "score": "7600K",
+            "role": "magicEntExtreme"
+        }
+    },
+    "free": {
+        "title": "Free Magic",
+        "entry": {
+            "score": "",
+            "role": ""
+        },
+        "adept": {
+            "score": "",
+            "role": ""
+        },
+        "mastery": {
+            "score": "7200K",
+            "role": "magicFreeMastery"
+        },
+        "extreme": {
+            "score": "7600K",
+            "role": "magicFreeExtreme"
+        }
+    },
+    "base": {
+        "title": "Magic Base",
+        "entry": {
+            "score": "4300K",
+            "role": "magicBase"
+        },
+        "adept": {
+            "score": "4700K",
+            "role": "magicBaseAdept"
+        },
+        "mastery": {
+            "score": "5700K",
+            "role": "magicBaseMastery"
+        },
+        "extreme": {
+            "score": "6200K",
+            "role": "magicBaseExtreme"
+        }
+    }
+}

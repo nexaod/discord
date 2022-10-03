@@ -1,0 +1,40 @@
+{
+    "ent": {
+        "title": "Melee Entangle",
+        "entry": {
+            "score": "5100K",
+            "role": "meleeEnt"
+        },
+        "adept": {
+            "score": "5400K",
+            "role": "meleeEntAdept"
+        },
+        "mastery": {
+            "score": "5900K",
+            "role": "meleeEntMastery"
+        },
+        "extreme": {
+            "score": "6200K",
+            "role": "meleeEntExtreme"
+        }
+    },
+    "free": {
+        "title": "Melee Free",
+        "entry": {
+            "score": "",
+            "role": ""
+        },
+        "adept": {
+            "score": "5500K",
+            "role": "meleeFreeAdept"
+        },
+        "mastery": {
+            "score": "6000K",
+            "role": "meleeFreeMastery"
+        },
+        "extreme": {
+            "score": "6300K",
+            "role": "meleeFreeExtreme"
+        }
+    }
+}

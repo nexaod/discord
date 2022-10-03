@@ -1,0 +1,78 @@
+{
+    "ent": {
+        "title": "Magic/Ranged Entangle",
+        "entry": {
+            "score": "6500K",
+            "role": "mrEnt"
+        },
+        "adept": {
+            "score": "7500K",
+            "role": "mrEntAdept"
+        },
+        "mastery": {
+            "score": "8300K",
+            "role": "mrEntMastery"
+        },
+        "extreme": {
+            "score": "9000K",
+            "role": "mrEntExtreme"
+        }
+    },
+    "free": {
+        "title": "Magic/Ranged Free",
+        "entry": {
+            "score": "",
+            "role": ""
+        },
+        "adept": {
+            "score": "",
+            "role": ""
+        },
+        "mastery": {
+            "score": "8300K",
+            "role": "mrFreeMastery"
+        },
+        "extreme": {
+            "score": "9000K",
+            "role": "mrFreeExtreme"
+        }
+    },
+    "hammer": {
+        "title": "Magic/Ranged Hammer",
+        "entry": {
+            "score": "6500K",
+            "role": "mrHammer"
+        },
+        "adept": {
+            "score": "7300K",
+            "role": "mrHammerAdept"
+        },
+        "mastery": {
+            "score": "8100K",
+            "role": "mrHammerMastery"
+        },
+        "extreme": {
+            "score": "8800K",
+            "role": "mrHammerExtreme"
+        }
+    },
+    "base": {
+        "title": "Magic/Ranged Base",
+        "entry": {
+            "score": "6000K",
+            "role": "mrBase"
+        },
+        "adept": {
+            "score": "",
+            "role": ""
+        },
+        "mastery": {
+            "score": "",
+            "role": ""
+        },
+        "extreme": {
+            "score": "",
+            "role": ""
+        }
+    }
+}

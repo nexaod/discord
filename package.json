@@ -4,7 +4,9 @@
     "action": "ts-node src/Action.ts",
     "leaderboard": "ts-node src/Leaderboard.ts",
     "expectations": "ts-node src/Expectations.ts",
-    "rules": "ts-node src/Rules.ts"
+    "rules": "ts-node src/Rules.ts",
+    "gear": "ts-node src/Gear.ts",
+    "ranks": "ts-node src/Ranks.ts"
   },
   "dependencies": {
     "@types/node": "^18.7.23",
