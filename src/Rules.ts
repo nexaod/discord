@@ -3,6 +3,8 @@ import { Colours, Channels, createEmbed } from "./Utils";
 import { generalRules, behavioural, reporting, teamForming, splitting, deaths, gems, admin } from "./data/Rules";
 const token = process.env.DISCORD_TOKEN; // add your token here
 
+// test
+
 console.log("Bot is starting...");
 
 const client = new Client({
