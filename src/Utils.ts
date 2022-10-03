@@ -15,17 +15,29 @@ export const Channels = {
     performanceExpectations: '1024896851436122145',
     additionalInfo: '1024897391549227038',
     readingConfirmation: '1025994029290238032',
-    rules: '1024896890648666112'
+    rules: '1024896890648666112',
+    ranks: '1025998858397945946'
 }
 
-export const Roles = {
+export const createEmbed = (data: string, colour: number) => {
+    return {
+        color: colour,
+        description: data
+    };
+}
+
+export const Roles: any = {
     mainTrialHost: '<@&1024973897621315584>',
     extreme: '<@&1024979670766194738>',
+    mastery: '<@&1026380140655153163>',
     meleeEnt: '<@&1025444893931352084>',
     meleeUmbra: '<@&1025444129951449128>',
     rangedEnt: '<@&1025639306045435904>',
     rangedUmbra: '<@&1025639254300299434>',
     magicEnt: '<@&1025676489770926081>',
+    magicEntAdept: '<@&1026370030943883345>',
+    magicEntMastery: '<@&1026370099671740537>',
+    magicEntExtreme: '<@&1026370194161020968>',
     ironman: '<@&1025996624318705747>',
     cdar: '<@&1026002395060248576>',
     chinner: '<@&1026002430405660712>',
@@ -35,6 +47,20 @@ export const Roles = {
     applicationTeam: '<@&1026018904704831590>',
     trialTeam: '<@&1026018931288313936>',
     readyForTrial: '<@&1026018741852586096>',
+    magicFreeMastery: '<@&1026377160052711434>',
+    magicFreeExtreme: '<@&1026377263689764955>',
+    magicBase: '<@&1026378978077970452>',
+    magicBaseAdept: '<@&1026379013897338920>',
+    magicBaseMastery: '<@&1026379061976649798>',
+    magicBaseExtreme: '<@&1026379088266543127>',
+    rangedEntAdept: '<@&1026390072305655831>',
+    rangedEntMastery: '<@&1026390214148624394>',
+    rangedEntExtreme: '<@&1026390222881169448>',
+    chinnerAdept: '<@&1026390384865194006>',
+    chinnerMastery: '<@&1026390532483715073>',
+    chinnerExtreme: '<@&1026390539454664735>',
+    rangedFreeMastery: '<@&1026390687140282449>',
+    rangedFreeExtreme: '<@&1026390737903964200>',
 }
 
 export const Emojis = {
