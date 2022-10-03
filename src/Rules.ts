@@ -62,7 +62,11 @@ client.on("ready", async () => {
         .then(async channel => {
             const tableOfContents: any = {
                 color: Colours.lightblue,
-                title: 'Table of Contents'
+                title: 'Table of Contents',
+                timestamp: new Date().toISOString(),
+                footer: {
+                    text: 'Last Updated'
+                }
             };
             const content: any = [];
             const createTableOfContentsItem = (message: Message, name: string) => {
