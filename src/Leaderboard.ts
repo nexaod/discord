@@ -1,5 +1,6 @@
-import { Client, ClientOptions, SelectMenuOptionBuilder, TextChannel } from "discord.js";
-import { Colours, Emojis, Channels, Roles } from "./Utils";
+import { Client, TextChannel } from "discord.js";
+import { Colours, Emojis, Channels } from "./Utils";
+import { startingMessage } from "./data/leaderboards/Leaderboard";
 
 const token = process.env.DISCORD_TOKEN; // add your token here
 
@@ -107,22 +108,6 @@ if (createLeaderboardArray(magicData).length) embedsToSend.push(magicEmbed);
 if (createLeaderboardArray(hybridData).length) embedsToSend.push(hybridEmbed);
 embedsToSend.push(createKillTimeEmbed(killTimeData))
 
-// const channel = client.channels.fetch(baseChannelID).then(channel => {
-//     channel?.send({ embeds: [exampleEmbed] });
-// }).catch(console.error);
-
-const startingMessage = `
-> __**Gem Scores**__\n
-⬥ Players can only be on the leaderboard once per role, even if they would hold multiple spots on it (i.e. be #1 and #2).\n
-⬥ Only 2K Gems from **FULL** (7/7) FC teams are accepted. Gems will be denied for smaller team sizes.\n
-⬥ There must be at least 3 people from the team in the gem UNLESS a ${Roles.mainTrialHost}+ can vouch for the validity of the gem.\n
-⬥ Submitted role gems must at least qualify for the corresponding ${Roles.extreme} role.\n
-> __**Kill Times**__\n
-⬥ Only full (7/7) FC teams count.\n
-⬥ A screenshot of the full client interface with the group interface with 7/7 members showing is required.\n
-⬥ You can apply for a spot on the leaderboard via the <#${Channels.applyForRank}> channel.\n
-`
-
 const startingEmbed = {
     color: Colours.gold,
     description: startingMessage
@@ -141,12 +126,7 @@ client.on("ready", async () => {
                 await (channel as TextChannel).send(`> __**${embedsToSend[i].text_title}**__`)
                 await (channel as TextChannel).send({ embeds: [embedsToSend[i]] })
             }
-            // await (channel as TextChannel).send({ embeds: embedsToSend })
             await process.exit(0)
-            // .then(() => (channel as TextChannel).send({ embeds: embedsToSend }))
-            // .then(() => process.exit(1))
-            // .catch(error => console.error);
-
         }).catch(error => console.error);
 
     console.log(`${client.user.username} is online`);
