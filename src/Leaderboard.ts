@@ -72,7 +72,6 @@ const createKillTimeEmbed = (data: any) => {
         `
         killTimeFields.push(roleObject)
     }
-    console.log(killTimeFields)
     return {
         color: Colours.gold,
         text_title: 'Kill Time',
