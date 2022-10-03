@@ -1,5 +1,5 @@
 import { Client, TextChannel, Message } from "discord.js";
-import { Colours, Channels, Roles, TextUtils, createEmbed } from "./Utils";
+import { Colours, Channels, Roles, createEmbed } from "./Utils";
 import { startingMessage, dpsInfo, other } from './data/ranks/Ranks';
 const token = process.env.DISCORD_TOKEN; // add your token here
 
