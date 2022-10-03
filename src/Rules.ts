@@ -55,7 +55,7 @@ ${TextUtils.subpoint} You will be unable to see their calls during the boss figh
 ⬥ If you are hosting a group, you must clarify what roles are still open (e.g., +4 base/ents/chin). Clarifying which roles are taken (e.g., +6 -chin) is also possible.\n
 ⬥ Do not call minions until the team has filled. Magic ents default to Umbra.\n
 ⬥ Once a team fills that you are a part of, it is expected for you to be at nex bank and ready within 5 minutes. If you are not ready within 5 minutes of the team filling, the team is allowed (not required) to kick you.\n
-⬥ If a team wishes to retire, at least 5 members of the team must be willing to do so, otherwise the hour will continue. 
+⬥ If a team wishes to retire, at least 4 members of the team must be willing to do so, otherwise the hour will continue. 
 `
 
 // Splitting
