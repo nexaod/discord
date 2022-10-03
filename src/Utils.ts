@@ -16,7 +16,8 @@ export const Channels = {
     additionalInfo: '1024897391549227038',
     readingConfirmation: '1025994029290238032',
     rules: '1024896890648666112',
-    ranks: '1025998858397945946'
+    ranks: '1025998858397945946',
+    bot: '1026531701591122061',
 }
 
 export const createEmbed = (data: string, colour: number) => {
