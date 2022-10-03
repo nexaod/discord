@@ -30,4 +30,6 @@ jobs:
         cache: 'npm'
     - run: npm ci
     - run: npm run build --if-present
-    - run: DISCORD_TOKEN=${{ secrets.DISCORD_TOKEN }} npm run leaderboard
+    - run: npm run leaderboard
+      env:
+        DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
