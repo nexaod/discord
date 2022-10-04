@@ -43,8 +43,8 @@ export const other = `
 ⬥ ${Roles.ofThePraesul} - Unlocked the base collection log.
 ⬥ ${Roles.truePraesul} - Unlocked the golden collection log.
 ⬥ ${Roles.streamer}
-${TextUtils.subpoint} 50 follower requirement.
-${TextUtils.subpoint} Automatically posts in #streamers when you are live.
-${TextUtils.subpoint} Contact an ${Roles.organiser}+ for this role. 
+${TextUtils.noSpaceSubPoint} 50 follower requirement.
+${TextUtils.noSpaceSubPoint} Automatically posts in #streamers when you are live.
+${TextUtils.noSpaceSubPoint} Contact an ${Roles.organiser}+ for this role. 
 `;
 
