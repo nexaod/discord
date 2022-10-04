@@ -29,19 +29,19 @@ ${TextUtils.subpoint} ${Roles.deathDestroyer} is awarded for achieving ${Roles.e
 // Ingame Ranks
 export const ingame = `
 > Ingame FC roles are assigned for administration purposes.\n
-${Emojis.smiley} - ${Roles.member}\n
-${Emojis.recruit} - ${Roles.extreme}\n
-${Emojis.corporal} - ${Roles.trialTeam}\n
-${Emojis.sergeant} - ${Roles.applicationTeam}\n
-${Emojis.lieutenant} - ${Roles.mainTrialHost}\n
-${Emojis.captain} - ${Roles.organiser}\n
+${Emojis.smiley} - ${Roles.member}
+${Emojis.recruit} - ${Roles.extreme}
+${Emojis.corporal} - ${Roles.trialTeam}
+${Emojis.sergeant} - ${Roles.applicationTeam}
+${Emojis.lieutenant} - ${Roles.mainTrialHost}
+${Emojis.captain} - ${Roles.organiser}
 ${Emojis.general} - ${Roles.coOwner}
 `;
 
 // Other Ranks
 export const other = `
-⬥ ${Roles.ofThePraesul} - Unlocked the base collection log.\n
-⬥ ${Roles.truePraesul} - Unlocked the golden collection log.\n
+⬥ ${Roles.ofThePraesul} - Unlocked the base collection log.
+⬥ ${Roles.truePraesul} - Unlocked the golden collection log.
 ⬥ ${Roles.streamer}
 ${TextUtils.subpoint} 50 follower requirement.
 ${TextUtils.subpoint} Automatically posts in #streamers when you are live.

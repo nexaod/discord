@@ -184,7 +184,7 @@ export const Emojis = {
 
 
 export const TextUtils = {
-    subpoint: '\u00a0\u00a0\u00a0\u00a0•',
+    subpoint: '\n\u00a0\u00a0\u00a0\u00a0•',
 }
 
 export const createEmbed = (data: string, colour: number) => {

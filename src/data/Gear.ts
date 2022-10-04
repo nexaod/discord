@@ -3,10 +3,10 @@ import { Emojis, Channels, Roles, TextUtils } from "../Utils";
 
 export const general = `
 > This channel outlines the generic gear and supply requirements.\n
-⬥ You are not required to bring both dual-wield and 2H weapons for some roles with the exception of ${Emojis.flanking} and ${Emojis.plantedFeet}.
-⬥ We recommend using a mainhand weapon or defender for ${Emojis.plantedFeet} and ${Emojis.as1} perks.
-⬥ Perks listed are the minimum requirements. Better ones are obviously accepted.
-⬥ Using 11 ${Emojis.spiritWeedIncenseSticks} will greatly boost your ${Emojis.ripperDemon} or ${Emojis.mammoth}.
+⬥ You are not required to bring both dual-wield and 2H weapons for some roles with the exception of ${Emojis.flanking} and ${Emojis.plantedFeet}.\n
+⬥ We recommend using a mainhand weapon or defender for ${Emojis.plantedFeet} and ${Emojis.as1} perks.\n
+⬥ Perks listed are the minimum requirements. Better ones are obviously accepted.\n
+⬥ Using 11 ${Emojis.spiritWeedIncenseSticks} will greatly boost your ${Emojis.ripperDemon}.\n
 ⬥ Using ${Emojis.weaponPoison} either in preset or while banking can help with ${Emojis.amalg}.
 `;
 
@@ -15,7 +15,7 @@ export const supplies = `
 ⬥ Your main healing items should consist of:
 ${TextUtils.subpoint} ${Emojis.guthixRest} ${Emojis.saraBrew} ${Emojis.superSaraBrew}
 ${TextUtils.subpoint} ${Emojis.blubber}
-${TextUtils.subpoint} Solids: ${Emojis.sailfish} ${Emojis.sailfishSoup} ${Emojis.rocktailSoup}
+${TextUtils.subpoint} Solids: ${Emojis.sailfish} ${Emojis.sailfishSoup} ${Emojis.rocktailSoup}\n
 ⬥ Non bases are limited to 1 ${Emojis.saraBrew} and 1 solid.
 ⬥ Solid food is generally not needed for anyone but the base.\n
 > __**Potions**__\n
