@@ -11,7 +11,6 @@ export const generalExpectations = `
 ⬥ Disassemble any dummies you use to build adrenaline.\n
 ⬥ Regain adrenaline on your own if you died during a kill (preferably with Wars Retreat crystal).\n
 ⬥ ${Emojis.ripperDemon}${Emojis.ripperScroll} is required with the following exceptions:
-${TextUtils.subpoint} Ranged Base (${Emojis.mammoth}${Emojis.mammothScroll})
 ${TextUtils.subpoint} Magic Base (${Emojis.kalgDemon}${Emojis.kalgScroll})
 ${TextUtils.subpoint} Ironmen Magic Roles (${Emojis.kalgDemon}${Emojis.kalgScroll})\n
 ⬥ Rotations are expected to be followed and can be found under **Guides**.\n

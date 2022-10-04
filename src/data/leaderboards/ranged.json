@@ -58,25 +58,5 @@
                 "url": ""
             }
         ]
-    },
-    "base": {
-        "title": "Ranged Base",
-        "scores": [
-            {
-                "name": "",
-                "score": "",
-                "url": ""
-            },
-            {
-                "name": "",
-                "score": "",
-                "url": ""
-            },
-            {
-                "name": "",
-                "score": "",
-                "url": ""
-            }
-        ]
     }
 }
