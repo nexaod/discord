@@ -1,4 +1,4 @@
-import { Channels, Roles, TextUtils } from "../../Utils";
+import { Channels, Roles, TextUtils, Emojis } from "../../Utils";
 
 // General
 export const startingMessage = `
@@ -26,7 +26,19 @@ ${TextUtils.subpoint} ${Roles.deathDestroyer} is awarded for achieving ${Roles.e
 > Submissions which do not fulfill these requirements will not be accepted.
 `;
 
-// DPS Ranks
+// Ingame Ranks
+export const ingame = `
+> Ingame FC roles are assigned for administration purposes.\n
+${Emojis.smiley} - ${Roles.member}\n
+${Emojis.recruit} - ${Roles.extreme}\n
+${Emojis.corporal} - ${Roles.trialTeam}\n
+${Emojis.sergeant} - ${Roles.applicationTeam}\n
+${Emojis.lieutenant} - ${Roles.mainTrialHost}\n
+${Emojis.captain} - ${Roles.organiser}\n
+${Emojis.general} - ${Roles.coOwner}
+`;
+
+// Other Ranks
 export const other = `
 ⬥ ${Roles.ofThePraesul} - Unlocked the base collection log.\n
 ⬥ ${Roles.truePraesul} - Unlocked the golden collection log.\n

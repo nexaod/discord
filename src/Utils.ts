@@ -1,3 +1,5 @@
+const environment = process.env.ENVIRONMENT === 'PRODUCTION' ? 'PRODUCTION' : 'DEVELOPMENT';
+
 export const Colours = {
     green: 2067276,
     aqua: 1146986,
@@ -7,6 +9,81 @@ export const Colours = {
     gold: 12745742,
     default: 5198940,
     lightblue: 302332
+}
+
+export const Emojis = {
+    gem1: '<:gem1:1024939203160711209>',
+    gem2: '<:gem2:1024939217895297084>',
+    gem3: '<:gem3:1024939228527853649>',
+    malevolence: '<:malevolence:513190159416557573>',
+    voke: '<:voke:535541259465392143>',
+    chin: '<:mechchin:641669268722810881>',
+    umbra: '<:umbra:1025086079319162880>',
+    glacies: '<:glacies:1025086094775177297>',
+    cruor: '<:cruor:1025085871772409937>',
+    fumus: '<:fumus:1025086111262982237>',
+    freedom: '<:freedom:535541258240786434>',
+    dommines: '<:dommine:662249620579155968>',
+    ripperDemon: '<:ripperpouch:703581275453128714>',
+    ripperScroll: '<:ripperscroll:703581275155464203>',
+    kalgDemon: '<:kalgpouch:921410226484301925>',
+    kalgScroll: '<:kalgscroll:841409588954923049>',
+    mammoth: '<:Mammoth:513195712146702337>',
+    mammothScroll: '<:mammothscroll:1025428178111578182>',
+    callFamiliar: '<:callfollower:933299003121078332>',
+    spiritualPrayer: '<:spiritualprayer:651079281882955787>',
+    mani: '<:mani:643505153709965322>',
+    berserker: '<:berserker:643505116347105290>',
+    vulnBomb: '<:vulnbomb:655341074235129858>',
+    amalg: '<:shadowamalg:878739232951255091>',
+    magic: '<:Magic:689504724159823906>',
+    melee: '<:melee:615612332521029632>',
+    dummy: '<:dummy:656844963522281473>',
+    nex: '<:aod:580167371365548042>',
+    detonate: '<:deto:535533833358016512>',
+    scythe: '<:noxscythe:513190159341322240>',
+    hurricane: '<:cane:535532878969438210>',
+    greaterBarge: '<:gbarge:535532879250456578>',
+    greaterFlurry: '<:gflurry:535532879283879977>',
+    dragonBattleAxe: '<:DBA:603979368850653216>',
+    cleave: '<:cleave:535532878616985610>',
+    zerk: '<:zerk:535532854004678657>',
+    reckless: '<:reckless:643505179378974748>',
+    grico: '<:grico:787904334812807238>',
+    sgbEof: '<:sgb:626466665848242186>',
+    eofSpec: '<:eofspec:746403211908481184>',
+    decimation: '<:decimation:643848618477879328>',
+    eof: '<:eofor:745279787471470713>',
+    ecb: '<:ecb:615618531937222657>',
+    gstaff: '<:gstaff:513203008608141314>',
+    dbow: '<:dbow:643848618553507843>',
+    hammer: '<:swh:641670143197446182>',
+    iceamalg: '<:iceamalg:878739231785222154>',
+    bloodamalg: '<:bloodamalg:878739232447938670>',
+    smokeamalg: '<:smokeamalg:878739232607318086>',
+    smokecloud: '<:smokecloud:856635090641879050>',
+    dbreath: '<:dbreath:535533833391702017>',
+    nami: '<:tsunami:535533809995874304>',
+    gconc: '<:gconc:869285393223254107>',
+    smiley: '<:friend:1026007098116546590>',
+    recruit: '<:Recruit:1026694675312152627>',
+    corporal: '<:Corporal:1026694689258209410>',
+    sergeant: '<:Sergeant:1026694702361231370>',
+    lieutenant: '<:Lieutenant:1026694714096898149>',
+    captain: '<:Captain:1026694726033870898>',
+    general: '<:General:1026694739132690512>'
+}
+
+
+export const TextUtils = {
+    subpoint: '\n\u00a0\u00a0\u00a0\u00a0•',
+}
+
+export const createEmbed = (data: string, colour: number) => {
+    return {
+        color: colour,
+        description: data
+    };
 }
 
 export const Channels = {
@@ -20,14 +97,7 @@ export const Channels = {
     bot: '1026531701591122061',
 }
 
-export const createEmbed = (data: string, colour: number) => {
-    return {
-        color: colour,
-        description: data
-    };
-}
-
-export const Roles: any = {
+const DevRoles: any = {
     mainTrialHost: '<@&1024973897621315584>',
     extreme: '<@&1024979670766194738>',
     adept: '<@&1026506909945172069>',
@@ -91,66 +161,8 @@ export const Roles: any = {
     t3AoD: '<@&1026519427899998248>',
     t4AoD: '<@&1026519440147349524>',
     aodFanatic: '<@&1026519503724617769>',
-    angelSlayer: '<@&1026519507621130310>'
+    angelSlayer: '<@&1026519507621130310>',
+    member: '<@&1026696194224824351>'
 }
 
-export const Emojis = {
-    gem1: '<:gem1:1024939203160711209>',
-    gem2: '<:gem2:1024939217895297084>',
-    gem3: '<:gem3:1024939228527853649>',
-    malevolence: '<:malevolence:513190159416557573>',
-    voke: '<:voke:535541259465392143>',
-    chin: '<:mechchin:641669268722810881>',
-    umbra: '<:umbra:1025086079319162880>',
-    glacies: '<:glacies:1025086094775177297>',
-    cruor: '<:cruor:1025085871772409937>',
-    fumus: '<:fumus:1025086111262982237>',
-    freedom: '<:freedom:535541258240786434>',
-    dommines: '<:dommine:662249620579155968>',
-    ripperDemon: '<:ripperpouch:703581275453128714>',
-    ripperScroll: '<:ripperscroll:703581275155464203>',
-    kalgDemon: '<:kalgpouch:921410226484301925>',
-    kalgScroll: '<:kalgscroll:841409588954923049>',
-    mammoth: '<:Mammoth:513195712146702337>',
-    mammothScroll: '<:mammothscroll:1025428178111578182>',
-    callFamiliar: '<:callfollower:933299003121078332>',
-    spiritualPrayer: '<:spiritualprayer:651079281882955787>',
-    mani: '<:mani:643505153709965322>',
-    berserker: '<:berserker:643505116347105290>',
-    vulnBomb: '<:vulnbomb:655341074235129858>',
-    amalg: '<:shadowamalg:878739232951255091>',
-    magic: '<:Magic:689504724159823906>',
-    melee: '<:melee:615612332521029632>',
-    dummy: '<:dummy:656844963522281473>',
-    nex: '<:aod:580167371365548042>',
-    detonate: '<:deto:535533833358016512>',
-    scythe: '<:noxscythe:513190159341322240>',
-    hurricane: '<:cane:535532878969438210>',
-    greaterBarge: '<:gbarge:535532879250456578>',
-    greaterFlurry: '<:gflurry:535532879283879977>',
-    dragonBattleAxe: '<:DBA:603979368850653216>',
-    cleave: '<:cleave:535532878616985610>',
-    zerk: '<:zerk:535532854004678657>',
-    reckless: '<:reckless:643505179378974748>',
-    grico: '<:grico:787904334812807238>',
-    sgbEof: '<:sgb:626466665848242186>',
-    eofSpec: '<:eofspec:746403211908481184>',
-    decimation: '<:decimation:643848618477879328>',
-    eof: '<:eofor:745279787471470713>',
-    ecb: '<:ecb:615618531937222657>',
-    gstaff: '<:gstaff:513203008608141314>',
-    dbow: '<:dbow:643848618553507843>',
-    hammer: '<:swh:641670143197446182>',
-    iceamalg: '<:iceamalg:878739231785222154>',
-    bloodamalg: '<:bloodamalg:878739232447938670>',
-    smokeamalg: '<:smokeamalg:878739232607318086>',
-    smokecloud: '<:smokecloud:856635090641879050>',
-    dbreath: '<:dbreath:535533833391702017>',
-    nami: '<:tsunami:535533809995874304>',
-    gconc: '<:gconc:869285393223254107>',
-    smiley: '<:friend:1026007098116546590>'
-}
-
-export const TextUtils = {
-    subpoint: '\n\u00a0\u00a0\u00a0\u00a0•',
-}
+export const Roles = environment === 'PRODUCTION' ? DevRoles : DevRoles;
