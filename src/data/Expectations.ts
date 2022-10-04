@@ -94,7 +94,7 @@ export const free = `
 
 // Base
 export const base = `
-> A **4.3M** minimum damage threshold is expected for a Magic Base in 30 minutes through a 2K Challenge Gem. Other styles are accepted but uncommon.\n
+> A **4.3M** minimum damage threshold is expected for a Magic Base in 30 minutes through a 2K Challenge Gem. Hybrid styles are also accepted.\n
 ⬥ ${Emojis.mani} is the only allowed aura.\n
 ⬥ Position yourself so the boss does not move until the 600K phase.\n
 ⬥ Start the kill at 15 seconds on your sunshine, or adjust accordingly to the speed of the kill.\n
@@ -110,7 +110,6 @@ ${TextUtils.subpoint} ${Emojis.cruor}${Emojis.bloodamalg} - ${Emojis.gconc} or o
 
 // Other Information
 export const other = `
-⬥ Base is accepted for other styles, however the information provided is for the most common role, Magic Base.\n
 ⬥ ${Roles.ironman} players are expected to have an associated main account that is able to split drops.
 ${TextUtils.subpoint} A minimum of 1 max cash is expected to always be ready to split. If your drops exceed this, a grace period of 1 day is given.
 ${TextUtils.subpoint} All team members must agree to allowing the Ironman to do keeps if a keeps/split team is formed.
