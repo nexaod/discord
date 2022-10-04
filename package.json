@@ -5,6 +5,7 @@
     "leaderboard": "ts-node src/Leaderboard.ts",
     "expectations": "ts-node src/Expectations.ts",
     "rules": "ts-node src/Rules.ts",
+    "additionalinfo": "ts-node src/AdditionalInfo.ts",
     "gear": "ts-node src/Gear.ts",
     "ranks": "ts-node src/Ranks.ts"
   },
