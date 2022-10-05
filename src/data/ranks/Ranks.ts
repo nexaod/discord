@@ -20,7 +20,7 @@ ${TextUtils.subpoint} The screenshot must contain the **challenge gem scoreboard
 ${TextUtils.subpoint} At least **two** other team members must be in the Challenge Gem.\n
 ⬥ ${Roles.extreme} and ${Roles.mastery} roles will be given when any corresponding variant is achieved.\n
 ⬥ The following requirements exclude the need of ${Roles.magicEnt}:
-${TextUtils.subpoint} ${Roles.archAngel} is awarded for achieving all ${Roles.adept} roles.
+${TextUtils.subpoint} ${Roles.archAngel} is awarded for achieving all Adept roles.
 ${TextUtils.subpoint} ${Roles.aodMaster} is awarded for achieving all ${Roles.mastery} roles or 1 ${Roles.extreme} rank in each role.
 ${TextUtils.subpoint} ${Roles.deathDestroyer} is awarded for achieving ${Roles.extreme} in all roles.\n
 > Submissions which do not fulfill these requirements will not be accepted.
