@@ -115,5 +115,5 @@ ${TextUtils.subpoint} A minimum of 1 max cash is expected to always be ready to 
 ${TextUtils.subpoint} All team members must agree to allowing the Ironman to do keeps if a keeps/split team is formed.
 ${TextUtils.subpoint} Any Ironman that is unable to split a drop will be given the opportunity to drop trade - else be labelled a scammer.
 ${TextUtils.subpoint} Ironmen should set their Discord nickname to include both their accounts.\n
-> If you are applying for a role, read the corresponding information for a role, then type **?nexaod** in <#${Channels.readingConfirmation}>. Note: Your Discord DMs must be on to accept messages from users in mutual servers.
+> If you are applying for a role, read the corresponding information for a role, then type **?nexaod** in <#reading-confirmation>. Note: Your Discord DMs must be on to accept messages from users in mutual servers.
 `
