@@ -195,7 +195,7 @@ export const createEmbed = (data: string, colour: number) => {
     };
 }
 
-export const Channels = {
+export const DevChannels = {
     leaderboard: '1024897631715069962',
     applyForRank: '1025418108711731240',
     performanceExpectations: '1024896851436122145',
@@ -205,6 +205,18 @@ export const Channels = {
     ranks: '1025998858397945946',
     bot: '1026531701591122061',
     gear: '1025998799635755079'
+}
+
+export const ProdChannels = {
+    leaderboard: '1027065926283186206',
+    applyForRank: '742114134400958589',
+    performanceExpectations: '1027052084455014421',
+    additionalInfo: '1027049057031565373',
+    readingConfirmation: '1025994029290238032',
+    rules: '1027051461919658045',
+    ranks: '1027051628311892009',
+    bot: '742114134400958591',
+    gear: '1027051656367591474'
 }
 
 const DevRoles: any = {
@@ -275,4 +287,74 @@ const DevRoles: any = {
     member: '<@&1026696194224824351>'
 }
 
-export const Roles = environment === 'PRODUCTION' ? DevRoles : DevRoles;
+const ProdRoles: any = {
+    mainTrialHost: '<@&742114133419491395>',
+    extreme: '<@&742114133293400244>',
+    adept: '<@&1026506909945172069>',
+    mastery: '<@&1004490584267968673>',
+    meleeEnt: '<@&742114133184610327>',
+    meleeUmbra: '<@&742114133184610329>',
+    rangedEnt: '<@&753695750084362344>',
+    rangedUmbra: '<@&830948896771538964>',
+    magicEnt: '<@&742114133184610331>',
+    magicEntAdept: '<@&742114133184610332>',
+    magicEntMastery: '<@&742114133293400238>',
+    magicEntExtreme: '<@&742114133385937036>',
+    ironman: '<@&1021940132938522644>',
+    cdar: '<@&742114133154988155>',
+    chinner: '<@&742114133154988156>',
+    meleeFree: '<@&742114133154988158>',
+    organiser: '<@&742114133419491396>',
+    coOwner: '<@&742114133419491397>',
+    applicationTeam: '<@&742114133201387564>',
+    trialTeam: '<@&742114133201387563>',
+    readyForTrial: '<@&1004269143547187230>',
+    magicFreeMastery: '<@&896143975969333289>',
+    magicFreeExtreme: '<@&896144166688555008>',
+    magicBase: '<@&742114133184610324>',
+    magicBaseAdept: '<@&742114133184610325>',
+    magicBaseMastery: '<@&742114133293400240>',
+    magicBaseExtreme: '<@&742114133385937035>',
+    rangedEntAdept: '<@&834981107316949032>',
+    rangedEntMastery: '<@&804514651684864010>',
+    rangedEntExtreme: '<@&802363763931873281>',
+    chinnerAdept: '<@&742114133154988157>',
+    chinnerMastery: '<@&742114133293400242>',
+    chinnerExtreme: '<@&742114133385937033>',
+    rangedFreeMastery: '<@&864510428579233812>',
+    rangedFreeExtreme: '<@&864510710414573612>',
+    mrEnt: '<@&1023347425282363515>',
+    mrEntAdept: '<@&1004493329196666961>',
+    mrEntMastery: '<@&1024414967593717852>',
+    mrEntExtreme: '<@&1024415189162000466>',
+    mrFreeMastery: '<@&1024415063706173500>',
+    mrFreeExtreme: '<@&1024415223337197588>',
+    mrBase: '<@&1024419806948110418>',
+    mrHammer: '<@&1023347697584963596>',
+    mrHammerAdept: '<@&1024410676300627968>',
+    mrHammerMastery: '<@&1024415099613626509>',
+    mrHammerExtreme: '<@&1024415276000878652>',
+    meleeEntAdept: '<@&742114133184610328>',
+    meleeEntMastery: '<@&742114133293400241>',
+    meleeEntExtreme: '<@&742114133385937034>',
+    meleeFreeAdept: '<@&742114133154988159>',
+    meleeFreeMastery: '<@&742114133293400237>',
+    meleeFreeExtreme: '<@&742114133385937031>',
+    archAngel: '<@&742114133385937037>',
+    aodMaster: '<@&742114133419491389>',
+    deathDestroyer: '<@&742114133419491390>',
+    ofThePraesul: '<@&742114133201387567>',
+    truePraesul: '<@&742114133201387568>',
+    streamer: '<@&742114133201387569>',
+    t1AoD: '<@&818499760205594634>',
+    t2AoD: '<@&818499667276333056>',
+    t3AoD: '<@&818499303999799368>',
+    t4AoD: '<@&818499185166909442>',
+    aodFanatic: '<@&818499016576073748>',
+    angelSlayer: '<@&818498816923009035>',
+    member: '<@&742114133201387565>'
+}
+
+export const Roles = environment === 'PRODUCTION' ? ProdRoles : DevRoles;
+
+export const Channels = environment === 'PRODUCTION' ? ProdChannels : DevChannels;
