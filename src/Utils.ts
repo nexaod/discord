@@ -180,6 +180,37 @@ export const Emojis = {
     sirenicMask: '<:sirenicmask:643846959454617610>',
     sirenicBody: '<:sirenicbody:643846948570267648>',
     sirenicLegs: '<:sireniclegs:643846938537623564>',
+    quiver: '<:pernixsquiver:902209626450296892>',
+    eofPurple: '<:eofpurple:780401412936040478>',
+    eofYellow: '<:eofyellow:780401412902223892>',
+    abs: '<:armadylbattlestaff:881962727705280512>',
+    inciteFear: '<:incitefear:856635090783567902>',
+    exsang: '<:exsanguinate:856635090745950258>',
+    bloodBarrage: '<:bloodbarrage:537338981747261446>',
+    iceBarrage: '<:icebarrage:537340400185245701>',
+    spec: '<:spec:537340400273195028>',
+    adrenRenewal4: '<:adrenrenewal:736298121704767538>',
+    greaterFury: '<:gfury:535532879334080527>',
+    magma: '<:magmatempest:902209626509025290>',
+    omni: '<:omni:535533809664262179>',
+    smokeTendril: '<:smoketendrils:536257336130404372>',
+    wildMagic: '<:wm:535533809978966037>',
+    asphyx: '<:asphyx:535533833072672778>',
+    shard: '<:StormShards:536256663641128971>',
+    sonic: '<:sonic:535533809924571136>',
+    anticipate: '<:anti:535541306475151390>',
+    greaterChain: '<:gchain:787904334495088672>',
+    surge: '<:surge:535533810004262912>',
+    deepImpact: '<:deep:535533833139912724>',
+    impact: '<:impact:535533809655873556>',
+    flankIcon: '<:flankicon:841419289755385866>',
+    wrackAndRuin: '<:wrackandruin:856662355912032256>',
+    tuska: '<:Tuskas:513201065513058306>',
+    meta: '<:meta:535533811304497183>',
+    prep: '<:prep:535541258546970624>',
+    divert: '<:divert:787904334377648130>',
+    combust: '<:comb:535533833098100745>',
+    shatter: '<:Shatter:536256673904328704>'
 }
 
 
@@ -195,7 +226,11 @@ export const createEmbed = (data: string, colour: number) => {
     };
 }
 
-export const DevChannels = {
+export const styleTitle = (value: string) => {
+    return `> __**${value}**__`;
+}
+
+const DevChannels = {
     leaderboard: '1024897631715069962',
     applyForRank: '1025418108711731240',
     performanceExpectations: '1024896851436122145',
@@ -204,10 +239,11 @@ export const DevChannels = {
     rules: '1024896890648666112',
     ranks: '1025998858397945946',
     bot: '1026531701591122061',
-    gear: '1025998799635755079'
+    gear: '1025998799635755079',
+    magicGuide: '1024897854692659221',
 }
 
-export const ProdChannels = {
+const ProdChannels = {
     leaderboard: '1027065926283186206',
     applyForRank: '742114134400958589',
     performanceExpectations: '1027052084455014421',
@@ -216,7 +252,8 @@ export const ProdChannels = {
     rules: '1027051461919658045',
     ranks: '1027051628311892009',
     bot: '742114134400958591',
-    gear: '1027051656367591474'
+    gear: '1027051656367591474',
+    magicGuide: '1027115254091620393',
 }
 
 const DevRoles: any = {
