@@ -2,7 +2,7 @@ import { Client, TextChannel } from "discord.js";
 import { Colours, Channels, createEmbed, styleTitle } from "../Utils";
 import { magicEntPreset, magicEntPresetInfo, magicEntRotation, magicEntExampleKills } from "../data/guides/magic/magicEntangle";
 import { magicBasePreset, magicBasePresetInfo, magicBaseRotation, magicBaseExampleKills } from "../data/guides/magic/magicBase";
-const token = process.env.DISCORD_TOKEN; // add your token here
+const token = process.env.DISCORD_TOKEN;
 
 console.log("Bot is starting...");
 
