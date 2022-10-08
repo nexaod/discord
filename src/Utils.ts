@@ -210,7 +210,8 @@ export const Emojis = {
     prep: '<:prep:535541258546970624>',
     divert: '<:divert:787904334377648130>',
     combust: '<:comb:535533833098100745>',
-    shatter: '<:Shatter:536256673904328704>'
+    shatter: '<:Shatter:536256673904328704>',
+    ranged: '<:range:580168050121113623>'
 }
 
 

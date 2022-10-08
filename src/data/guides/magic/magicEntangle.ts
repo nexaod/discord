@@ -1,4 +1,4 @@
-import { Emojis } from "../../../Utils";
+import { Emojis, TextUtils } from "../../../Utils";
 
 export const magicEntPreset = 'https://cdn.discordapp.com/attachments/898264948407418890/1016920580412428318/6XIHsOm.png';
 
@@ -11,11 +11,16 @@ export const magicEntPresetInfo = `
 ⬥ Pouches should contain runes for ${Emojis.inciteFear} ${Emojis.exsang} ${Emojis.bloodBarrage} ${Emojis.smokecloud}.
 ⬥ If using ${Emojis.berserkersFury}, you can consider using ${Emojis.iceBarrage} to keep lifepoints low.
 ⬥ If using ${Emojis.meta} on **Phase 3 and 4**, replace all instances of ${Emojis.bloodBarrage} with ${Emojis.iceBarrage}.
+⬥ For kills that are faster than **1:46**, on **Pillar 4** and **Zaros**:
+${TextUtils.noSpaceSubPoint} Cooldowns for ${Emojis.nami} ${Emojis.meta} and ${Emojis.fsoa} will not be available.
+${TextUtils.noSpaceSubPoint} Improvisation is needed depending on speed.
+${TextUtils.noSpaceSubPoint} Use strong abilities such as ${Emojis.omni} ${Emojis.wildMagic} ${Emojis.asphyx} ${Emojis.gstaff} ${Emojis.eofSpec}.
+${TextUtils.noSpaceSubPoint} We highly recommend switching to a Hybrid style such as ${Emojis.magic} + ${Emojis.melee}.
 `;
 
 export const magicEntRotation = [`
 __**Pre Build**__\n
-> See base for indication ability ${Emojis.dbreath}. Consider using defensives to save ${Emojis.adrenRenewal4}. Start with ${Emojis.inciteFear}.\n
+> See base for indication ability ${Emojis.gconc} or ${Emojis.dbreath}. Consider using defensives to save ${Emojis.adrenRenewal4}. Start with ${Emojis.inciteFear}.\n
 ${Emojis.greaterSun} + ${Emojis.adrenRenewal4} → ${Emojis.gconc} → ${Emojis.dbreath} → ${Emojis.bloodBarrage} + ${Emojis.fsoa} + ${Emojis.spec} → Build to 100 and get ${Emojis.greaterFury}\n
 __**Phase 1**__\n
 ${Emojis.magma} (at 2.4s) → Stall ${Emojis.omni} → Target Cycle ${Emojis.nex} + ${Emojis.smokecloud} + ${Emojis.smokeTendril} → ${Emojis.wildMagic} → ${Emojis.asphyx} / ${Emojis.gconc} if low adren → ${Emojis.dbreath}\n

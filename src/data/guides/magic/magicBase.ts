@@ -8,11 +8,12 @@ export const magicBasePresetInfo = `
 ⬥ Pouches should contain runes for ${Emojis.inciteFear} ${Emojis.exsang} ${Emojis.bloodBarrage} ${Emojis.smokecloud}.
 ⬥ If using ${Emojis.berserkersFury}, you can consider using ${Emojis.iceBarrage} to keep lifepoints low.
 ⬥ If using ${Emojis.meta} on **Phase 3 and 4**, replace all instances of ${Emojis.bloodBarrage} with ${Emojis.iceBarrage}.
+⬥ Hybrid Basing with ${Emojis.magic} + ${Emojis.melee} is highly recommended due to fast modern speeds.
 `;
 
 export const magicBaseRotation = [`
 __**Pre Build**__\n
-> Give ${Emojis.dbreath} as indication ability. Consider using defensives to save ${Emojis.adrenRenewal4}. Start with ${Emojis.inciteFear}.\n
+> Give ${Emojis.dbreath} as indication ability. If both ${Emojis.magic} + ${Emojis.melee} and ${Emojis.magic} + ${Emojis.ranged} are on team, give ${Emojis.gconc} ${Emojis.dbreath}. Consider using defensives to save ${Emojis.adrenRenewal4}. Start with ${Emojis.inciteFear}.\n
 ${Emojis.greaterSun} + ${Emojis.adrenRenewal4} → 2 Abilities → ${Emojis.bloodBarrage} + ${Emojis.fsoa} + ${Emojis.spec} → Build to 100 and lose target → ${Emojis.prep} → ${Emojis.magma} → ${Emojis.detonate}\n
 __**Phase 1**__\n
 Target Cycle ${Emojis.nex} + ${Emojis.smokecloud} + ${Emojis.gstaff} ${Emojis.eofSpec} → ${Emojis.omni} → ${Emojis.limitless} + ${Emojis.smokeTendril} → ${Emojis.wildMagic} → ${Emojis.gconc} → ${Emojis.dbreath}\n
