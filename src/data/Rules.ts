@@ -83,6 +83,8 @@ export const gems = `
 ⬥ A hop to reset the Challenge Gem can be requested provided 4/7 members of the team agree.\n
 ⬥ A second hop to reset the Challenge gem can be requested provided 7/7 members of the team agree.\n
 ⬥ Mechanics should still be performed to FC standards during a Challenge Gem (i.e. players should not leave earlier than normal for pillars).\n
+⬥ A codeword is needed to validate the current meta and should be in the chatbox of a screenshot.\n
+> The current codeword is \`fsoa\`.
 `
 
 // Administration Team
