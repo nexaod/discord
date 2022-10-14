@@ -8,7 +8,9 @@
     "additionalinfo": "ts-node src/AdditionalInfo.ts",
     "gear": "ts-node src/Gear.ts",
     "ranks": "ts-node src/Ranks.ts",
-    "magicGuide": "ts-node src/Guides/Magic.ts"
+    "magicGuide": "ts-node src/Guides/Magic.ts",
+    "rangedGuide": "ts-node src/Guides/Ranged.ts",
+    "changelog": "ts-node src/Changelog.ts"
   },
   "dependencies": {
     "@types/node": "^18.7.23",
