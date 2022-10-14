@@ -276,7 +276,7 @@ const ProdChannels = {
     gear: '1027051656367591474',
     magicGuide: '1027115254091620393',
     rangedGuide: '1024897871046262844',
-    changelog: '1030320969325215766'
+    changelog: '1029912967074033755'
 }
 
 const DevRoles: any = {
