@@ -229,7 +229,8 @@ export const Emojis = {
     shadowTendril: '<:shadowtend:642713547142332416>',
     incend: '<:incend:535541258429661215>',
     meteor: '<:meteorstrike:535532879359377439>',
-    bolgStacks: '<:perfectequilibrium:1006119102814887957>'
+    bolgStacks: '<:perfectequilibrium:1006119102814887957>',
+    resonance: '<:res:535541258844635148>'
 }
 
 
@@ -275,7 +276,7 @@ const ProdChannels = {
     bot: '742114134400958591',
     gear: '1027051656367591474',
     magicGuide: '1027115254091620393',
-    rangedGuide: '1024897871046262844',
+    rangedGuide: '1027115278204669962',
     changelog: '1029912967074033755'
 }
 
