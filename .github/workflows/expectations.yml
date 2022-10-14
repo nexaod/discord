@@ -33,3 +33,8 @@ jobs:
     - run: npm run expectations
       env:
         DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
+    - run: npm run changelog
+      env:
+        DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
+        SHA: ${{ github.sha }}
+        MODULE: Expectations

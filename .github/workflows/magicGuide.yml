@@ -33,3 +33,8 @@ jobs:
     - run: npm run magicGuide
       env:
         DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
+    - run: npm run changelog
+      env:
+        DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
+        SHA: ${{ github.sha }}
+        MODULE: Magic
