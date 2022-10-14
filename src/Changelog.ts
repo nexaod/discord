@@ -11,13 +11,13 @@ const client = new Client({
 client.login(token);
 
 
-const module = process.env.MODULE;
+const botModule = process.env.MODULE;
 const sha = process.env.SHA;
 const baseURL = 'https://github.com/nexaod/discord/commit/';
 
 const changelogEmbed = {
     color: Colours.lightblue,
-    title: `${module} updated!`,
+    title: `${botModule} updated!`,
     description: `See changes [here](${baseURL}${sha}).`,
     timestamp: new Date().toISOString(),
     footer: {

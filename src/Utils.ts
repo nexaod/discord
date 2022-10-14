@@ -211,7 +211,25 @@ export const Emojis = {
     divert: '<:divert:787904334377648130>',
     combust: '<:comb:535533833098100745>',
     shatter: '<:Shatter:536256673904328704>',
-    ranged: '<:range:580168050121113623>'
+    ranged: '<:range:580168050121113623>',
+    eofPink: '<:eofpink:780401412865523722>',
+    eofGreen: '<:eofgreen:780401412727242773>',
+    eofBlack: '<:eofblack:780401412915855380>',
+    eofBlue: '<:eofblue:780401412906680330>',
+    sbsLunar: '<:SBSLunars:565726489467682816>',
+    disrupt: '<:disrupt:535614336207552523>',
+    nati: '<:nat:535541258131865633>',
+    corruptionBlast: '<:corruptblast:513190159194259467>',
+    dazing: '<:mds:535541259033378827>',
+    rapid: '<:rapid:535541270521708566>',
+    snap: '<:snap:535534127131394088>',
+    snipe: '<:snipe:535541258425204770>',
+    piercing: '<:piercing:535541258538450944>',
+    corruptionShot: '<:corruptshot:535541306294796299>',
+    shadowTendril: '<:shadowtend:642713547142332416>',
+    incend: '<:incend:535541258429661215>',
+    meteor: '<:meteorstrike:535532879359377439>',
+    bolgStacks: '<:perfectequilibrium:1006119102814887957>'
 }
 
 
@@ -242,6 +260,8 @@ const DevChannels = {
     bot: '1026531701591122061',
     gear: '1025998799635755079',
     magicGuide: '1024897854692659221',
+    rangedGuide: '1024897871046262844',
+    changelog: '1030320969325215766',
 }
 
 const ProdChannels = {
@@ -255,6 +275,8 @@ const ProdChannels = {
     bot: '742114134400958591',
     gear: '1027051656367591474',
     magicGuide: '1027115254091620393',
+    rangedGuide: '1024897871046262844',
+    changelog: '1030320969325215766'
 }
 
 const DevRoles: any = {
