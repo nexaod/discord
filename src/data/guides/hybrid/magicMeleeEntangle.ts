@@ -19,7 +19,7 @@ ${Emojis.magma} (at 2.4s) → Stall ${Emojis.omni} → Target Cycle ${Emojis.nex
 `,
 `
 __**Phase 2**__\n
-${Emojis.shard} → Target ${Emojis.dummy} → ${Emojis.sonic} → ${Emojis.anticipate} → ${Emojis.magma} → Lose Target +  ${Emojis.detonate} → Target Cycle ${Emojis.nex} → ${Emojis.iceBarrage} + ${Emojis.detonate} + ${Emojis.gstaff} ${Emojis.eofSpec} → ${Emojis.nami} → ${Emojis.dbreath} → Target ${Emojis.amalg} → ${Emojis.gconc} → Target Cycle ${Emojis.nex} + ${Emojis.greaterChain} → ${Emojis.gconc} → ${Emojis.surge} → ${Emojis.magma}\n
+${Emojis.shard} → Target ${Emojis.dummy} → ${Emojis.sonic} → ${Emojis.anticipate} → ${Emojis.magma} → Lose Target +  ${Emojis.detonate} → Target Cycle ${Emojis.nex} → ${Emojis.iceBarrage} + ${Emojis.detonate} + ${Emojis.gstaff} ${Emojis.eofSpec} → ${Emojis.nami} → ${Emojis.dbreath} → Target ${Emojis.amalg} → ${Emojis.gconc} → Target Cycle ${Emojis.nex} + ${Emojis.greaterChain} → ${Emojis.tuska} → ${Emojis.surge} → ${Emojis.magma}\n
 __**Phase 3**__\n
 ${Emojis.greaterSun} / ${Emojis.meta} Switch spells to ${Emojis.iceBarrage} → ${Emojis.iceBarrage} + ${Emojis.gconc} → ${Emojis.dbreath} → Switch spell to ${Emojis.inciteFear} + ${Emojis.iceBarrage} + ${Emojis.fsoa} ${Emojis.spec} → Switch spell to ${Emojis.iceBarrage} + ${Emojis.gconc} → ${Emojis.omni} → ${Emojis.wildMagic} → ${Emojis.asphyx} (3 Tick) → ${Emojis.smokeTendril} → ${Emojis.gstaff} ${Emojis.eofSpec}\n
 `,
