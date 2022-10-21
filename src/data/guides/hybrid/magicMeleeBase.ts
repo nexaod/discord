@@ -4,7 +4,7 @@ export const magicMeleeBasePreset = 'https://cdn.discordapp.com/attachments/1027
 
 export const magicMeleeBasePresetInfo = `
 > Courtesy of **Grico**\n
-⬥ ${Emojis.eofPink} ${Emojis.ecb} Statius Warhammer
+⬥ ${Emojis.eofPink} ${Emojis.hammer} Statius Warhammer
 ⬥ ${Emojis.eofYellow} ${Emojis.gstaff} Guthix Staff
 ⬥ Pouches should contain runes for ${Emojis.inciteFear} ${Emojis.exsang} ${Emojis.iceBarrage} ${Emojis.smokecloud} ${Emojis.sbsLunar} ${Emojis.disrupt}
 `;
