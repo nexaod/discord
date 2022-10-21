@@ -12,6 +12,7 @@ export const magicRangedEntPresetInfo = `
 ⬥ Pouches should contain runes for ${Emojis.inciteFear} ${Emojis.exsang} ${Emojis.iceBarrage} ${Emojis.smokecloud} ${Emojis.sbsLunar} ${Emojis.disrupt}
 ⬥ Pillars and Zaros are highly dependant on kill speeds
 ⬥ Phase 1-3 should be executed tick perfectly. If not, you are expected to get yourself back on tick with other ${Emojis.magic} / ${Emojis.ranged} hybrids
+⬥ If no ${Emojis.ingen} on Phase 3, ${Emojis.shadowTendril} with ${Emojis.fulArrow} and switch to ${Emojis.deathspore} before it goes off
 `;
 
 export const magicRangedEntRotation = [`
@@ -29,7 +30,7 @@ ${Emojis.magma} (at 2.4s) → ${Emojis.ingen} + Stall ${Emojis.hammer} ${Emojis.
 __**Phase 2**__\n
 ${Emojis.greaterDeathSwiftness} → Place ${Emojis.dummy} under ${Emojis.nex} + ${Emojis.corruptionShot} → ${Emojis.shard} → ${Emojis.magma} → Stall ${Emojis.nami} → Release ${Emojis.nami} + ${Emojis.dbreath} → ${Emojis.bolg} ${Emojis.spec} → ${Emojis.gconc} → ${Emojis.greaterChain} → ${Emojis.impact}\n
 __**Phase 3**__\n
-${Emojis.deathspore} ${Emojis.ecb} ${Emojis.eofSpec} → ${Emojis.grico} → ${Emojis.decimation} ${Emojis.eofSpec} + ${Emojis.adrenRenewal4} → ${Emojis.ingen} + ${Emojis.shadowTendril} → ${Emojis.incend} → ${Emojis.fulArrow} ${Emojis.sgbEof} ${Emojis.eofSpec} → ${Emojis.deathspore} ${Emojis.snap} → ${Emojis.fulArrow} ${Emojis.dbow} ${Emojis.eofSpec} → ${Emojis.deathspore} ${Emojis.grico} → ${Emojis.fulArrow} ${Emojis.dbow} ${Emojis.eofSpec} → ${Emojis.gconc} → ${Emojis.dbreath}\n
+${Emojis.deathspore} ${Emojis.ecb} ${Emojis.eofSpec} → ${Emojis.grico} → ${Emojis.fulArrow} (if 5 ${Emojis.deathspore} stacks) ${Emojis.decimation} ${Emojis.eofSpec} + ${Emojis.adrenRenewal4} → ${Emojis.ingen} + ${Emojis.shadowTendril} → ${Emojis.incend} → ${Emojis.fulArrow} ${Emojis.sgbEof} ${Emojis.eofSpec} → ${Emojis.deathspore} ${Emojis.snap} → ${Emojis.fulArrow} ${Emojis.dbow} ${Emojis.eofSpec} → ${Emojis.deathspore} ${Emojis.grico} → ${Emojis.fulArrow} ${Emojis.dbow} ${Emojis.eofSpec} → ${Emojis.gconc} → ${Emojis.dbreath}\n
 `,
 `
 __**Pillars**__\n
