@@ -11,8 +11,8 @@ export const magicMeleeEntanglePresetInfo = `
 
 export const magicMeleeEntangleRotation = [`
 __**Pre Build**__\n
-> See base for indication ability ${Emojis.gconc} or ${Emojis.dbreath}. Start with ${Emojis.rubyBak}. Spam dual wield autos when using defensives.\n
-${Emojis.greaterSun} → ${Emojis.resonance} → ${Emojis.voke} → ${Emojis.iceBarrage} + ${Emojis.fsoa} ${Emojis.spec} → ${Emojis.meteor} → Switch spell to ${Emojis.inciteFear} + ${Emojis.greaterFury} → ${Emojis.decimate} → ${Emojis.freedom} → ${Emojis.greaterFury} → ${Emojis.anticipate} → ${Emojis.voke} → ${Emojis.greaterFury}\n
+> See base for indication ability ${Emojis.gconc} or ${Emojis.dbreath}. Start with ${Emojis.rubyAurora}. Spam dual wield autos when using defensives.\n
+${Emojis.greaterSun} → ${Emojis.resonance} → ${Emojis.voke} → ${Emojis.iceBarrage} + ${Emojis.fsoa} ${Emojis.spec} → Switch spell to ${Emojis.inciteFear} + ${Emojis.greaterFury} → ${Emojis.decimate} → ${Emojis.freedom} → ${Emojis.greaterFury} → ${Emojis.anticipate} → ${Emojis.voke} → ${Emojis.greaterFury}\n
 __**Phase 1**__\n
 > ${Emojis.dbreath} at 2.2M Lifepoints.\n
 ${Emojis.magma} (at 2.4s) → Stall ${Emojis.omni} → Target Cycle ${Emojis.nex} + ${Emojis.smokecloud} + ${Emojis.smokeTendril} → ${Emojis.wildMagic} → ${Emojis.gconc} → ${Emojis.dbreath}\n

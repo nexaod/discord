@@ -238,7 +238,8 @@ export const Emojis = {
     destroy: '<:destroy:535532879330148352>',
     eofRed: '<:eofred:780401412839833601>',
     dclaws: '<:dragonclaw:779048041088024606>',
-    roar: '<:chaosroar:994644356671737966>'
+    roar: '<:chaosroar:994644356671737966>',
+    rubyAurora: '<:RubyAurora:574292444791963659>'
 }
 
 
