@@ -11,6 +11,7 @@
     "magicGuide": "ts-node src/Guides/Magic.ts",
     "rangedGuide": "ts-node src/Guides/Ranged.ts",
     "hybridGuide": "ts-node src/Guides/Hybrid.ts",
+    "otherGuide": "ts-node src/Guides/Other.ts",
     "changelog": "ts-node src/Changelog.ts"
   },
   "dependencies": {

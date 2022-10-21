@@ -271,7 +271,8 @@ const DevChannels = {
     magicGuide: '1024897854692659221',
     rangedGuide: '1024897871046262844',
     changelog: '1030320969325215766',
-    hybridGuide: '1024897901819871272'
+    hybridGuide: '1024897901819871272',
+    otherGuide: '1032888041104216084'
 }
 
 const ProdChannels = {
@@ -287,7 +288,8 @@ const ProdChannels = {
     magicGuide: '1027115254091620393',
     rangedGuide: '1027115278204669962',
     changelog: '1029912967074033755',
-    hybridGuide: '1027115316783886367'
+    hybridGuide: '1027115316783886367',
+    otherGuide: '1032887045351293040'
 }
 
 const DevRoles: any = {
