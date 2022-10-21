@@ -37,5 +37,5 @@ ${Emojis.snap} → ${Emojis.grico} → ${Emojis.bolg} ${Emojis.spec} → ${Emoji
 ];
 
 export const chinnerExampleKills = `
-Coming Soon.
+⬥ 19 Oct 2022 - [1:45.8](https://youtu.be/XzbjQMvCKSU) Hells Lion\n
 `;
