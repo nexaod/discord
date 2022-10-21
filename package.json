@@ -10,6 +10,7 @@
     "ranks": "ts-node src/Ranks.ts",
     "magicGuide": "ts-node src/Guides/Magic.ts",
     "rangedGuide": "ts-node src/Guides/Ranged.ts",
+    "hybridGuide": "ts-node src/Guides/Hybrid.ts",
     "changelog": "ts-node src/Changelog.ts"
   },
   "dependencies": {

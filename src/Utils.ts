@@ -230,7 +230,15 @@ export const Emojis = {
     incend: '<:incend:535541258429661215>',
     meteor: '<:meteorstrike:535532879359377439>',
     bolgStacks: '<:perfectequilibrium:1006119102814887957>',
-    resonance: '<:res:535541258844635148>'
+    resonance: '<:res:535541258844635148>',
+    cease: '<:cease:864235458464186418>',
+    decimate: '<:deci:535532879325822986>',
+    assault: '<:assault:535532855191928842>',
+    overpower: '<:overpower:535532879334080517>',
+    destroy: '<:destroy:535532879330148352>',
+    eofRed: '<:eofred:780401412839833601>',
+    dclaws: '<:dragonclaw:779048041088024606>',
+    roar: '<:chaosroar:994644356671737966>'
 }
 
 
@@ -263,6 +271,7 @@ const DevChannels = {
     magicGuide: '1024897854692659221',
     rangedGuide: '1024897871046262844',
     changelog: '1030320969325215766',
+    hybridGuide: '1024897901819871272'
 }
 
 const ProdChannels = {
@@ -277,7 +286,8 @@ const ProdChannels = {
     gear: '1027051656367591474',
     magicGuide: '1027115254091620393',
     rangedGuide: '1027115278204669962',
-    changelog: '1029912967074033755'
+    changelog: '1029912967074033755',
+    hybridGuide: '1027115316783886367'
 }
 
 const DevRoles: any = {
