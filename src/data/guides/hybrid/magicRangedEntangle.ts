@@ -23,7 +23,7 @@ __**Phase 1**__\n
 ⬥ Free/Entangle:\n
 ${Emojis.magma} (at 2.4s) → Stall ${Emojis.omni} → Target Cycle ${Emojis.nex} + ${Emojis.smokecloud} + ${Emojis.asphyx} → ${Emojis.wildMagic} → ${Emojis.iceBarrage} ${Emojis.smokeTendril} → ${Emojis.dbreath}\n
 ⬥ Hammer:\n
-${Emojis.magma} (at 2.4s) → ${Emojis.ingen} + Stall ${Emojis.hammer} ${Emojis.eofSpec} → Target Cycle ${Emojis.nex} + ${Emojis.smokecloud} + ${Emojis.hammer} ${Emojis.eofSpec} + ${Emojis.gconc} → ${Emojis.omni} → ${Emojis.iceBarrage} ${Emojis.smokeTendril} → ${Emojis.dbreath}\n
+${Emojis.magma} (at 2.4s) → ${Emojis.ingen} + Stall ${Emojis.hammer} ${Emojis.eofSpec} → Target Cycle ${Emojis.nex} + ${Emojis.smokecloud} + ${Emojis.gconc} → ${Emojis.omni} → ${Emojis.iceBarrage} ${Emojis.smokeTendril} → ${Emojis.dbreath}\n
 `,
 `
 __**Phase 2**__\n
