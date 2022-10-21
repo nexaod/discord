@@ -31,7 +31,7 @@ ${Emojis.deathspore} ${Emojis.ecb} ${Emojis.eofSpec} →  ${Emojis.grico} → ${
 `
 __**Pillars**__\n
 Lure Boss → ${Emojis.ingen} + ${Emojis.hammer} → ${Emojis.vulnBomb} → ${Emojis.greaterSun} → ${Emojis.divert} → ${Emojis.fsoa} ${Emojis.spec}\n
-**Pillar 4** -  Pre ${Emojis.magma} + ${Emojis.vulnBomb} + ${Emojis.kalgScroll} + ${Emojis.gconc} → ${Emojis.wildMagic} → ${Emojis.dbreath}\n
+**Pillar 4** -  Pre ${Emojis.magma} + ${Emojis.vulnBomb} + ${Emojis.kalgScroll} + ${Emojis.smokecloud} + ${Emojis.gconc} → ${Emojis.wildMagic} → ${Emojis.dbreath}\n
 `,
 `__**Zaros**__\n
 ${Emojis.kalgScroll} + ${Emojis.omni} → ${Emojis.smokeTendril} (4 Hit) → ${Emojis.shatter} → ${Emojis.asphyx} (2 Hit)\n

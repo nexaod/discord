@@ -26,7 +26,7 @@ ${Emojis.cease} ${Emojis.zerk} →  ${Emojis.divert} (${Emojis.anticipate} if 4t
 `
 __**Pillars**__\n
 Lure Boss → ${Emojis.ingen} + ${Emojis.hammer} → ${Emojis.vulnBomb} → ${Emojis.greaterSun} → ${Emojis.adrenRenewal4} + ${Emojis.fsoa} ${Emojis.spec} → ${Emojis.divert}\n
-**Pillar 4** -  Pre ${Emojis.magma} + ${Emojis.vulnBomb} + ${Emojis.kalgScroll} + ${Emojis.gconc} → ${Emojis.wildMagic} → ${Emojis.dbreath}\n
+**Pillar 4** -  Pre ${Emojis.magma} + ${Emojis.vulnBomb} + ${Emojis.kalgScroll} + ${Emojis.smokecloud} + ${Emojis.gconc} → ${Emojis.wildMagic} → ${Emojis.dbreath}\n
 `,
 `__**Zaros**__\n
 ${Emojis.kalgScroll} + ${Emojis.omni} → ${Emojis.smokeTendril} → ${Emojis.asphyx} (2 Hit) → ${Emojis.dbreath} → ${Emojis.gstaff} ${Emojis.eofSpec}\n
