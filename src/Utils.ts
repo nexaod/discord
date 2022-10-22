@@ -8,7 +8,8 @@ export const Colours = {
     lightgrey: 10070709,
     gold: 12745742,
     default: 5198940,
-    lightblue: 302332
+    lightblue: 302332,
+    darkgrey: 333333
 }
 
 export const Emojis = {
@@ -273,7 +274,8 @@ const DevChannels = {
     rangedGuide: '1024897871046262844',
     changelog: '1030320969325215766',
     hybridGuide: '1024897901819871272',
-    otherGuide: '1032888041104216084'
+    otherGuide: '1032888041104216084',
+    botGuide: '1033224923734356018'
 }
 
 const ProdChannels = {
@@ -290,7 +292,8 @@ const ProdChannels = {
     rangedGuide: '1027115278204669962',
     changelog: '1029912967074033755',
     hybridGuide: '1027115316783886367',
-    otherGuide: '1032887045351293040'
+    otherGuide: '1032887045351293040',
+    botGuide: '1033224923734356018'
 }
 
 const DevRoles: any = {
