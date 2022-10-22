@@ -293,7 +293,7 @@ const ProdChannels = {
     changelog: '1029912967074033755',
     hybridGuide: '1027115316783886367',
     otherGuide: '1032887045351293040',
-    botGuide: '1033224923734356018'
+    botGuide: '1029912020608356452'
 }
 
 const DevRoles: any = {

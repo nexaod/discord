@@ -128,7 +128,11 @@ const guidesAndRotations = {
             value: '[Link](https://docs.google.com/spreadsheets/d/1c2B35ofwdMXzcei1CWX3lOowCBf8XJP0nbaQJQ4SZ6U/edit#gid=907504611)',
             inline: true
         },
-    ]
+    ],
+    timestamp: new Date().toISOString(),
+    footer: {
+        text: 'Last Updated'
+    }
 };
 
 
