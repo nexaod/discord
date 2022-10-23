@@ -1,5 +1,5 @@
 import { Client, TextChannel, ButtonBuilder, ButtonStyle, ActionRowBuilder } from "discord.js";
-import { Colours, Channels, createEmbed } from "./Utils";
+import { Colours, Channels, createEmbed, purgeChannel } from "./Utils";
 
 const token = process.env.DISCORD_TOKEN;
 
@@ -80,6 +80,7 @@ const everythingAboutNexAodEmbed = {
             ⬥ [Magic](https://github.com/nexaod/discord/blob/main/src/data/leaderboards/magic.json)
             ⬥ [Melee](https://github.com/nexaod/discord/blob/main/src/data/leaderboards/melee.json)
             ⬥ [Ranged](https://github.com/nexaod/discord/blob/main/src/data/leaderboards/ranged.json)
+            ⬥ [Killtime](https://github.com/nexaod/discord/blob/main/src/data/leaderboards/killtime.json)
             `,
             inline: true
         },
@@ -165,7 +166,7 @@ client.on("ready", async () => {
     }
     client.channels.fetch(Channels.botGuide)
         .then(async channel => {
-            await (channel as TextChannel).bulkDelete(100)
+            await purgeChannel((channel as TextChannel));
             await (channel as TextChannel).send('> __**Gmail Credentials**__');
             await (channel as TextChannel).send({
                 embeds: [gmailEmbed],
