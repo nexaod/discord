@@ -1,5 +1,5 @@
 import { Client, TextChannel } from "discord.js";
-import { Colours, Emojis, Channels } from "./Utils";
+import { Colours, Emojis, Channels, purgeChannel } from "./Utils";
 import { startingMessage } from "./data/leaderboards/Leaderboard";
 
 const token = process.env.DISCORD_TOKEN; // add your token here
@@ -118,14 +118,14 @@ client.on("ready", async () => {
     }
     client.channels.fetch(Channels.leaderboard)
         .then(async channel => {
-            await (channel as TextChannel).bulkDelete(100)
-            await (channel as TextChannel).send(`> __**Nex AoD FC Leaderboards**__`)
-            await (channel as TextChannel).send({ embeds: [startingEmbed] })
+            await purgeChannel((channel as TextChannel));
+            await (channel as TextChannel).send(`> __**Nex AoD FC Leaderboards**__`);
+            await (channel as TextChannel).send({ embeds: [startingEmbed] });
             for (let i = 0; i < embedsToSend.length; i++) {
                 await (channel as TextChannel).send(`> __**${embedsToSend[i].text_title}**__`)
                 await (channel as TextChannel).send({ embeds: [embedsToSend[i]] })
-            }
-            await process.exit(0)
+            };
+            await process.exit(0);
         }).catch(error => console.error);
 
     console.log(`${client.user.username} is online`);
