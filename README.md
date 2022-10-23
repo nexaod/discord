@@ -15,11 +15,9 @@ No installation is required besides setting up a [GitHub Action](https://github.
 3. Create `.yml` GitHub Action
 4. Commit and Push
 
-## Discord
-
-<iframe src="https://discord.com/widget?id=742114133117501570&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
-
 ## Support
+
+<a href="https://discord.gg/Q6zMtwKEgV"><img src="https://discordapp.com/api/guilds/742114133117501570/widget.png?style=banner2" alt="Discord invite"></a>
 
 For any bot support please raise an issue in our Discord, or message Fate.
 
