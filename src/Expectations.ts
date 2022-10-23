@@ -1,5 +1,5 @@
 import { Client, TextChannel, Message } from "discord.js";
-import { Colours, Channels, createEmbed } from "./Utils";
+import { Colours, Channels, createEmbed, purgeChannel } from "./Utils";
 import {
     generalExpectations, magicEnt, meleeEnt, rangedEnt,
     hybridMageRangedEnt, chinner, free, base, other
@@ -88,7 +88,7 @@ client.on("ready", async () => {
                     }
                 )
             }
-            await (channel as TextChannel).bulkDelete(100)
+            await purgeChannel((channel as TextChannel));
             for (let embed in ExpectationsObject) {
                 await (channel as TextChannel).send(ExpectationsObject[embed].title).then(message => {
                     createTableOfContentsItem(message, ExpectationsObject[embed].toc);
