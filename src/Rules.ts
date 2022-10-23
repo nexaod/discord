@@ -1,7 +1,7 @@
 import { Client, TextChannel, Message } from "discord.js";
-import { Colours, Channels, createEmbed } from "./Utils";
+import { Colours, Channels, createEmbed, purgeChannel } from "./Utils";
 import { generalRules, behavioural, reporting, teamForming, splitting, deaths, gems, admin } from "./data/Rules";
-const token = process.env.DISCORD_TOKEN; // add your token here
+const token = process.env.DISCORD_TOKEN;
 
 console.log("Bot is starting...");
 
@@ -78,7 +78,7 @@ client.on("ready", async () => {
                     }
                 )
             }
-            await (channel as TextChannel).bulkDelete(100)
+            await purgeChannel((channel as TextChannel));
             for (let embed in RulesObject) {
                 await (channel as TextChannel).send(RulesObject[embed].title).then(message => {
                     createTableOfContentsItem(message, RulesObject[embed].toc);
