@@ -73,8 +73,25 @@ const everythingAboutNexAodEmbed = {
             inline: true
         },
         {
+            name: 'Leaderboard',
+            value: `
+            ⬥ [General](https://github.com/nexaod/discord/tree/main/src/data/leaderboards)
+            ⬥ [Magic/Ranged](https://github.com/nexaod/discord/blob/main/src/data/leaderboards/hybrid.json)
+            ⬥ [Magic](https://github.com/nexaod/discord/blob/main/src/data/leaderboards/magic.json)
+            ⬥ [Melee](https://github.com/nexaod/discord/blob/main/src/data/leaderboards/melee.json)
+            ⬥ [Ranged](https://github.com/nexaod/discord/blob/main/src/data/leaderboards/ranged.json)
+            `,
+            inline: true
+        },
+        {
             name: 'Ranking System',
-            value: '[Link](https://github.com/nexaod/discord/tree/main/src/data/ranks)',
+            value: `
+            ⬥ [General](https://github.com/nexaod/discord/tree/main/src/data/ranks)
+            ⬥ [Magic/Ranged](https://github.com/nexaod/discord/blob/main/src/data/ranks/hybrid.json)
+            ⬥ [Magic](https://github.com/nexaod/discord/blob/main/src/data/ranks/magic.json)
+            ⬥ [Melee](https://github.com/nexaod/discord/blob/main/src/data/ranks/melee.json)
+            ⬥ [Ranged](https://github.com/nexaod/discord/blob/main/src/data/ranks/ranged.json)
+            `,
             inline: true
         },
         {
@@ -91,12 +108,7 @@ const everythingAboutNexAodEmbed = {
             name: 'Additional Info',
             value: '[Link](https://github.com/nexaod/discord/blob/main/src/data/AdditionalInfo.ts)',
             inline: true
-        },
-        {
-            name: 'Leaderboard',
-            value: '[Link](https://github.com/nexaod/discord/tree/main/src/data/leaderboards)',
-            inline: true
-        },
+        }
     ]
 };
 
@@ -105,17 +117,28 @@ const guidesAndRotations = {
     fields: [
         {
             name: 'Hybrid',
-            value: '[Link](https://github.com/nexaod/discord/tree/main/src/data/guides/hybrid)',
+            value: `
+            ⬥ [Magic/Melee Entangle](https://github.com/nexaod/discord/blob/main/src/data/guides/hybrid/magicMeleeEntangle.ts)
+            ⬥ [Magic/Melee Base](https://github.com/nexaod/discord/blob/main/src/data/guides/hybrid/magicMeleeBase.ts)
+            ⬥ [Magic/Ranged Entangle/Hammer](https://github.com/nexaod/discord/blob/main/src/data/guides/hybrid/magicRangedEntangle.ts)
+            ⬥ [Magic/Ranged Base](https://github.com/nexaod/discord/blob/main/src/data/guides/hybrid/magicRangedBase.ts)
+            `,
             inline: true
         },
         {
             name: 'Magic',
-            value: '[Link](https://github.com/nexaod/discord/tree/main/src/data/guides/magic)',
+            value: `
+            ⬥ [Entangle](https://github.com/nexaod/discord/blob/main/src/data/guides/magic/magicEntangle.ts)
+            ⬥ [Base](https://github.com/nexaod/discord/blob/main/src/data/guides/magic/magicBase.ts)
+            `,
             inline: true
         },
         {
             name: 'Ranged',
-            value: '[Link](https://github.com/nexaod/discord/tree/main/src/data/guides/ranged)',
+            value: `
+            ⬥ [Chinner](https://github.com/nexaod/discord/blob/main/src/data/guides/ranged/chinner.ts)
+            ⬥ [Entangle](https://github.com/nexaod/discord/blob/main/src/data/guides/ranged/rangedEntangle.ts)
+            `,
             inline: true
         },
         {
