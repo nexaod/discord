@@ -1,5 +1,5 @@
 import { Client, TextChannel, Message } from "discord.js";
-import { Colours, Channels, createEmbed } from "./Utils";
+import { Colours, Channels, createEmbed, purgeChannel } from "./Utils";
 import {
     general, supplies, mainPerks, switches, relics,
     mageBase, mageEnt, meleeEnt, rangedEnt, chinner
@@ -93,7 +93,7 @@ client.on("ready", async () => {
                     }
                 )
             }
-            await (channel as TextChannel).bulkDelete(100)
+            await purgeChannel((channel as TextChannel));
             for (let embed in GearObject) {
                 await (channel as TextChannel).send(GearObject[embed].title).then(message => {
                     createTableOfContentsItem(message, GearObject[embed].toc);
