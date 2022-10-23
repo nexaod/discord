@@ -1,5 +1,5 @@
 import { Client, TextChannel } from "discord.js";
-import { Colours, Channels, createEmbed } from "../Utils";
+import { Colours, Channels, createEmbed, purgeChannel } from "../Utils";
 import { general } from "../data/guides/Other";
 
 const token = process.env.DISCORD_TOKEN; // add your token here
@@ -18,7 +18,7 @@ client.on("ready", async () => {
     }
     client.channels.fetch(Channels.otherGuide)
         .then(async channel => {
-            await (channel as TextChannel).bulkDelete(100)
+            await purgeChannel((channel as TextChannel));
             await (channel as TextChannel).send('> __**Additional Guides**__');
             await (channel as TextChannel).send({ embeds: [createEmbed(general, Colours.gold)] });
             await process.exit(0)

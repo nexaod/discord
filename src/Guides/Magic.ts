@@ -1,5 +1,5 @@
 import { Client, TextChannel } from "discord.js";
-import { Colours, Channels, createEmbed, styleTitle } from "../Utils";
+import { Colours, Channels, createEmbed, styleTitle, purgeChannel } from "../Utils";
 import { magicEntPreset, magicEntPresetInfo, magicEntRotation, magicEntExampleKills } from "../data/guides/magic/magicEntangle";
 import { magicBasePreset, magicBasePresetInfo, magicBaseRotation, magicBaseExampleKills } from "../data/guides/magic/magicBase";
 const token = process.env.DISCORD_TOKEN;
@@ -68,7 +68,7 @@ client.on("ready", async () => {
                 }
             };
             const content: any = [];
-            await (channel as TextChannel).bulkDelete(100);
+            await purgeChannel((channel as TextChannel));
             for (let embed in GuideObject) {
                 const tocEmbed: any = {
                     name: '',

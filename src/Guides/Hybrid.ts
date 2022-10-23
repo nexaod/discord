@@ -1,5 +1,5 @@
 import { Client, TextChannel } from "discord.js";
-import { Colours, Channels, createEmbed, styleTitle } from "../Utils";
+import { Colours, Channels, createEmbed, styleTitle, purgeChannel } from "../Utils";
 import { magicRangedEntPreset, magicRangedEntPresetInfo, magicRangedEntRotation, magicRangedEntExampleKills } from "../data/guides/hybrid/magicRangedEntangle";
 import { magicRangedBasePreset, magicRangedBasePresetInfo, magicRangedBaseRotation, magicRangedBaseExampleKills } from "../data/guides/hybrid/magicRangedBase";
 import { magicMeleeBasePreset, magicMeleeBasePresetInfo, magicMeleeBaseRotation, magicMeleeBaseExampleKills } from "../data/guides/hybrid/magicMeleeBase";
@@ -108,7 +108,7 @@ client.on("ready", async () => {
                 }
             };
             const content: any = [];
-            await (channel as TextChannel).bulkDelete(100);
+            await purgeChannel((channel as TextChannel));
             for (let embed in GuideObject) {
                 const tocEmbed: any = {
                     name: '',
