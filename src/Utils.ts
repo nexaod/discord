@@ -1,4 +1,13 @@
+import { TextChannel } from "discord.js";
+
 const environment = process.env.ENVIRONMENT === 'PRODUCTION' ? 'PRODUCTION' : 'DEVELOPMENT';
+
+export const purgeChannel = async (channel: TextChannel) => {
+    const messages = await channel.messages.fetch({ limit: 100 });
+    for await (const [_id, message] of messages) {
+        await message.delete();
+    }
+}
 
 export const Colours = {
     green: 2067276,

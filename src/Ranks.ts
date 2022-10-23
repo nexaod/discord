@@ -1,5 +1,5 @@
 import { Client, TextChannel, Message } from "discord.js";
-import { Colours, Channels, Roles, createEmbed } from "./Utils";
+import { Colours, Channels, Roles, createEmbed, purgeChannel } from "./Utils";
 import { startingMessage, dpsInfo, other, ingame } from './data/ranks/Ranks';
 const token = process.env.DISCORD_TOKEN; // add your token here
 
@@ -111,7 +111,7 @@ client.on("ready", async () => {
                     }
                 )
             }
-            await (channel as TextChannel).bulkDelete(100)
+            await purgeChannel((channel as TextChannel));
             await (channel as TextChannel).send(`> __**Nex AoD FC Ranks**__`);
             await (channel as TextChannel).send({ embeds: [createEmbed(startingMessage, Colours.gold)] });
             for (let embed in RanksObject) {
