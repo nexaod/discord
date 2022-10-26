@@ -1,4 +1,4 @@
-import { TextChannel } from "discord.js";
+import { TextChannel, EmbedBuilder } from "discord.js";
 
 const environment = process.env.ENVIRONMENT === 'PRODUCTION' ? 'PRODUCTION' : 'DEVELOPMENT';
 
@@ -249,7 +249,8 @@ export const Emojis = {
     eofRed: '<:eofred:780401412839833601>',
     dclaws: '<:dragonclaw:779048041088024606>',
     roar: '<:chaosroar:994644356671737966>',
-    rubyAurora: '<:RubyAurora:574292444791963659>'
+    rubyAurora: '<:RubyAurora:574292444791963659>',
+    bsa: '<:blackstonearrow:785031580149743617>',
 }
 
 
@@ -263,6 +264,14 @@ export const createEmbed = (data: string, colour: number) => {
         color: colour,
         description: data
     };
+}
+
+export const createEmbedBuilder = (data: string, colour: number, image?: string) => {
+    const embed = new EmbedBuilder()
+        .setColor(colour)
+        .setDescription(data);
+    if (typeof image !== 'undefined') embed.setImage(image);
+    return embed;
 }
 
 export const styleTitle = (value: string) => {

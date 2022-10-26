@@ -1,5 +1,5 @@
 import { Client, TextChannel } from "discord.js";
-import { Colours, Channels, createEmbed, styleTitle, purgeChannel } from "../Utils";
+import { Colours, Channels, createEmbedBuilder, styleTitle, purgeChannel } from "../Utils";
 import { rangedEntPreset, rangedEntPresetInfo, rangedEntRotation, rangedEntExampleKills } from "../data/guides/ranged/rangedEntangle";
 import { chinnerPreset, chinnerPresetInfo, chinnerRotation, chinnerExampleKills } from "../data/guides/ranged/chinner";
 const token = process.env.DISCORD_TOKEN;
@@ -17,8 +17,7 @@ const GuideObject: any = {
         title: 'Ranged Entangle',
         preset: {
             title: '> __**Preset**__',
-            embed: createEmbed(rangedEntPresetInfo, Colours.green),
-            image: rangedEntPreset,
+            embed: createEmbedBuilder(rangedEntPresetInfo, Colours.green, rangedEntPreset),
             toc: 'Preset'
         },
         rotation: {
@@ -28,7 +27,7 @@ const GuideObject: any = {
         },
         examples: {
             title: '> __**Example Kills**__',
-            embed: createEmbed(rangedEntExampleKills, Colours.green),
+            embed: createEmbedBuilder(rangedEntExampleKills, Colours.green),
             toc: 'Example Kills'
         }
     },
@@ -36,8 +35,7 @@ const GuideObject: any = {
         title: 'Chinner',
         preset: {
             title: '> __**Preset**__',
-            embed: createEmbed(chinnerPresetInfo, Colours.green),
-            image: chinnerPreset,
+            embed: createEmbedBuilder(chinnerPresetInfo, Colours.green, chinnerPreset),
             toc: 'Preset'
         },
         rotation: {
@@ -47,7 +45,7 @@ const GuideObject: any = {
         },
         examples: {
             title: '> __**Example Kills**__',
-            embed: createEmbed(chinnerExampleKills, Colours.green),
+            embed: createEmbedBuilder(chinnerExampleKills, Colours.green),
             toc: 'Example Kills'
         }
     }
@@ -91,7 +89,6 @@ client.on("ready", async () => {
                             await (channel as TextChannel).send(element);
                         });
                     }
-                    if (GuideObject[embed][section].image) await (channel as TextChannel).send(GuideObject[embed][section].image);
                 }
                 if (tocEmbed.value) content.push(tocEmbed);
             }
