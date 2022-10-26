@@ -1,5 +1,5 @@
 import { Client, TextChannel } from "discord.js";
-import { Colours, Channels, createEmbed, styleTitle, purgeChannel } from "../Utils";
+import { Colours, Channels, createEmbedBuilder, styleTitle, purgeChannel } from "../Utils";
 import { magicRangedEntPreset, magicRangedEntPresetInfo, magicRangedEntRotation, magicRangedEntExampleKills } from "../data/guides/hybrid/magicRangedEntangle";
 import { magicRangedBasePreset, magicRangedBasePresetInfo, magicRangedBaseRotation, magicRangedBaseExampleKills } from "../data/guides/hybrid/magicRangedBase";
 import { magicMeleeBasePreset, magicMeleeBasePresetInfo, magicMeleeBaseRotation, magicMeleeBaseExampleKills } from "../data/guides/hybrid/magicMeleeBase";
@@ -19,8 +19,7 @@ const GuideObject: any = {
         title: 'Magic/Melee Entangle',
         preset: {
             title: '> __**Preset**__',
-            embed: createEmbed(magicMeleeEntanglePresetInfo, Colours.red),
-            image: magicMeleeEntanglePreset,
+            embed: createEmbedBuilder(magicMeleeEntanglePresetInfo, Colours.red, magicMeleeEntanglePreset),
             toc: 'Preset'
         },
         rotation: {
@@ -30,7 +29,7 @@ const GuideObject: any = {
         },
         examples: {
             title: '> __**Example Kills**__',
-            embed: createEmbed(magicMeleeEntangleExampleKills, Colours.red),
+            embed: createEmbedBuilder(magicMeleeEntangleExampleKills, Colours.red),
             toc: 'Example Kills'
         }
     },
@@ -38,8 +37,7 @@ const GuideObject: any = {
         title: 'Magic/Melee Base',
         preset: {
             title: '> __**Preset**__',
-            embed: createEmbed(magicMeleeBasePresetInfo, Colours.red),
-            image: magicMeleeBasePreset,
+            embed: createEmbedBuilder(magicMeleeBasePresetInfo, Colours.red, magicMeleeBasePreset),
             toc: 'Preset'
         },
         rotation: {
@@ -49,7 +47,7 @@ const GuideObject: any = {
         },
         examples: {
             title: '> __**Example Kills**__',
-            embed: createEmbed(magicMeleeBaseExampleKills, Colours.red),
+            embed: createEmbedBuilder(magicMeleeBaseExampleKills, Colours.red),
             toc: 'Example Kills'
         }
     },
@@ -57,8 +55,7 @@ const GuideObject: any = {
         title: 'Magic/Ranged Entangle/Hammer',
         preset: {
             title: '> __**Preset**__',
-            embed: createEmbed(magicRangedEntPresetInfo, Colours.aqua),
-            image: magicRangedEntPreset,
+            embed: createEmbedBuilder(magicRangedEntPresetInfo, Colours.aqua, magicRangedEntPreset),
             toc: 'Preset'
         },
         rotation: {
@@ -68,7 +65,7 @@ const GuideObject: any = {
         },
         examples: {
             title: '> __**Example Kills**__',
-            embed: createEmbed(magicRangedEntExampleKills, Colours.aqua),
+            embed: createEmbedBuilder(magicRangedEntExampleKills, Colours.aqua),
             toc: 'Example Kills'
         }
     },
@@ -76,8 +73,7 @@ const GuideObject: any = {
         title: 'Magic/Ranged Base',
         preset: {
             title: '> __**Preset**__',
-            embed: createEmbed(magicRangedBasePresetInfo, Colours.aqua),
-            image: magicRangedBasePreset,
+            embed: createEmbedBuilder(magicRangedBasePresetInfo, Colours.aqua, magicRangedBasePreset),
             toc: 'Preset'
         },
         rotation: {
@@ -87,7 +83,7 @@ const GuideObject: any = {
         },
         examples: {
             title: '> __**Example Kills**__',
-            embed: createEmbed(magicRangedBaseExampleKills, Colours.aqua),
+            embed: createEmbedBuilder(magicRangedBaseExampleKills, Colours.aqua),
             toc: 'Example Kills'
         }
     }
@@ -131,7 +127,6 @@ client.on("ready", async () => {
                             await (channel as TextChannel).send(element);
                         });
                     }
-                    if (GuideObject[embed][section].image) await (channel as TextChannel).send(GuideObject[embed][section].image);
                 }
                 if (tocEmbed.value) content.push(tocEmbed);
             }
