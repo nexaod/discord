@@ -37,5 +37,5 @@ Bleed ${Emojis.assault} → ${Emojis.overpower} → ${Emojis.limitless} + ${Emoj
 ];
 
 export const magicMeleeEntangleExampleKills = `
-Coming Soon.
+⬥ 28 Oct 2022 - [1:22.8](https://youtu.be/v_QTXkogmNc) Ghotic Fish\n
 `;
