@@ -11,7 +11,8 @@
     "hybridGuide": "ts-node src/Guides/Hybrid.ts",
     "otherGuide": "ts-node src/Guides/Other.ts",
     "changelog": "ts-node src/Changelog.ts",
-    "botGuide": "ts-node src/BotGuide.ts"
+    "botGuide": "ts-node src/BotGuide.ts",
+    "affiliates": "ts-node src/Affiliates.ts"
   },
   "dependencies": {
     "@types/node": "^18.7.23",

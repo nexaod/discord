@@ -294,7 +294,8 @@ const DevChannels = {
     hybridGuide: '1024897901819871272',
     otherGuide: '1032888041104216084',
     botGuide: '1033224923734356018',
-    streamers: '1033768665633525850'
+    streamers: '1033768665633525850',
+    affiliates: '1038428611994202183',
 }
 
 const ProdChannels = {
@@ -313,7 +314,8 @@ const ProdChannels = {
     hybridGuide: '1027115316783886367',
     otherGuide: '1032887045351293040',
     botGuide: '1029912020608356452',
-    streamers: '742114133796847681'
+    streamers: '742114133796847681',
+    affiliates: '742114133796847683'
 }
 
 const DevRoles: any = {
