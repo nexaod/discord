@@ -31,13 +31,13 @@ jobs:
     - run: npm run build --if-present
     - run: npm run botGuide
       env:
-        DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
+        DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN_DEV }}
         GMAIL_USERNAME: ${{ secrets.GMAIL_USERNAME }}
         GMAIL_PASSWORD: ${{ secrets.GMAIL_PASSWORD }}
         HUB_USERNAME: ${{ secrets.HUB_USERNAME }}
         HUB_PASSWORD: ${{ secrets.HUB_PASSWORD }}
     - run: npm run changelog
       env:
-        DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
+        DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN_DEV }}
         SHA: ${{ github.sha }}
         MODULE: Guide

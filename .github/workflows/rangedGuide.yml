@@ -32,9 +32,9 @@ jobs:
     - run: npm run build --if-present
     - run: npm run rangedGuide
       env:
-        DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
+        DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN_DEV }}
     - run: npm run changelog
       env:
-        DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
+        DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN_DEV }}
         SHA: ${{ github.sha }}
         MODULE: Ranged
