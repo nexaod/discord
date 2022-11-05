@@ -39,4 +39,4 @@ jobs:
         DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
         ENVIRONMENT: PRODUCTION
         SHA: ${{ github.sha }}
-        MODULE: Guide
+        MODULE: Affiliates
