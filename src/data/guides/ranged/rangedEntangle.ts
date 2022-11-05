@@ -36,5 +36,5 @@ ${Emojis.bolg} ${Emojis.spec} → Improvise around ${Emojis.bolgStacks} → Try 
 ];
 
 export const rangedEntExampleKills = `
-Coming Soon.
+⬥ 5 Nov 2022 - [1:27](https://www.youtube.com/watch?v=dEQvOkiobkQ) x Neon\n
 `;
