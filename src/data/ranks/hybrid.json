@@ -67,12 +67,12 @@
             "role": ""
         },
         "mastery": {
-            "score": "",
-            "role": ""
+            "score": "6800K",
+            "role": "mrBaseMastery"
         },
         "extreme": {
-            "score": "",
-            "role": ""
+            "score": "7500K",
+            "role": "mrBaseExtreme"
         }
     }
 }
