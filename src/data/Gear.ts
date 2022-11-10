@@ -79,6 +79,7 @@ Any combination of the following:\n
 ⬥ ${Emojis.zurielHood} ${Emojis.zurielBody} ${Emojis.zurielBottom} Superior Zuriel
 ⬥ ${Emojis.virtusMask} ${Emojis.virtusBody} ${Emojis.virtusLegs} Virtus
 ⬥ ${Emojis.serenHelm} ${Emojis.serenBody} ${Emojis.serenLegs} Refined Seren
+⬥ ${Emojis.cryptHelm} ${Emojis.cryptBody} ${Emojis.cryptLegs} Cryptbloom
 ⬥ ${Emojis.tectonicMask} ${Emojis.tectonicBody} ${Emojis.tectonicLegs} Tectonic
 ⬥ ${Emojis.eliteTectonicMask} ${Emojis.eliteTectonicBody} ${Emojis.eliteTectonicLegs} Elite Tectonic\n
 > __**Weapons**__\n
@@ -87,6 +88,7 @@ One of the following weapon sets:\n
 ⬥ ${Emojis.seisWand} ${Emojis.seisSing} Seismics
 ⬥ ${Emojis.praesWand} ${Emojis.impCore} Praesuls\n
 > __**Gloves**__\n
+⬥ ${Emojis.cryptGloves} Cryptbloom gloves\n
 ⬥ ${Emojis.dtb} Deathtouched bracelet\n
 > __**Boots**__\n
 ⬥ ${Emojis.blastDiffusionBoots} Blast Diffusion Boots\n
