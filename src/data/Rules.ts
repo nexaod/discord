@@ -41,7 +41,7 @@ ${TextUtils.subpoint} You will be unable to see their request to be invited to a
 ${TextUtils.subpoint} They will be unable to join your instance.
 ${TextUtils.subpoint} You will be unable to see their calls during the boss fight.\n
 ⬥ The grouping system must be used to invite players.\n
-⬥ When asking for an invite to the group, you must clarify what role you will be taking (i.e., 'inv [role]' or 'inv any'). If non-compliance leads to any problems, you are the last in line to pick.\n
+⬥ When asking for an invite to the group, you must clarify what role you will be taking (i.e., \`inv chin\` or \`inv any\`). If non-compliance leads to any problems, you are the last in line to pick.\n
 ⬥ If you are hosting a group, you must clarify what roles are still open (e.g., +4 base/ents/chin). Clarifying which roles are taken (e.g., +6 -chin) is also possible.\n
 ⬥ Do not call minions until the team has filled. Magic ents default to Umbra.\n
 ⬥ Once a team fills that you are a part of, it is expected for you to be at nex bank and ready within 5 minutes. If you are not ready within 5 minutes of the team filling, the team is allowed (not required) to kick you.\n
@@ -55,7 +55,7 @@ export const splitting = `
 ⬥ The Base Tank and ${Emojis.umbra} (or Primary Vulner) receive the following tips:
 ${TextUtils.subpoint} Base Tank: 8M for every unique drop.
 ${TextUtils.subpoint} ${Emojis.umbra}/Primary Vulner: 3M for every unique drop.\n
-⬥ All splits should be calculated using either the **-splitnexaod** command in <#${Channels.bot}>, or the [Alt1 BetterAoD](https://runeapps.org/forums/viewtopic.php?id=1324) calculator.\n
+⬥ All splits should be calculated using either the \`-splitnexaod\` command in <#${Channels.bot}>, or the [Alt1 BetterAoD](https://runeapps.org/forums/viewtopic.php?id=1324) calculator.\n
 ⬥ Always pick up your drop off the floor. Failure to do so will require you to split the team out of your own money.\n
 ⬥ Sell responsibly on the Grand Exchange. If you disregard this rule and sell for significantly under guide price you will be required to compensate the team.\n
 ⬥ If requested, you must post a screenshot of your Grand Exchange history.\n
@@ -83,6 +83,7 @@ export const gems = `
 ⬥ A hop to reset the Challenge Gem can be requested provided 4/7 members of the team agree.\n
 ⬥ A second hop to reset the Challenge gem can be requested provided 7/7 members of the team agree.\n
 ⬥ Mechanics should still be performed to FC standards during a Challenge Gem (i.e. players should not leave earlier than normal for pillars).\n
+⬥ If a ${Roles.magicBase} is using ${Emojis.cryptHelm} ${Emojis.cryptBody} ${Emojis.cryptLegs} ${Emojis.cryptGloves}, team member gems are invalidated and only the base gem counts.\n
 ⬥ A codeword is needed to validate the current meta and should be in the chatbox of a screenshot.\n
 > The current codeword is \`fsoa\`.
 `

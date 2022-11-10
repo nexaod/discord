@@ -251,6 +251,10 @@ export const Emojis = {
     roar: '<:chaosroar:994644356671737966>',
     rubyAurora: '<:RubyAurora:574292444791963659>',
     bsa: '<:blackstonearrow:785031580149743617>',
+    cryptHelm: '<:cryptbloomhelm:892819107123195956>',
+    cryptBody: '<:cryptbloombody:892819107253194762>',
+    cryptLegs: '<:cryptbloomlegs:892819107223851058>',
+    cryptGloves: '<:cryptbloomgloves:892819106879922179>'
 }
 
 
