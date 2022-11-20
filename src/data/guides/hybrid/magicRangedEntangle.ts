@@ -28,7 +28,7 @@ ${Emojis.magma} (at 2.4s) → ${Emojis.ingen} + Stall ${Emojis.hammer} ${Emojis.
 `,
 `
 __**Phase 2**__\n
-${Emojis.greaterDeathSwiftness} → Place ${Emojis.dummy} under ${Emojis.nex} + ${Emojis.corruptionShot} → ${Emojis.shard} → ${Emojis.magma} → Stall ${Emojis.nami} → Release ${Emojis.nami} + ${Emojis.dbreath} → ${Emojis.bolg} ${Emojis.spec} → ${Emojis.gconc} → ${Emojis.greaterChain} → ${Emojis.impact}\n
+${Emojis.greaterDeathSwiftness} → Place ${Emojis.dummy} under ${Emojis.nex} + ${Emojis.corruptionShot} → ${Emojis.shard} → ${Emojis.magma} → Stall ${Emojis.nami} → ${Emojis.smokecloud} + ${Emojis.nami} + ${Emojis.dbreath} → ${Emojis.bolg} ${Emojis.spec} → ${Emojis.gconc} → ${Emojis.greaterChain} → ${Emojis.impact}\n
 __**Phase 3**__\n
 ${Emojis.deathspore} ${Emojis.ecb} ${Emojis.eofSpec} → ${Emojis.grico} → ${Emojis.fulArrow} (if 5 ${Emojis.deathspore} stacks) ${Emojis.decimation} ${Emojis.eofSpec} + ${Emojis.adrenRenewal4} → ${Emojis.ingen} + ${Emojis.shadowTendril} → ${Emojis.incend} → ${Emojis.fulArrow} ${Emojis.sgbEof} ${Emojis.eofSpec} → ${Emojis.deathspore} ${Emojis.snap} → ${Emojis.fulArrow} ${Emojis.dbow} ${Emojis.eofSpec} → ${Emojis.deathspore} ${Emojis.grico} → ${Emojis.fulArrow} ${Emojis.dbow} ${Emojis.eofSpec} → ${Emojis.gconc} → ${Emojis.dbreath}\n
 `,
