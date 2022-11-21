@@ -1,6 +1,6 @@
 import { Client, TextChannel, Message } from "discord.js";
 import { Colours, Channels, createEmbed, purgeChannel } from "./Utils";
-import { generalRules, behavioural, reporting, teamForming, splitting, deaths, gems, admin } from "./data/Rules";
+import { generalRules, behavioural, reporting, teamForming, splitting, dummies, deaths, gems, admin } from "./data/Rules";
 const token = process.env.DISCORD_TOKEN;
 
 console.log("Bot is starting...");
@@ -31,6 +31,11 @@ const RulesObject: any = {
         title: '> __**Team Forming**__',
         toc: 'Team Forming',
         embed: createEmbed(teamForming, Colours.gold)
+    },
+    dummies: {
+        title: '> __**Dummy Placement**__',
+        toc: 'Dummies',
+        embed: createEmbed(dummies, Colours.gold)
     },
     splitting: {
         title: '> __**Splitting**__',

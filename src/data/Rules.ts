@@ -68,6 +68,19 @@ ${TextUtils.subpoint} A screenshot of a W2 trade is required to prevent any pote
 ${TextUtils.subpoint} A calculator to help with max cash/W2 trades can be found [here](https://docs.google.com/spreadsheets/d/1Bts8t65HXtcc9YdOnwpiUTwTxl5YBYRfN6mpwwBRMoI/edit#gid=0).
 `
 
+// Dummies
+export const dummies = `
+> These rules are the default FC rules. If there is prior discussion within a team, dummies and instance host can be done by anybody.\n
+⬥ ${Roles.chinner}/${Roles.mrHammer} is expected to host instance and the host ${Emojis.dummy}.\n
+⬥ ${Roles.magicBase}/${Roles.mrBase} are encouraged to bring their own ${Emojis.dummy}.\n
+⬥ The **Free** role is expected to place the 1.8/South ${Emojis.dummy}.\n
+⬥ If a Magic/Ranged role is on the team, they are expected to place ${Emojis.dummy} under the boss.\n
+⬥ Under the circumstance that there is a ${Roles.mrFree}, the host of the 1.8/South ${Emojis.dummy} **must** take the following priority:
+${TextUtils.subpoint} Single style camp (e.g. ${Roles.magicEnt})
+${TextUtils.subpoint} Magic/Melee Hybrid
+${TextUtils.subpoint} Magic/Ranged Hybrid
+`
+
 // Causing Deaths
 export const deaths = `
 If you cause a team members death due to:\n
