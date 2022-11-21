@@ -71,11 +71,11 @@ ${TextUtils.subpoint} A calculator to help with max cash/W2 trades can be found 
 // Dummies
 export const dummies = `
 > These rules are the default FC rules. If there is prior discussion within a team, dummies and instance host can be done by anybody.\n
-⬥ ${Roles.chinner}/${Roles.mrHammer} is expected to host instance and the host ${Emojis.dummy}.\n
+⬥ ${Roles.chinner}/${Roles.mrHammer} is expected to host instance and host ${Emojis.dummy}.\n
 ⬥ ${Roles.magicBase}/${Roles.mrBase} are encouraged to bring their own ${Emojis.dummy}.\n
 ⬥ The **Free** role is expected to place the 1.8/South ${Emojis.dummy}.\n
 ⬥ If a Magic/Ranged role is on the team, they are expected to place ${Emojis.dummy} under the boss.\n
-⬥ Under the circumstance that there is a ${Roles.mrFree}, the host of the 1.8/South ${Emojis.dummy} **must** take the following priority:
+⬥ Under the circumstance that there is a ${Roles.mrFree} and pre-placed dummy to lose target, the host of the 1.8/South ${Emojis.dummy} **must** take the following priority:
 ${TextUtils.subpoint} Single style camp (e.g. ${Roles.magicEnt})
 ${TextUtils.subpoint} Magic/Melee Hybrid
 ${TextUtils.subpoint} Magic/Ranged Hybrid
