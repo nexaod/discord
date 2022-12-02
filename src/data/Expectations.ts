@@ -77,7 +77,7 @@ export const chinner = `
 ⬥ ${Emojis.grico} is required.\n
 ⬥ ${Emojis.hammer} debuff is expected to be applied as the fight starts.\n
 ⬥ You are expected to help with ${Emojis.glacies}${Emojis.iceamalg} then a single ability on ${Emojis.cruor}${Emojis.bloodamalg}.\n
-⬥ Execution of the ${Emojis.decimation} rotation is recommended.\n
+⬥ The ${Emojis.decimation} rotation in <#${Channels.rangedGuide}> is the only allowed rotation.\n
 ⬥ If a minion is out (but not more than 1 square from center), chinners should consider targeting perfectly centered minions if the minion is not re-lured.\n
 ⬥ Do not stand melee distance of ${Emojis.umbra} pillar, as meleers might get hit by potential shadows.\n
 ⬥ If the base dies or disconnects, chinners are expected to back-up base tank.\n
