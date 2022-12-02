@@ -249,7 +249,7 @@ A combination of the following:\n
 ⬥ ${Emojis.eliteSirenicMask} ${Emojis.eliteSirenicBody} ${Emojis.eliteSirenicLegs} Elite Sirenic\n
 > __**Weapons**__\n
 **ALL** of the following weapon sets:\n
-⬥ ${Emojis.ecb} or ${Emojis.bolg}
+⬥ ${Emojis.noxBow}, ${Emojis.sgbEof} or ${Emojis.bolg}
 ⬥ ${Emojis.ascMH} ${Emojis.ascOH} or ${Emojis.blightMH} ${Emojis.blightOH}\n
 > __**Gloves**__\n
 One of the following:\n
@@ -258,11 +258,12 @@ One of the following:\n
 > __**Boots**__\n
 ⬥ ${Emojis.fleetings} Fleeting boots\n
 > __**Necklace**__\n
-⬥ ${Emojis.ecb} ${Emojis.eof} if no physical ${Emojis.ecb}
-⬥ ${Emojis.hammer} ${Emojis.eof}
-⬥ ${Emojis.sgbEof} ${Emojis.eof}
+**ALL** of the following necklaces:\n
+⬥ ${Emojis.ecb} ${Emojis.eof}
+⬥ ${Emojis.hammer} ${Emojis.eof} if not using a physical ${Emojis.hammer}
+⬥ ${Emojis.sgbEof} ${Emojis.eof} if not using a physical ${Emojis.sgbEof}
 ⬥ ${Emojis.dbow} ${Emojis.eof}
-⬥ ${Emojis.decimation} ${Emojis.eof} if executing the Decimation rotation\n
+⬥ ${Emojis.decimation} ${Emojis.eof}\n
 > __**Rings**__\n
 It is expected you have ${Emojis.vigour} passive and one of the following rings:\n
 ⬥ ${Emojis.reaversRing} Reaver's Ring
@@ -278,12 +279,11 @@ Any of the following:\n
 ⬥ ${Emojis.kalZuk} Igneous Kal-Zuk\n
 > __**Other**__\n
 ⬥ ${Emojis.grico} Greater Ricochet
-⬥ ${Emojis.caroming4} on ${Emojis.ecb} or ${Emojis.blightOH}
+⬥ ${Emojis.caroming4} on 2H bow or ${Emojis.blightOH}
 ⬥ ${Emojis.flanking} Flanking
 ⬥ ${Emojis.plantedFeet} or ${Emojis.greaterDeathSwiftness}
 ⬥ ${Emojis.desolation} T99 Ranged Prayer
 ⬥ Completed Elite Seers Village Diary
 ⬥ ${Emojis.fulArrow} ${Emojis.deathspore} if using a Bow
-⬥ ${Emojis.rubyBak} ${Emojis.hydrixBak} if using a Crossbow
 ⬥ ${Emojis.ingen} Ingenuity of the Humans
 `;
