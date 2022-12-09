@@ -1,5 +1,16 @@
 [
     {
+        "time": "1:13.2",
+        "url": "https://www.youtube.com/watch?v=kaYbTabIQt8",
+        "base": "Tarikk",
+        "chin": "Saint Blint",
+        "free": "Fate",
+        "umbra": "geherman",
+        "glacies": "Rocket Cars",
+        "cruor": "Literate",
+        "fumus": "Gentledan"
+    },
+    {
         "time": "1:16.2",
         "url": "https://www.youtube.com/watch?v=rbkQ0IbNb_k",
         "base": "Rocket Cars",
@@ -20,16 +31,5 @@
         "glacies": "ggurran",
         "cruor": "Theump",
         "fumus": "Literate"
-    },
-    {
-        "time": "1:17.4",
-        "url": "https://media.discordapp.net/attachments/742114134400958589/1046906703096053862/image.png?width=1401&height=749",
-        "base": "Tarikk",
-        "chin": "A k s h a y",
-        "free": "geherman",
-        "umbra": "Literate",
-        "glacies": "ggurran",
-        "cruor": "Hoobs",
-        "fumus": "Theump"
     }
 ]
