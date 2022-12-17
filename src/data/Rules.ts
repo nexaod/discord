@@ -54,7 +54,7 @@ export const splitting = `
 ⬥ Teams with ${Roles.ironman} players are allowed to do keeps for the ironman players only, provided all teammates agree to those rules.\n
 ⬥ The Base Tank and ${Emojis.umbra} (or Primary Vulner) receive the following tips:
 ${TextUtils.subpoint} Base Tank: 8M for every unique drop.
-${TextUtils.subpoint} ${Emojis.umbra}/Primary Vulner: 3M for every unique drop.\n
+${TextUtils.subpoint} ${Roles.vulner}: 3M for every unique drop.\n
 ⬥ All splits should be calculated using either the \`-splitnexaod\` command in <#${Channels.bot}>, or the [Alt1 BetterAoD](https://runeapps.org/forums/viewtopic.php?id=1324) calculator.\n
 ⬥ Always pick up your drop off the floor. Failure to do so will require you to split the team out of your own money.\n
 ⬥ Sell responsibly on the Grand Exchange. If you disregard this rule and sell for significantly under guide price you will be required to compensate the team.\n
