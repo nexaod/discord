@@ -3,7 +3,7 @@ import { Emojis } from "../../../Utils";
 export const magicRangedBasePreset = 'https://media.discordapp.net/attachments/1027186342620299315/1053725302917963826/image.png';
 
 export const magicRangedBasePresetInfo = `
-> Courtesy of **Grico**\n
+> Courtesy of **Theump** and **Grico**\n
 ⬥ ${Emojis.eofPink} ${Emojis.ecb} Eldritch Crossbow
 ⬥ ${Emojis.eof} ${Emojis.dbow} Dark Bow
 ⬥ ${Emojis.eofBlack} ${Emojis.decimation} Decimation
