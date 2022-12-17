@@ -2,7 +2,7 @@ import { Client, TextChannel, Message } from "discord.js";
 import { Colours, Channels, createEmbed, purgeChannel } from "./Utils";
 import {
     generalExpectations, magicEnt, meleeEnt, rangedEnt,
-    hybridMageRangedEnt, chinner, free, base, other
+    hybridMageRangedEnt, chinner, free, base, vulner, other
 } from "./data/Expectations";
 
 const token = process.env.DISCORD_TOKEN; // add your token here
@@ -55,6 +55,11 @@ const ExpectationsObject: any = {
         title: '> __**Base**__',
         toc: 'Base',
         embed: createEmbed(base, Colours.blue)
+    },
+    vulner: {
+        title: '> __**Vulner**__',
+        toc: 'Vulner',
+        embed: createEmbed(vulner, Colours.purple)
     },
     other: {
         title: '> __**Other Information**__',

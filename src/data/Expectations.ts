@@ -108,6 +108,18 @@ ${TextUtils.subpoint} ${Emojis.cruor}${Emojis.bloodamalg} - ${Emojis.gconc} or o
 ⬥ ${Emojis.vulnBomb} the last pillar.\n
 `
 
+// Vulner
+export const vulner = `
+> This tag is an additional tag achieveable after owning an existing tag.\n
+⬥ Expected to ${Emojis.vulnBomb} the first 3 pillars.\n
+⬥ Receives the ${Roles.vulner} tip (**3M**).\n
+⬥ Obtained through:
+${TextUtils.subpoint} Passing a trial with consistent and well timed ${Emojis.vulnBomb}.
+${TextUtils.subpoint} Receiving 3 vouches from members with non-base ${Roles.mastery}+ roles.
+${TextUtils.subpoint} Submit vouches to ${Roles.mainTrialHost}+.\n
+⬥ Trial can be run concurrently with any normal trial.\n
+`
+
 // Other Information
 export const other = `
 ⬥ ${Roles.ironman} players are expected to have an associated main account that is able to split drops.

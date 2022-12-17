@@ -18,7 +18,8 @@ export const Colours = {
     gold: 12745742,
     default: 5198940,
     lightblue: 302332,
-    darkgrey: 333333
+    darkgrey: 333333,
+    purple: 11607689,
 }
 
 export const Emojis = {
@@ -393,7 +394,8 @@ const DevRoles: any = {
     t4AoD: '<@&1026519440147349524>',
     aodFanatic: '<@&1026519503724617769>',
     angelSlayer: '<@&1026519507621130310>',
-    member: '<@&1026696194224824351>'
+    member: '<@&1026696194224824351>',
+    vulner: '<@&1053715273947037769>',
 }
 
 const ProdRoles: any = {
@@ -464,7 +466,8 @@ const ProdRoles: any = {
     t4AoD: '<@&818499185166909442>',
     aodFanatic: '<@&818499016576073748>',
     angelSlayer: '<@&818498816923009035>',
-    member: '<@&742114133201387565>'
+    member: '<@&742114133201387565>',
+    vulner: '<@&1052693087337578637>'
 }
 
 export const Roles = environment === 'PRODUCTION' ? ProdRoles : DevRoles;
