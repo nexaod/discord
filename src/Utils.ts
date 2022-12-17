@@ -255,7 +255,9 @@ export const Emojis = {
     cryptBody: '<:cryptbloombody:892819107253194762>',
     cryptLegs: '<:cryptbloomlegs:892819107223851058>',
     cryptGloves: '<:cryptbloomgloves:892819106879922179>',
-    noxBow: '<:noxbow:513190159425208342>'
+    noxBow: '<:noxbow:513190159425208342>',
+    dive: '<:dive:1049378668197195808>',
+    spiritCape: '<:spiritcape:697405301623619624>'
 }
 
 

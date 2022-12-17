@@ -7,7 +7,9 @@ export const general = `
 ⬥ We recommend using a mainhand weapon or defender for ${Emojis.plantedFeet} and ${Emojis.as1} perks.\n
 ⬥ Perks listed are the minimum requirements. Better ones are obviously accepted.\n
 ⬥ Using 11 ${Emojis.spiritWeedIncenseSticks} will greatly boost your ${Emojis.ripperDemon}.\n
-⬥ Using ${Emojis.weaponPoison} either in preset or while banking can help with ${Emojis.amalg}.
+⬥ Using ${Emojis.weaponPoison} either in preset or while banking can help with ${Emojis.amalg}.\n
+⬥ Having ${Emojis.spiritCape} unlocked will reduce your special move cost by 20%.\n
+⬥ Having ${Emojis.dive} unlocked will allow for more food, ${Emojis.ecb} ${Emojis.spec} during movement and easier ${Emojis.fsoa} auto transferring.
 `;
 
 export const supplies = `
