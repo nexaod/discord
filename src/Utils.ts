@@ -259,7 +259,8 @@ export const Emojis = {
     noxBow: '<:noxbow:513190159425208342>',
     dive: '<:dive:1049378668197195808>',
     spiritCape: '<:spiritcape:697405301623619624>',
-    replenishment: '<:enhreplen:634350450887622656>'
+    replenishment: '<:enhreplen:634350450887622656>',
+    iceBlitz: '<:iceblitz:535613865912696883>'
 }
 
 

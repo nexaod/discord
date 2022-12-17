@@ -9,6 +9,7 @@ export const magicRangedEntPresetInfo = `
 ⬥ ${Emojis.eofBlack} ${Emojis.decimation} Decimation
 ⬥ ${Emojis.eofBlue} ${Emojis.sgbEof} Seren Godbow
 ⬥ ${Emojis.eofYellow} ${Emojis.gstaff} Guthix Staff
+⬥ If ${Emojis.hammer}, either take ${Emojis.eof} or physical ${Emojis.hammer}.
 ⬥ Pouches should contain runes for ${Emojis.inciteFear} ${Emojis.exsang} ${Emojis.iceBarrage} ${Emojis.smokecloud} ${Emojis.sbsLunar} ${Emojis.disrupt}
 ⬥ Pillars and Zaros are highly dependant on kill speeds
 ⬥ Phase 1-3 should be executed tick perfectly. If not, you are expected to get yourself back on tick with other ${Emojis.magic} / ${Emojis.ranged} hybrids
