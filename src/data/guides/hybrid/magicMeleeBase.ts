@@ -1,6 +1,6 @@
 import { Emojis } from "../../../Utils";
 
-export const magicMeleeBasePreset = 'https://cdn.discordapp.com/attachments/1027186342620299315/1032558426506657842/chrome_PKQ9wt4MJB.png';
+export const magicMeleeBasePreset = 'https://media.discordapp.net/attachments/1027186342620299315/1053719743808413706/image.png';
 
 export const magicMeleeBasePresetInfo = `
 > Courtesy of **Grico**\n

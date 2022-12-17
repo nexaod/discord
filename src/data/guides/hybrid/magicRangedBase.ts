@@ -1,6 +1,6 @@
 import { Emojis } from "../../../Utils";
 
-export const magicRangedBasePreset = 'https://cdn.discordapp.com/attachments/1027186342620299315/1032162467196960788/chrome_yIBpZyzffj.png';
+export const magicRangedBasePreset = 'https://media.discordapp.net/attachments/1027186342620299315/1053720871098929192/image.png';
 
 export const magicRangedBasePresetInfo = `
 > Courtesy of **Grico**\n
@@ -26,7 +26,7 @@ ${Emojis.greaterFury} ${Emojis.dummy} → ${Emojis.magma} → ${Emojis.detonate}
 __**Phase 2**__\n
 ${Emojis.greaterDeathSwiftness} → ${Emojis.divert} → ${Emojis.shard} → ${Emojis.magma} on ${Emojis.cruor} ${Emojis.detonate} spot → ${Emojis.kalgScroll} + ${Emojis.corruptionBlast} → ${Emojis.iceBarrage} + ${Emojis.wildMagic} → Target ${Emojis.iceamalg} + ${Emojis.nami} → ${Emojis.dbreath} → Target ${Emojis.bloodamalg} + ${Emojis.bolg} ${Emojis.spec} → Target ${Emojis.nex} + ${Emojis.greaterChain}\n
 __**Phase 3**__\n
-${Emojis.deathspore} ${Emojis.ecb} ${Emojis.eofSpec} →  ${Emojis.grico} → ${Emojis.kalgScroll} + ${Emojis.fulArrow} (if 5 ${Emojis.deathspore} stacks) ${Emojis.decimation} ${Emojis.eofSpec} + ${Emojis.adrenRenewal4} → ${Emojis.shadowTendril} → ${Emojis.deathspore} ${Emojis.incend} → ${Emojis.fulArrow} ${Emojis.sgbEof} ${Emojis.eofSpec} → ${Emojis.deathspore} ${Emojis.snap} → ${Emojis.fulArrow} ${Emojis.dbow} ${Emojis.eofSpec} → ${Emojis.deathspore} ${Emojis.grico} → ${Emojis.kalgScroll} + ${Emojis.gconc} → ${Emojis.dbreath}\n
+${Emojis.deathspore} ${Emojis.ecb} ${Emojis.eofSpec} →  ${Emojis.grico} → ${Emojis.kalgScroll} + ${Emojis.fulArrow} (if 5 ${Emojis.deathspore} stacks) ${Emojis.decimation} ${Emojis.eofSpec} → ${Emojis.shadowTendril} → ${Emojis.replenishment} (2 ticks after ${Emojis.shadowTendril}) + ${Emojis.deathspore} ${Emojis.incend} → ${Emojis.fulArrow} ${Emojis.sgbEof} ${Emojis.eofSpec} → ${Emojis.dbow} ${Emojis.eofSpec} → ${Emojis.deathspore} ${Emojis.snap} → ${Emojis.fulArrow} ${Emojis.dbow} ${Emojis.eofSpec} → ${Emojis.deathspore} ${Emojis.grico} → ${Emojis.kalgScroll} + ${Emojis.gconc} → ${Emojis.dbreath}\n
 `,
 `
 __**Pillars**__\n

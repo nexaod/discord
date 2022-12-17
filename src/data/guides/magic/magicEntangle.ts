@@ -1,6 +1,6 @@
 import { Emojis, TextUtils } from "../../../Utils";
 
-export const magicEntPreset = 'https://cdn.discordapp.com/attachments/1027186342620299315/1038132190728421376/chrome_psIh8R7SQi.png';
+export const magicEntPreset = 'https://media.discordapp.net/attachments/1027186342620299315/1053720036419838014/image.png';
 
 export const magicEntPresetInfo = `
 > Courtesy of **Stuman131** and **geherman**\n

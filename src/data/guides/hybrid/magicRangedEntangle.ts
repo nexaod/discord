@@ -1,6 +1,6 @@
 import { Emojis } from "../../../Utils";
 
-export const magicRangedEntPreset = 'https://cdn.discordapp.com/attachments/1027186342620299315/1030430857648939018/chrome_ECXfw1dwgo.png';
+export const magicRangedEntPreset = 'https://media.discordapp.net/attachments/1027186342620299315/1053720732158406667/image.png';
 
 export const magicRangedEntPresetInfo = `
 > Courtesy of **Rocket Cars**, **Stuman131**, **geherman** and **Seispip**\n
@@ -30,12 +30,12 @@ ${Emojis.magma} (at 2.4s) → ${Emojis.ingen} + Stall ${Emojis.hammer} ${Emojis.
 __**Phase 2**__\n
 ${Emojis.greaterDeathSwiftness} → Place ${Emojis.dummy} under ${Emojis.nex} + ${Emojis.corruptionShot} → ${Emojis.shard} → ${Emojis.magma} → Stall ${Emojis.nami} → ${Emojis.smokecloud} + ${Emojis.dbreath} → ${Emojis.bolg} ${Emojis.spec} → ${Emojis.gconc} → ${Emojis.greaterChain} → ${Emojis.impact}\n
 __**Phase 3**__\n
-${Emojis.deathspore} ${Emojis.ecb} ${Emojis.eofSpec} → ${Emojis.grico} → ${Emojis.fulArrow} (if 5 ${Emojis.deathspore} stacks) ${Emojis.decimation} ${Emojis.eofSpec} + ${Emojis.adrenRenewal4} → ${Emojis.ingen} + ${Emojis.shadowTendril} → ${Emojis.incend} → ${Emojis.fulArrow} ${Emojis.sgbEof} ${Emojis.eofSpec} → ${Emojis.deathspore} ${Emojis.snap} → ${Emojis.fulArrow} ${Emojis.dbow} ${Emojis.eofSpec} → ${Emojis.deathspore} ${Emojis.grico} → ${Emojis.fulArrow} ${Emojis.dbow} ${Emojis.eofSpec} → ${Emojis.gconc} → ${Emojis.dbreath}\n
+${Emojis.deathspore} ${Emojis.ecb} ${Emojis.eofSpec} → ${Emojis.grico} → ${Emojis.fulArrow} (if 5 ${Emojis.deathspore} stacks) ${Emojis.decimation} ${Emojis.eofSpec} → ${Emojis.ingen} + ${Emojis.shadowTendril} → ${Emojis.replenishment} (2 ticks after ${Emojis.shadowTendril}) + ${Emojis.incend} → ${Emojis.fulArrow} ${Emojis.sgbEof} ${Emojis.eofSpec} → ${Emojis.dbow} ${Emojis.eofSpec} → ${Emojis.deathspore} ${Emojis.snap} → ${Emojis.fulArrow} ${Emojis.dbow} ${Emojis.eofSpec} → ${Emojis.deathspore} ${Emojis.grico} → ${Emojis.gconc} → ${Emojis.dbreath}\n
 `,
 `
 __**Pillars**__\n
 > Pillars are highly dependant on crit buff from ${Emojis.incend} and thus kill speed, and will likely require improvisation.\n
-**Pillar 1** -  ${Emojis.dbow} ${Emojis.eofSpec} if P3 phases before 2nd ${Emojis.grico} → ${Emojis.grico} → ${Emojis.dbreath} **otherwise** ${Emojis.iceBarrage} ${Emojis.omni} → ${Emojis.gconc} → ${Emojis.gstaff} ${Emojis.eofSpec}\n
+**Pillar 1** -  ${Emojis.dbow} ${Emojis.eofSpec} if P3 phases before 2nd ${Emojis.dbow} → ${Emojis.grico} → ${Emojis.dbreath} **otherwise** ${Emojis.iceBarrage} ${Emojis.omni} → ${Emojis.gconc} → ${Emojis.gstaff} ${Emojis.eofSpec}\n
 **Pillar 2** -  ${Emojis.dbreath} → ${Emojis.iceBarrage} + ${Emojis.fsoa} ${Emojis.spec} → ${Emojis.gconc} → ${Emojis.wildMagic}\n
 **Pillar 3** -  ${Emojis.asphyx} → ${Emojis.gconc} → ${Emojis.wrackAndRuin}\n
 **Pillar 4** -  ${Emojis.meta} + ${Emojis.iceBarrage} + ${Emojis.gconc} → ${Emojis.dbreath} → ${Emojis.nami} / ${Emojis.tuska}\n

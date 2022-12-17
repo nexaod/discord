@@ -1,6 +1,6 @@
 import { Emojis } from "../../../Utils";
 
-export const chinnerPreset = 'https://cdn.discordapp.com/attachments/1027186342620299315/1034800999170330694/chrome_QS5MCfbeNq.png';
+export const chinnerPreset = 'https://media.discordapp.net/attachments/1027186342620299315/1053719494528340028/image.png';
 
 export const chinnerPresetInfo = `
 > Courtesy of **x Neon**, **Ghotic Fish**, **Rocket Cars**, **Germa 66**\n

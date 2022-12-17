@@ -1,6 +1,6 @@
 import { Emojis } from "../../../Utils";
 
-export const rangedEntPreset = 'https://cdn.discordapp.com/attachments/1027186342620299315/1028925331236720750/chrome_EGXX07JORT.png';
+export const rangedEntPreset = 'https://media.discordapp.net/attachments/1027186342620299315/1053719288617390221/image.png';
 
 export const rangedEntPresetInfo = `
 > Courtesy of **x Neon**\n
