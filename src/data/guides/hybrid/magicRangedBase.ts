@@ -1,6 +1,6 @@
 import { Emojis } from "../../../Utils";
 
-export const magicRangedBasePreset = 'https://media.discordapp.net/attachments/1027186342620299315/1053725302917963826/image.png';
+export const magicRangedBasePreset = 'https://media.discordapp.net/attachments/1027186342620299315/1054092039102402631/PRESET_range-2022-12-18-1-4514.png';
 
 export const magicRangedBasePresetInfo = `
 > Courtesy of **Theump** and **Grico**\n
