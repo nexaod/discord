@@ -1,6 +1,6 @@
 import { Emojis } from "../../../Utils";
 
-export const rangedEntPreset = 'https://media.discordapp.net/attachments/1027186342620299315/1053719288617390221/image.png';
+export const rangedEntPreset = 'https://media.discordapp.net/attachments/1027186342620299315/1054084422095351848/PRESET_range-2022-12-18-1-151.png';
 
 export const rangedEntPresetInfo = `
 > Courtesy of **x Neon**\n
@@ -14,7 +14,7 @@ export const rangedEntPresetInfo = `
 
 export const rangedEntRotation = [`
 __**Pre Build**__\n
-> See base for indication ability ${Emojis.gconc} or 3 ticks after ${Emojis.dbreath}. Use ${Emojis.blightMH} ${Emojis.blightOH} for defensives, ${Emojis.bolg} for 4t auto.\n
+> See base for indication ability ${Emojis.gconc} or ${Emojis.dbreath}. Use ${Emojis.blightMH} ${Emojis.blightOH} for defensives, ${Emojis.bolg} for 4t auto.\n
 ${Emojis.nati} → ${Emojis.prep} → ${Emojis.resonance} → ${Emojis.voke} → ${Emojis.meteor} → ${Emojis.grico} → ${Emojis.corruptionShot} → ${Emojis.greaterDeathSwiftness} → ${Emojis.anticipate} → ${Emojis.bolg} ${Emojis.spec} → ${Emojis.freedom} + 4t Auto → ${Emojis.dazing}\n
 __**Phase 1**__\n
 > Release ${Emojis.grico} with ${Emojis.deathspore} then swap to ${Emojis.fulArrow}.\n

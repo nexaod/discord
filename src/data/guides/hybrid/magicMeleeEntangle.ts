@@ -1,6 +1,6 @@
 import { Emojis } from "../../../Utils";
 
-export const magicMeleeEntanglePreset = 'https://media.discordapp.net/attachments/1027186342620299315/1053719885382946856/image.png';
+export const magicMeleeEntanglePreset = 'https://media.discordapp.net/attachments/1027186342620299315/1054084717936390264/PRESET_Magic_Melee_Entangle-2022-12-18-1-1613.png';
 
 export const magicMeleeEntanglePresetInfo = `
 > Courtesy of **Stuman131**\n

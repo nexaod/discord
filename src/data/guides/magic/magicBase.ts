@@ -1,6 +1,6 @@
 import { Emojis } from "../../../Utils";
 
-export const magicBasePreset = 'https://media.discordapp.net/attachments/1027186342620299315/1053720206222053376/image.png';
+export const magicBasePreset = 'https://media.discordapp.net/attachments/1027186342620299315/1054083717515198564/PRESET_range-2022-12-18-1-126.png';
 
 export const magicBasePresetInfo = `
 > Courtesy of **Stuman131** and **12dragon162**\n
