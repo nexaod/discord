@@ -1,5 +1,16 @@
 [
     {
+        "time": "1:10.8",
+        "url": "https://cdn.discordapp.com/attachments/742114134400958589/1054913950615093308/image.png",
+        "base": "Tarikk",
+        "chin": "Saint Blint",
+        "free": "Stuman131",
+        "umbra": "geherman",
+        "glacies": "Theump",
+        "cruor": "x Neon",
+        "fumus": "Gentledan"
+    },
+    {
         "time": "1:11.4",
         "url": "https://www.youtube.com/watch?v=RL4Zq7udmD4",
         "base": "Tarikk",
@@ -21,15 +32,4 @@
         "cruor": "Literate",
         "fumus": "Gentledan"
     },
-    {
-        "time": "1:16.2",
-        "url": "https://www.youtube.com/watch?v=rbkQ0IbNb_k",
-        "base": "Rocket Cars",
-        "chin": "A k s h a y",
-        "free": "Sad Riven",
-        "umbra": "geherman",
-        "glacies": "ggurran",
-        "cruor": "Theump",
-        "fumus": "Gentledan"
-    }
 ]
