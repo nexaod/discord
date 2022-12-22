@@ -2,7 +2,7 @@ import { Client, TextChannel, Message } from "discord.js";
 import { Colours, Channels, createEmbed, purgeChannel } from "./Utils";
 import {
     general, supplies, mainPerks, switches, relics,
-    mageBase, mageEnt, meleeEnt, rangedEnt, chinner
+    mageBase, mageEnt, rangedEnt, chinner
 } from "./data/Gear";
 
 const token = process.env.DISCORD_TOKEN; // add your token here
@@ -50,11 +50,6 @@ const GearObject: any = {
         title: '> __**Magic Entangle**__',
         toc: 'Magic Entangle',
         embed: createEmbed(mageEnt, Colours.blue)
-    },
-    meleeEnt: {
-        title: '> __**Melee Entangle**__',
-        toc: 'Melee Entangle',
-        embed: createEmbed(meleeEnt, Colours.red)
     },
     rangedEnt: {
         title: '> __**Ranged Entangle**__',

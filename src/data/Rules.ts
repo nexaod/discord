@@ -9,7 +9,7 @@ export const generalRules = `
 ⬥ If you leave the Discord server, there is a 1 week grace period to rejoin, otherwise you will be removed.\n
 ⬥ You are only allowed to do roles in FC teams for which you have the tag in discord.\n
 ⬥ Having Adept/Mastery/Extreme variants of standard roles also counts as proof to do a corresponding role.\n
-⬥ Having ${Roles.cdar} is also considered as proof (awarded from obtaining all Ent and Base variants, as well as ${Roles.chinner} and ${Roles.meleeFree}).
+⬥ Having ${Roles.cdar} is also considered as proof (awarded from obtaining all Ent and Base variants, as well as ${Roles.chinner}).
 `
 
 // Behavioural

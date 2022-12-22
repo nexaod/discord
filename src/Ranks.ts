@@ -14,7 +14,6 @@ client.login(token);
 const magicData = require("./data/ranks/magic.json");
 const rangedData = require("./data/ranks/ranged.json");
 const hybridData = require("./data/ranks/hybrid.json");
-const meleeData = require("./data/ranks/melee.json");
 const kcData = require("./data/ranks/killcount.json");
 
 const createDPSArray = (data: any) => {
@@ -64,11 +63,6 @@ const RanksObject: any = {
         title: '> __**Hybrid Ranks**__',
         toc: 'Hybrid',
         embed: createStyleEmbed(hybridData, Colours.aqua, 'https://i.imgur.com/jR9vfjY.png')
-    },
-    melee: {
-        title: '> __**Melee Ranks**__',
-        toc: 'Melee',
-        embed: createStyleEmbed(meleeData, Colours.red, 'https://puu.sh/JnDzI.png')
     },
     killcount: {
         title: '> __**Kill Count Ranks**__',

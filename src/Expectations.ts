@@ -1,7 +1,7 @@
 import { Client, TextChannel, Message } from "discord.js";
 import { Colours, Channels, createEmbed, purgeChannel } from "./Utils";
 import {
-    generalExpectations, magicEnt, meleeEnt, rangedEnt,
+    generalExpectations, magicEnt, rangedEnt,
     hybridMageRangedEnt, chinner, free, base, vulner, other
 } from "./data/Expectations";
 
@@ -25,11 +25,6 @@ const ExpectationsObject: any = {
         title: '> __**Magic Entangle**__',
         toc: 'Magic Entangle',
         embed: createEmbed(magicEnt, Colours.blue)
-    },
-    melee: {
-        title: '> __**Melee Entangle**__',
-        toc: 'Melee Entangle',
-        embed: createEmbed(meleeEnt, Colours.red)
     },
     ranged: {
         title: '> __**Ranged Entangle**__',
