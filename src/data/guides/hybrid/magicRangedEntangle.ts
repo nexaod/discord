@@ -51,6 +51,6 @@ ${Emojis.gconc} → ${Emojis.omni} → ${Emojis.limitless} ${Emojis.smokeTendril
 ];
 
 export const magicRangedEntExampleKills = `
-⬥ 26 Sep 2022 - [1:22.8](https://www.youtube.com/watch?v=uwGqrQeNdr0) geherman (Entangle)\n
-⬥ 19 Aug 2022 - [1:35.4](https://www.youtube.com/watch?v=ODv3TSERqAY) Stuman131 (Free)\n
+⬥ 26 Sep 2022 - [1:22.8](https://www.youtube.com/watch?v=uwGqrQeNdr0) geherman (Entangle)
+⬥ 19 Aug 2022 - [1:35.4](https://www.youtube.com/watch?v=ODv3TSERqAY) Stuman131 (Free)
 `;

@@ -39,6 +39,6 @@ ${Emojis.kalgScroll} + ${Emojis.omni} → ${Emojis.smokeTendril} (4 Hit) → ${E
 ];
 
 export const magicRangedBaseExampleKills = `
-⬥ 26 Dec 2022 - [1:26.4](https://www.youtube.com/watch?v=ynOnKY6ChXw) Theump
+⬥ 26 Dec 2022 - [1:26.4](https://www.youtube.com/watch?v=u0HzFvRq1tI) Theump
 ⬥ 1 Oct 2022 - [1:28.2](https://www.youtube.com/watch?v=x3rcMdyXfYA) Grico
 `;
