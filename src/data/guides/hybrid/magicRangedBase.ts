@@ -24,7 +24,7 @@ ${Emojis.greaterFury} ${Emojis.dummy} → ${Emojis.magma} → ${Emojis.detonate}
 `,
 `
 __**Phase 2**__\n
-${Emojis.greaterDeathSwiftness} → ${Emojis.divert} → ${Emojis.shard} → ${Emojis.magma} on ${Emojis.cruor} ${Emojis.detonate} spot → ${Emojis.kalgScroll} + ${Emojis.corruptionBlast} → ${Emojis.iceBlitz} (Slow auto) + ${Emojis.bolg} ${Emojis.spec} → Target ${Emojis.iceamalg} + ${Emojis.nami} → ${Emojis.dbreath} → Target ${Emojis.bloodamalg} + ${Emojis.gconc} → Target ${Emojis.nex} + ${Emojis.greaterChain}\n
+${Emojis.greaterDeathSwiftness} → ${Emojis.divert} → ${Emojis.shard} → ${Emojis.magma} on ${Emojis.cruor} ${Emojis.detonate} spot → ${Emojis.kalgScroll} + ${Emojis.corruptionBlast} → ${Emojis.rubyAurora} (Slow auto) + ${Emojis.bolg} ${Emojis.spec} → Target ${Emojis.iceamalg} + ${Emojis.nami} → ${Emojis.dbreath} → Target ${Emojis.bloodamalg} + ${Emojis.gconc} → Target ${Emojis.nex} + ${Emojis.greaterChain}\n
 __**Phase 3**__\n
 ${Emojis.deathspore} ${Emojis.ecb} ${Emojis.eofSpec} →  ${Emojis.grico} → ${Emojis.kalgScroll} + ${Emojis.fulArrow} (if 5 ${Emojis.deathspore} stacks) ${Emojis.decimation} ${Emojis.eofSpec} → ${Emojis.shadowTendril} → ${Emojis.replenishment} (2 ticks after ${Emojis.shadowTendril}) + ${Emojis.deathspore} ${Emojis.incend} → ${Emojis.fulArrow} ${Emojis.sgbEof} ${Emojis.eofSpec} → ${Emojis.dbow} ${Emojis.eofSpec} → ${Emojis.deathspore} ${Emojis.snap} → ${Emojis.fulArrow} ${Emojis.dbow} ${Emojis.eofSpec} → ${Emojis.deathspore} ${Emojis.grico} → ${Emojis.kalgScroll} + ${Emojis.gconc} → ${Emojis.dbreath}\n
 `,
