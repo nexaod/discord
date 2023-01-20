@@ -53,5 +53,6 @@ ${Emojis.gconc} → ${Emojis.omni} → ${Emojis.limitless} ${Emojis.smokeTendril
 export const magicRangedEntExampleKills = `
 ⬥ 26 Sep 2022 - [1:22.8](https://www.youtube.com/watch?v=uwGqrQeNdr0) geherman (Umbra)
 ⬥ 20 Jan 2023 - [1:21.6](https://www.youtube.com/watch?v=SxlhCr05T3c) A k s h a y (Cruor)
+⬥ 21 Jan 2023 - [1:19.8](https://www.youtube.com/watch?v=azIT_-i7Bl8) A k s h a y (Fumus)
 ⬥ 19 Aug 2022 - [1:35.4](https://www.youtube.com/watch?v=ODv3TSERqAY) Stuman131 (Free)
 `;
