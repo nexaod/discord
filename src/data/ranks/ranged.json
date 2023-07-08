@@ -10,11 +10,11 @@
             "role": "rangedEntAdept"
         },
         "mastery": {
-            "score": "6800K",
+            "score": "7200K",
             "role": "rangedEntMastery"
         },
         "extreme": {
-            "score": "7400K",
+            "score": "7800K",
             "role": "rangedEntExtreme"
         }
     },
@@ -29,11 +29,11 @@
             "role": ""
         },
         "mastery": {
-            "score": "6800K",
+            "score": "7200K",
             "role": "rangedFreeMastery"
         },
         "extreme": {
-            "score": "7400K",
+            "score": "7800K",
             "role": "rangedFreeExtreme"
         }
     },
@@ -48,11 +48,11 @@
             "role": "chinnerAdept"
         },
         "mastery": {
-            "score": "6400K",
+            "score": "6600K",
             "role": "chinnerMastery"
         },
         "extreme": {
-            "score": "7000K",
+            "score": "7200K",
             "role": "chinnerExtreme"
         }
     }
