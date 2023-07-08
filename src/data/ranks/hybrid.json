@@ -6,15 +6,15 @@
             "role": "mrEnt"
         },
         "adept": {
-            "score": "7500K",
+            "score": "7300K",
             "role": "mrEntAdept"
         },
         "mastery": {
-            "score": "8300K",
+            "score": "8000K",
             "role": "mrEntMastery"
         },
         "extreme": {
-            "score": "9000K",
+            "score": "8500K",
             "role": "mrEntExtreme"
         }
     },
@@ -29,11 +29,11 @@
             "role": ""
         },
         "mastery": {
-            "score": "8300K",
+            "score": "8000K",
             "role": "mrFreeMastery"
         },
         "extreme": {
-            "score": "9000K",
+            "score": "8500K",
             "role": "mrFreeExtreme"
         }
     },
@@ -44,22 +44,22 @@
             "role": "mrHammer"
         },
         "adept": {
-            "score": "7300K",
+            "score": "7100K",
             "role": "mrHammerAdept"
         },
         "mastery": {
-            "score": "8100K",
+            "score": "7800K",
             "role": "mrHammerMastery"
         },
         "extreme": {
-            "score": "8800K",
+            "score": "8300K",
             "role": "mrHammerExtreme"
         }
     },
     "base": {
         "title": "Magic/Ranged Base",
         "entry": {
-            "score": "6000K",
+            "score": "5500K",
             "role": "mrBase"
         },
         "adept": {
@@ -67,11 +67,11 @@
             "role": ""
         },
         "mastery": {
-            "score": "6800K",
+            "score": "6500K",
             "role": "mrBaseMastery"
         },
         "extreme": {
-            "score": "7500K",
+            "score": "7000K",
             "role": "mrBaseExtreme"
         }
     }
