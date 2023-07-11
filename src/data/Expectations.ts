@@ -63,7 +63,6 @@ export const hybridMageRangedEnt = `
 > A **6.5M** minimum damage threshold is expected in 30 minutes through a 2K Challenge Gem.\n
 ⬥ ${Emojis.mani} is the only allowed aura.\n
 ⬥ You must trial as ${Emojis.glacies} unless told otherwise.\n
-⬥ A trial is required to obtain this role, and a pre-requesite of ${Roles.magicEnt} or ${Roles.rangedEnt}.\n
 ⬥ ${Emojis.eof} of the following is required: ${Emojis.sgbEof} ${Emojis.ecb} ${Emojis.decimation} ${Emojis.dbow} ${Emojis.gstaff}\n
 ⬥ An absolute understanding of the fight is expected.\n
 ⬥ You are expected to be on tick until the end of P3.\n
