@@ -23,7 +23,7 @@ ${Emojis.nati} → ${Emojis.resonance} → ${Emojis.freedom} → ${Emojis.prep} 
 __**Phase 1**__\n
 > ${Emojis.iceBarrage} swap can occur at any point after releasing stall depending on team speed, adapt to preserve ${Emojis.inciteFear} stacks. ${Emojis.dbreath} at 2.2M Lifepoints.\n
 ⬥ Free/Entangle:\n
-${Emojis.magma} (at 2.4s) → Stall ${Emojis.omni} → Target Cycle ${Emojis.nex} + ${Emojis.smokecloud} + ${Emojis.asphyx} → ${Emojis.wildMagic} → ${Emojis.iceBarrage} ${Emojis.smokeTendril} → ${Emojis.dbreath}\n
+${Emojis.magma} (at 2.4s) → Stall ${Emojis.omni} → Target Cycle ${Emojis.nex} + ${Emojis.smokecloud} + ${Emojis.gconc} → ${Emojis.wildMagic} → ${Emojis.iceBarrage} ${Emojis.smokeTendril} → ${Emojis.dbreath}\n
 ⬥ Hammer:\n
 ${Emojis.magma} (at 2.4s) → ${Emojis.ingen} + Stall ${Emojis.hammer} ${Emojis.eofSpec} → Target Cycle ${Emojis.nex} + ${Emojis.smokecloud} + ${Emojis.gconc} → ${Emojis.omni} → ${Emojis.iceBarrage} ${Emojis.smokeTendril} → ${Emojis.dbreath}\n
 `,
