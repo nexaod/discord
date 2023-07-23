@@ -6,15 +6,15 @@
             "role": "rangedEnt"
         },
         "adept": {
-            "score": "6200K",
+            "score": "6400K",
             "role": "rangedEntAdept"
         },
         "mastery": {
-            "score": "7200K",
+            "score": "7400K",
             "role": "rangedEntMastery"
         },
         "extreme": {
-            "score": "7800K",
+            "score": "8000K",
             "role": "rangedEntExtreme"
         }
     },
@@ -29,11 +29,11 @@
             "role": ""
         },
         "mastery": {
-            "score": "7200K",
+            "score": "7400K",
             "role": "rangedFreeMastery"
         },
         "extreme": {
-            "score": "7800K",
+            "score": "8000K",
             "role": "rangedFreeExtreme"
         }
     },
