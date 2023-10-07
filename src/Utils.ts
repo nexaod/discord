@@ -261,7 +261,22 @@ export const Emojis = {
     dive: '<:dive:1049378668197195808>',
     spiritCape: '<:spiritcape:697405301623619624>',
     replenishment: '<:enhreplen:634350450887622656>',
-    iceBlitz: '<:iceblitz:535613865912696883>'
+    iceBlitz: '<:iceblitz:535613865912696883>',
+    necroHelm: '<:firstnecrohelm:1142416979957923952>',
+    necroBoots: '<:firstnecroboots:1142416974777962527>',
+    necroGloves: '<:firstnecrohandwrap:1142416978112417812>',
+    necroBody: '<:firstnecrorobetop:1142416986190655549>',
+    necroLegs: '<:firstnecrorobebottom:1142416983284011018>',
+    omniGuard: '<:omniguard:1138809234922934282>',
+    soulboundLantern: '<:soulboundlantern:1138809230573441064>',
+    deathGuard: '<:deathguard70:1138809262194294864>',
+    kalMor: '<:igneouskalmor:1139200072438005851>',
+    mahj: '<:mahj:643148943856762890>',
+    splitSoul: '<:splitsoul:1137809168368148490>',
+    threadsofFate: '<:threadsoffate:1137809172335951933>',
+    ruination: '<:ruination:1137940996391452772>',
+    lifeTransfer: '<:lifetransfer:1137809128136388819>'
+
 }
 
 

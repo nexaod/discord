@@ -289,3 +289,33 @@ Any of the following:\n
 ⬥ ${Emojis.fulArrow} ${Emojis.deathspore} if using a Bow
 ⬥ ${Emojis.ingen} Ingenuity of the Humans
 `;
+
+export const necromancy = `
+> __**Helm/Chestplate/Legs**__\n
+⬥ All pieces of the First Necromancer gear ${Emojis.necroHelm} ${Emojis.necroBody} ${Emojis.necroLegs} ${Emojis.necroGloves} ${Emojis.necroBoots}\n
+> __**Weapons**__\n
+⬥ ${Emojis.omniGuard} ${Emojis.soulboundLantern} Omni guard + Soulbound lantern\n
+> __**Necklace**__\n
+**ALL** of the following necklaces:\n
+⬥ ${Emojis.deathGuard} ${Emojis.eof} Death guard\n
+> __**Rings**__\n
+It is expected you have ${Emojis.vigour} passive\n
+⬥ ${Emojis.reaversRing} Reaver's Ring\n
+> __**Pocket**__\n
+⬥ ${Emojis.grim} Erethdor's Grimoire\n
+> __**Aura**__\n
+⬥ ${Emojis.mahj} Mahjarrat\n
+> __**Cape**__\n
+Any of the following:\n
+⬥ ${Emojis.kalMor} Igneous Kal-Mor
+⬥ ${Emojis.kalZuk} Igneous Kal-Zuk\n
+> __**Incantations**__\n
+⬥ ${Emojis.splitSoul} Split Soul
+⬥ ${Emojis.threadsofFate} Threads of Fate
+⬥ ${Emojis.lifeTransfer} Life Transfer\n
+> __**Other**__\n
+⬥ At least level 110 in Necromancy
+⬥ ${Emojis.ruination} T99 Necromancy Prayer
+⬥ ${Emojis.ingen} Ingenuity of the Humans if Base/Hammer
+⬥ ${Emojis.hammer} ${Emojis.eof} or ${Emojis.hammer} if Base/Hammer
+`;

@@ -2,7 +2,7 @@ import { Client, TextChannel, Message } from "discord.js";
 import { Colours, Channels, createEmbed, purgeChannel } from "./Utils";
 import {
     general, supplies, mainPerks, switches, relics,
-    mageBase, mageEnt, rangedEnt, chinner
+    mageBase, mageEnt, rangedEnt, chinner, necromancy
 } from "./data/Gear";
 
 const token = process.env.DISCORD_TOKEN; // add your token here
@@ -60,6 +60,11 @@ const GearObject: any = {
         title: '> __**Chinner**__',
         toc: 'Chinner',
         embed: createEmbed(chinner, Colours.green)
+    },
+    necromancy: {
+        title: '> __**Necromancy Roles**__',
+        toc: 'Necromancy',
+        embed: createEmbed(necromancy, Colours.lightpurple)
     }
 };
 
