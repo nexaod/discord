@@ -1,0 +1,78 @@
+{
+    "ent": {
+        "title": "Necromancy Entangle",
+        "entry": {
+            "score": "7200K",
+            "role": "necroEnt"
+        },
+        "adept": {
+            "score": "8200K",
+            "role": "necroEntAdept"
+        },
+        "mastery": {
+            "score": "8700K",
+            "role": "necroEntMastery"
+        },
+        "extreme": {
+            "score": "9200K",
+            "role": "necroEntExtreme"
+        }
+    },
+    "free": {
+        "title": "Free Necromancy",
+        "entry": {
+            "score": "",
+            "role": ""
+        },
+        "adept": {
+            "score": "",
+            "role": ""
+        },
+        "mastery": {
+            "score": "8700k",
+            "role": "necroFreeMastery"
+        },
+        "extreme": {
+            "score": "9200K",
+            "role": "necroFreeExtreme"
+        }
+    },
+    "hammer": {
+        "title": "Necromancy Hammer",
+        "entry": {
+            "score": "7200K",
+            "role": "necroHammer"
+        },
+        "adept": {
+            "score": "8000K",
+            "role": "necroHammerAdept"
+        },
+        "mastery": {
+            "score": "8500K",
+            "role": "necroHammerMastery"
+        },
+        "extreme": {
+            "score": "9000K",
+            "role": "necroHammerExtreme"
+        }
+    },
+    "base": {
+        "title": "Necromancy Base",
+        "entry": {
+            "score": "7400K",
+            "role": "necroBase"
+        },
+        "adept": {
+            "score": "8400K",
+            "role": "necroBaseAdept"
+        },
+        "mastery": {
+            "score": "9000K",
+            "role": "necroBaseMastery"
+        },
+        "extreme": {
+            "score": "9600K",
+            "role": "necroBaseExtreme"
+        }
+    }
+}
