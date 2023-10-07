@@ -291,7 +291,7 @@ Any of the following:\n
 `;
 
 export const necromancy = `
-> __**Helm/Chestplate/Legs**__\n
+> __**Armour**__\n
 ⬥ All pieces of the First Necromancer gear ${Emojis.necroHelm} ${Emojis.necroBody} ${Emojis.necroLegs} ${Emojis.necroGloves} ${Emojis.necroBoots}\n
 > __**Weapons**__\n
 ⬥ ${Emojis.omniGuard} ${Emojis.soulboundLantern} Omni guard + Soulbound lantern\n
