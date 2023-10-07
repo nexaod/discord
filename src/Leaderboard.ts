@@ -12,6 +12,7 @@ const client = new Client({
 
 client.login(token);
 
+const meleeData = require("./data/leaderboards/melee.json");
 const rangedData = require("./data/leaderboards/ranged.json");
 const magicData = require("./data/leaderboards/magic.json");
 const hybridData = require("./data/leaderboards/hybrid.json");
@@ -95,10 +96,12 @@ const createStyleEmbed = (data: any, title: string, colour: number, thumbnail: s
 
 const embedsToSend: any = [];
 
+const meleeEmbed = createStyleEmbed(meleeData, 'Melee', Colours.red, 'https://runescape.wiki/images/Ek-ZekKil.png')
 const rangedEmbed = createStyleEmbed(rangedData, 'Ranged', Colours.green, 'https://i.imgur.com/wvyFUc8.png')
 const magicEmbed = createStyleEmbed(magicData, 'Magic', Colours.blue, 'https://i.imgur.com/pxUotNE.png')
 const hybridEmbed = createStyleEmbed(hybridData, 'Mage/Ranged', Colours.aqua, 'https://i.imgur.com/jR9vfjY.png')
 
+if (createLeaderboardArray(meleeData).length) embedsToSend.push(meleeEmbed);
 if (createLeaderboardArray(rangedData).length) embedsToSend.push(rangedEmbed);
 if (createLeaderboardArray(magicData).length) embedsToSend.push(magicEmbed);
 if (createLeaderboardArray(hybridData).length) embedsToSend.push(hybridEmbed);
