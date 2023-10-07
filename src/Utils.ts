@@ -20,6 +20,7 @@ export const Colours = {
     lightblue: 302332,
     darkgrey: 333333,
     purple: 11607689,
+    lightpurple: 10181046,
 }
 
 export const Emojis = {
@@ -398,6 +399,21 @@ const DevRoles: any = {
     angelSlayer: '<@&1026519507621130310>',
     member: '<@&1026696194224824351>',
     vulner: '<@&1053715273947037769>',
+    necroEnt: '<@&1152047655334191115>',
+    necroHammer: '<@&1152048088723243058>',
+    necroFree: '<@&1152047889384747039>',
+    necroBase: '<@&1152048226363519156>',
+    necroEntAdept: '<@&1153057523969052792>',
+    necroHammerAdept: '<@&1153057632878329867>',
+    necroBaseAdept: '<@&1153057715657134121>',
+    necroEntMastery: '<@&1153057919668064399>',
+    necroHammerMastery: '<@&1153057985480904736>',
+    necroFreeMastery: '<@&1153057855138693220>',
+    necroBaseMastery: '<@&1153058051973193889>',
+    necroEntExtreme: '<@&1153058592698671174>',
+    necroHammerExtreme: '<@&1153058729256829028>',
+    necroFreeExtreme: '<@&1153058629012951060>',
+    necroBaseExtreme: '<@&1153058785556971521>',
 }
 
 const ProdRoles: any = {
@@ -469,7 +485,22 @@ const ProdRoles: any = {
     aodFanatic: '<@&818499016576073748>',
     angelSlayer: '<@&818498816923009035>',
     member: '<@&742114133201387565>',
-    vulner: '<@&1052693087337578637>'
+    vulner: '<@&1052693087337578637>',
+    necroEnt: '<@&1152047655334191115>',
+    necroHammer: '<@&1152048088723243058>',
+    necroFree: '<@&1152047889384747039>',
+    necroBase: '<@&1152048226363519156>',
+    necroEntAdept: '<@&1153057523969052792>',
+    necroHammerAdept: '<@&1153057632878329867>',
+    necroBaseAdept: '<@&1153057715657134121>',
+    necroEntMastery: '<@&1153057919668064399>',
+    necroHammerMastery: '<@&1153057985480904736>',
+    necroFreeMastery: '<@&1153057855138693220>',
+    necroBaseMastery: '<@&1153058051973193889>',
+    necroEntExtreme: '<@&1153058592698671174>',
+    necroHammerExtreme: '<@&1153058729256829028>',
+    necroFreeExtreme: '<@&1153058629012951060>',
+    necroBaseExtreme: '<@&1153058785556971521>',
 }
 
 export const Roles = environment === 'PRODUCTION' ? ProdRoles : DevRoles;

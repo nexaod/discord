@@ -68,7 +68,7 @@ const RanksObject: any = {
     necro: {
         title: '> __**Necromancy Ranks**__',
         toc: 'Necromancy',
-        embed: createStyleEmbed(hybridData, Colours.purple, 'https://runescape.wiki/images/Omni_guard.png?c184b&20230809200249')
+        embed: createStyleEmbed(necroData, Colours.lightpurple, 'https://runescape.wiki/images/Omni_guard.png?c184b&20230809200249')
     },
     killcount: {
         title: '> __**Kill Count Ranks**__',
