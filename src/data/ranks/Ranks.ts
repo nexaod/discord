@@ -7,7 +7,8 @@ The ranking system in Nex AoD FC is based on merit acquired through achieving ce
 
 // DPS Ranks
 export const dpsInfo = `
-⬥ All DPS Role submissions require a **FULL** 7/7 FC Team on roles they have earned.\n
+⬥ All DPS Role submissions require 5+/7 FC Team on roles they have earned.\n
+⬥ For any member that is not trialled, they must join the challenge gem and hit the entry requirement for their role.\n
 ⬥ 2 Challenge Gem screenshots are required to apply for Adept/Mastery/Extreme roles.\n
 ⬥ Screenshots must demonstrate achieving the required DPS threshold.\n
 ⬥ Solo base gems require 2 additional vouches (indicating correct handling of mechanics).\n
