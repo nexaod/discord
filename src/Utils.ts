@@ -137,7 +137,7 @@ export const Emojis = {
     praesWand: '<:praeswand:643166769518739477>',
     impCore: '<:impercore:643166751067996160>',
     dtb: '<:DTB:513190159429271562>',
-    kalMej: '<:igneouskalmej:902209626408382494>',
+    kalMej: '<:igneouskalmej:1153772938252787793>',
     kalKet: '<:igneouskalket:902209626404192316>',
     kalZuk: '<:igneouskalzuk:902209626479685734>',
     kalXil: '<:igneouskalxil:902209626404171786>',

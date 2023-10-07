@@ -296,7 +296,6 @@ export const necromancy = `
 > __**Weapons**__\n
 ⬥ ${Emojis.omniGuard} ${Emojis.soulboundLantern} Omni guard + Soulbound lantern\n
 > __**Necklace**__\n
-**ALL** of the following necklaces:\n
 ⬥ ${Emojis.deathGuard} ${Emojis.eof} Death guard\n
 > __**Rings**__\n
 It is expected you have ${Emojis.vigour} passive\n
