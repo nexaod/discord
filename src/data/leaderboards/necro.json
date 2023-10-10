@@ -1,0 +1,82 @@
+{
+    "ent": {
+        "title": "Necromancy Ent",
+        "scores": [
+            {
+                "name": "",
+                "score": "",
+                "url": ""
+            },
+            {
+                "name": "",
+                "score": "",
+                "url": ""
+            },
+            {
+                "name": "",
+                "score": "",
+                "url": ""
+            }
+        ]
+    },
+    "free": {
+        "title": "Necromancy Free",
+        "scores": [
+            {
+                "name": "",
+                "score": "",
+                "url": ""
+            },
+            {
+                "name": "",
+                "score": "",
+                "url": ""
+            },
+            {
+                "name": "",
+                "score": "",
+                "url": ""
+            }
+        ]
+    },
+    "hammer": {
+        "title": "Necromancy Hammer",
+        "scores": [
+            {
+                "name": "",
+                "score": "",
+                "url": ""
+            },
+            {
+                "name": "",
+                "score": "",
+                "url": ""
+            },
+            {
+                "name": "",
+                "score": "",
+                "url": ""
+            }
+        ]
+    },
+    "base": {
+        "title": "Necromancy Base",
+        "scores": [
+            {
+                "name": "Miss Kay Z",
+                "score": "9656k",
+                "url": "https://cdn.discordapp.com/attachments/742114134400958589/1161033354859266159/image.png"
+            },
+            {
+                "name": "",
+                "score": "",
+                "url": ""
+            },
+            {
+                "name": "",
+                "score": "",
+                "url": ""
+            }
+        ]
+    }
+}

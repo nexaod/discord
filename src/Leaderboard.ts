@@ -16,6 +16,7 @@ const meleeData = require("./data/leaderboards/melee.json");
 const rangedData = require("./data/leaderboards/ranged.json");
 const magicData = require("./data/leaderboards/magic.json");
 const hybridData = require("./data/leaderboards/hybrid.json");
+const necroData = require("./data/leaderboards/necro.json");
 const killTimeData = require("./data/leaderboards/killtime.json");
 
 const createLeaderboardArray = (data: any) => {
@@ -100,11 +101,13 @@ const meleeEmbed = createStyleEmbed(meleeData, 'Melee', Colours.red, 'https://ru
 const rangedEmbed = createStyleEmbed(rangedData, 'Ranged', Colours.green, 'https://i.imgur.com/wvyFUc8.png')
 const magicEmbed = createStyleEmbed(magicData, 'Magic', Colours.blue, 'https://i.imgur.com/pxUotNE.png')
 const hybridEmbed = createStyleEmbed(hybridData, 'Mage/Ranged', Colours.aqua, 'https://i.imgur.com/jR9vfjY.png')
+const necroEmbed = createStyleEmbed(necroData, 'Necromancy', Colours.lightpurple, 'https://runescape.wiki/images/Omni_guard.png?c184b&20230809200249')
 
 if (createLeaderboardArray(meleeData).length) embedsToSend.push(meleeEmbed);
 if (createLeaderboardArray(rangedData).length) embedsToSend.push(rangedEmbed);
 if (createLeaderboardArray(magicData).length) embedsToSend.push(magicEmbed);
 if (createLeaderboardArray(hybridData).length) embedsToSend.push(hybridEmbed);
+if (createLeaderboardArray(necroData).length) embedsToSend.push(necroEmbed);
 embedsToSend.push(createKillTimeEmbed(killTimeData))
 
 const startingEmbed = {
