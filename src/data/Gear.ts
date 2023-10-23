@@ -18,7 +18,6 @@ export const supplies = `
 ${TextUtils.noSpaceSubPoint} ${Emojis.guthixRest} ${Emojis.saraBrew} ${Emojis.superSaraBrew}
 ${TextUtils.noSpaceSubPoint} ${Emojis.blubber}
 ${TextUtils.noSpaceSubPoint} Solids: ${Emojis.sailfish} ${Emojis.sailfishSoup} ${Emojis.rocktailSoup}
-⬥ Non bases are limited to 1 ${Emojis.saraBrew} and 1 solid.
 ⬥ Solid food is generally not needed for anyone but the base.\n
 > __**Potions**__\n
 Bring one of each of the following:\n
