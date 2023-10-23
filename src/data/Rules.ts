@@ -98,7 +98,7 @@ export const gems = `
 ⬥ Mechanics should still be performed to FC standards during a Challenge Gem (i.e. players should not leave earlier than normal for pillars).\n
 ⬥ If a ${Roles.magicBase} is using ${Emojis.cryptHelm} ${Emojis.cryptBody} ${Emojis.cryptLegs} ${Emojis.cryptGloves}, team member gems are invalidated and only the base gem counts.\n
 ⬥ A codeword is needed to validate the current meta and should be in the chatbox of a screenshot.\n
-> The current codeword for gem screenshots (not applications) is \`necro\`.
+> The current codeword for gem screenshots (not applications) is \`conjure\`.
 `
 
 // Administration Team
