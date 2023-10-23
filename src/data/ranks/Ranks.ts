@@ -16,9 +16,9 @@ export const dpsInfo = `
 ⬥ If a gem score is met with negative feedback ${Roles.organiser}+ reserve the right to disregard the submission.\n
 ⬥ Screenshots are to be submitted in <#${Channels.applyForRank}> with the following conditions:
 ${TextUtils.subpoint} The screenshot must display your whole RuneScape **Client interface**.
-${TextUtils.subpoint} The screenshot must display your **equipment tab**.
 ${TextUtils.subpoint} The screenshot must contain the **challenge gem scoreboard**.
-${TextUtils.subpoint} The screenshot must contain the current codeword: \`necro\`.
+${TextUtils.subpoint} The screenshot must contain your **summoning interface**.
+${TextUtils.subpoint} The screenshot must contain the current codeword: \`conjure\`.
 ${TextUtils.subpoint} At least **two** other team members must be in the Challenge Gem.\n
 ⬥ ${Roles.extreme} and ${Roles.mastery} roles will be given when any corresponding variant is achieved.\n
 ⬥ The following requirements exclude the need of ${Roles.magicEnt}:
