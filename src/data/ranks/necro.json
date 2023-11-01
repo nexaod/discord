@@ -10,7 +10,7 @@
             "role": "necroEntAdept"
         },
         "mastery": {
-            "score": "8700K",
+            "score": "8800K",
             "role": "necroEntMastery"
         },
         "extreme": {
@@ -29,7 +29,7 @@
             "role": ""
         },
         "mastery": {
-            "score": "8700K",
+            "score": "8800K",
             "role": "necroFreeMastery"
         },
         "extreme": {
@@ -48,18 +48,18 @@
             "role": "necroHammerAdept"
         },
         "mastery": {
-            "score": "8300K",
+            "score": "8400K",
             "role": "necroHammerMastery"
         },
         "extreme": {
-            "score": "9000K",
+            "score": "9100K",
             "role": "necroHammerExtreme"
         }
     },
     "base": {
         "title": "Necromancy Base",
         "entry": {
-            "score": "7400K",
+            "score": "7800K",
             "role": "necroBase"
         },
         "adept": {
@@ -71,7 +71,7 @@
             "role": "necroBaseMastery"
         },
         "extreme": {
-            "score": "9600K",
+            "score": "9800K",
             "role": "necroBaseExtreme"
         }
     }
