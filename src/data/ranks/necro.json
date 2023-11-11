@@ -44,7 +44,7 @@
             "role": "necroHammer"
         },
         "adept": {
-            "score": "8000K",
+            "score": "7800K",
             "role": "necroHammerAdept"
         },
         "mastery": {
@@ -52,7 +52,7 @@
             "role": "necroHammerMastery"
         },
         "extreme": {
-            "score": "9100K",
+            "score": "9000K",
             "role": "necroHammerExtreme"
         }
     },
