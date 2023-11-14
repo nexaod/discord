@@ -61,16 +61,16 @@
     },
     "base": {
         "title": "Necromancy Base",
-        "scores": [
+        "scores": [            
+            {
+                "name": "Jedy",
+                "score": "10571k",
+                "url": "https://cdn.discordapp.com/attachments/742114134400958589/1174010460782202951/824f0bfce761b80755861213011220a7.png"
+            },
             {
                 "name": "SmexyLonely",
                 "score": "10255k",
                 "url": "https://cdn.discordapp.com/attachments/742114134400958589/1170131359747035146/image.png"
-            },
-            {
-                "name": "Jedy",
-                "score": "10235k",
-                "url": "https://cdn.discordapp.com/attachments/742114134400958589/1171104235451064320/dfb74154fb3819371971cd5da3a6fb00.png"
             },
             {
                 "name": "",
