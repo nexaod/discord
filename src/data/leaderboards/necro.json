@@ -1,7 +1,12 @@
 {
     "ent": {
         "title": "Necromancy Ent",
-        "scores": [
+        "scores": [            
+            {
+                "name": "Axy",
+                "score": "9851k",
+                "url": "https://media.discordapp.net/attachments/742114134400958589/1176266509950132375/9851-NecroNerf-Cruor.png"
+            },
             {
                 "name": "Stuman131",
                 "score": "9746k",
@@ -11,11 +16,6 @@
                 "name": "Lost my acc",
                 "score": "9725k",
                 "url": "https://media.discordapp.net/attachments/742114134400958589/1175042747640578139/image.png"
-            },
-            {
-                "name": "Axy",
-                "score": "9598k",
-                "url": "https://cdn.discordapp.com/attachments/742114134400958589/1170012998149083227/9599-NecroNerf-Cruor.png"
             }
         ]
     },
@@ -24,8 +24,8 @@
         "scores": [
             {
                 "name": "Axy",
-                "score": "9589k",
-                "url": "https://media.discordapp.net/attachments/742114134400958589/1170390765189484544/9589-NecroNerf-Free.png"
+                "score": "9728k",
+                "url": "https://media.discordapp.net/attachments/742114134400958589/1175794213925953627/9728-NecroNerf-Free.png"
             },
             {
                 "name": "Lost my acc",
