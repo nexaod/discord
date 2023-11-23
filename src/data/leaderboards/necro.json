@@ -21,7 +21,12 @@
     },
     "free": {
         "title": "Necromancy Free",
-        "scores": [
+        "scores": [            
+            {
+                "name": "Dave J",
+                "score": "9839k",
+                "url": "https://cdn.discordapp.com/attachments/742114134400958589/1177235179895533638/image.png"
+            },
             {
                 "name": "Axy",
                 "score": "9728k",
@@ -31,11 +36,6 @@
                 "name": "Lost my acc",
                 "score": "9418k",
                 "url": "https://cdn.discordapp.com/attachments/742114134400958589/1171104045096771614/image.png"
-            },
-            {
-                "name": "",
-                "score": "",
-                "url": ""
             }
         ]
     },
