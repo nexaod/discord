@@ -18,7 +18,7 @@ export const dpsInfo = `
 ${TextUtils.subpoint} The screenshot must display your whole RuneScape **Client interface**.
 ${TextUtils.subpoint} The screenshot must contain the **challenge gem scoreboard**.
 ${TextUtils.subpoint} The screenshot must contain your **summoning interface**.
-${TextUtils.subpoint} The screenshot must contain the current codeword: \`conjure\`.
+${TextUtils.subpoint} The screenshot must contain the current codeword: \`ghost\`.
 ${TextUtils.subpoint} At least **two** other team members must be in the Challenge Gem.\n
 ⬥ ${Roles.extreme} and ${Roles.mastery} roles will be given when any corresponding variant is achieved.\n
 ⬥ The following requirements exclude the need of ${Roles.magicEnt}:
