@@ -1,5 +1,15 @@
-[
-    
+[    
+    {
+        "time": "1:18.0",
+        "url": "https://media.discordapp.net/attachments/742114134400958589/1182354084993445948/image.png",
+        "base": "Jedy",
+        "chin": "on flower",
+        "free": "Sassiy",
+        "umbra": "Ghotic Fish",
+        "glacies": "maf",
+        "cruor": "Gerard",
+        "fumus": "Axy"
+    },
     {
         "time": "1.18.6",
         "url": "https://media.discordapp.net/attachments/742114134400958589/1181639281073213541/5c50584aeec57870fcd09122aa8c115e.png",
@@ -21,16 +31,5 @@
         "glacies": "Ghotic Fish",
         "cruor": "Way too ashy",
         "fumus": "seane"
-    },
-    {
-        "time": "1:19.8",
-        "url": "https://cdn.discordapp.com/attachments/742114134400958589/1172995040403001394/image.png",
-        "base": "Jedy",
-        "chin": "on flower",
-        "free": "Lost my acc",
-        "umbra": "seane",
-        "glacies": "Way too ashy",
-        "cruor": "pettyseth",
-        "fumus": "Dave J"
     }
 ]
