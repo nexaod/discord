@@ -41,22 +41,21 @@
     },
     "hammer": {
         "title": "Necromancy Hammer",
-        "scores": [
+        "scores": [            
+            {
+                "name": "Jedy",
+                "score": "9372k",
+                "url": "https://media.discordapp.net/attachments/742114134400958589/1199004591778439228/aeb6d1d2f293b978a7a35f425933fd8f.png"
+            },
             {
                 "name": "Axy",
                 "score": "9365k",
                 "url": "https://media.discordapp.net/attachments/742114134400958589/1175103503736250478/9366-NecroNerf-Hammer.png"
-            },
-            
+            },            
             {
                 "name": "DiamondFang",
                 "score": "9163k",
                 "url": "https://media.discordapp.net/attachments/742114134400958589/1198281050875510854/image.png"
-            },
-            {
-                "name": "petty seth",
-                "score": "9046k",
-                "url": "https://media.discordapp.net/attachments/742114134400958589/1193333575643316305/Screenshot_2024-01-06_231043.png"
             }
         ]
     },
@@ -66,8 +65,8 @@
             
             {
                 "name": "Axy",
-                "score": "11230k",
-                "url": "https://cdn.discordapp.com/attachments/742114134400958589/1198280783929032724/11231-NecroNerf-Base.png"
+                "score": "11386k",
+                "url": "https://media.discordapp.net/attachments/742114134400958589/1199825306748473364/11386-NecroNerf-Base.png"
             },
             {
                 "name": "Jedy",
