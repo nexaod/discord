@@ -1,4 +1,15 @@
-[    
+[        
+    {
+        "time": "1.17.4",
+        "url": "https://media.discordapp.net/attachments/742114134400958589/1206350451155664896/image.png",
+        "base": "Miss Kay Z",
+        "chin": "DiamondFang",
+        "free": "Astro Waves1",
+        "umbra": "Camps",
+        "glacies": "Exasperation",
+        "cruor": "petty seth",
+        "fumus": "Ghotic Fish"
+    },
     {
         "time": "1:18.0",
         "url": "https://media.discordapp.net/attachments/742114134400958589/1182354084993445948/image.png",
@@ -20,16 +31,5 @@
         "glacies": "maf",
         "cruor": "Stuman131",
         "fumus": "Dave J"
-    },
-    {
-        "time": "1.19.2",
-        "url": "https://media.discordapp.net/attachments/742114134400958589/1179527584028045322/image.png",
-        "base": "84711",
-        "chin": "on flower",
-        "free": "Axy",
-        "umbra": "Jedy",
-        "glacies": "Ghotic Fish",
-        "cruor": "Way too ashy",
-        "fumus": "seane"
     }
 ]
