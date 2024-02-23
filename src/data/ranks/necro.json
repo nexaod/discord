@@ -59,19 +59,19 @@
     "base": {
         "title": "Necromancy Base",
         "entry": {
-            "score": "8200k",
+            "score": "8700k",
             "role": "necroBase"
         },
         "adept": {
-            "score": "8800k",
+            "score": "9100k",
             "role": "necroBaseAdept"
         },
         "mastery": {
-            "score": "9600k",
+            "score": "9900k",
             "role": "necroBaseMastery"
         },
         "extreme": {
-            "score": "10000k",
+            "score": "10300k",
             "role": "necroBaseExtreme"
         }
     }
