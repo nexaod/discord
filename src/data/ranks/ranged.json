@@ -2,19 +2,19 @@
     "ent": {
         "title": "Ranged Entangle",
         "entry": {
-            "score": "5400K",
+            "score": "9000k",
             "role": "rangedEnt"
         },
         "adept": {
-            "score": "6400K",
+            "score": "9600k",
             "role": "rangedEntAdept"
         },
         "mastery": {
-            "score": "7400K",
+            "score": "10200k",
             "role": "rangedEntMastery"
         },
         "extreme": {
-            "score": "8000K",
+            "score": "10800k",
             "role": "rangedEntExtreme"
         }
     },
@@ -29,30 +29,30 @@
             "role": ""
         },
         "mastery": {
-            "score": "7400K",
+            "score": "10200k",
             "role": "rangedFreeMastery"
         },
         "extreme": {
-            "score": "8000K",
+            "score": "10800k",
             "role": "rangedFreeExtreme"
         }
     },
     "chinner": {
         "title": "Chinner",
         "entry": {
-            "score": "5100K",
+            "score": "8200k",
             "role": "chinner"
         },
         "adept": {
-            "score": "5700K",
+            "score": "8800k",
             "role": "chinnerAdept"
         },
         "mastery": {
-            "score": "6600K",
+            "score": "9400k",
             "role": "chinnerMastery"
         },
         "extreme": {
-            "score": "7200K",
+            "score": "10000k",
             "role": "chinnerExtreme"
         }
     }
