@@ -3,19 +3,19 @@
         "title": "Necromancy Ent",
         "scores": [            
             {
-                "name": "Jedy",
-                "score": "10006k",
-                "url": "https://media.discordapp.net/attachments/742114134400958589/1197541760059056328/af61663daaedc20e4eb158696324aca3.png"
+                "name": "",
+                "score": "",
+                "url": ""
             },
             {
-                "name": "Axy",
-                "score": "9954k",
-                "url": "https://media.discordapp.net/attachments/742114134400958589/1182330486253703250/9954-NecroNerf-Fumus.png"
+                "name": "",
+                "score": "",
+                "url": ""
             },
             {
-                "name": "Astro Waves1",
-                "score": "9925k",
-                "url": "https://media.discordapp.net/attachments/742114134400958589/1200837916939792474/Necro_Ent_LB3_27-Jan-24.png"
+                "name": "",
+                "score": "",
+                "url": ""
             }
         ]
     },
@@ -23,19 +23,19 @@
         "title": "Necromancy Free",
         "scores": [            
             {
-                "name": "Axy",
-                "score": "10060k",
-                "url": "https://cdn.discordapp.com/attachments/742114134400958589/1181997751563722823/10060-NecroNerf-Free.png"
+                "name": "",
+                "score": "",
+                "url": ""
             },
             {
-                "name": "Dave J",
-                "score": "9912k",
-                "url": "https://media.discordapp.net/attachments/742114134400958589/1177929425464074320/image.png"
+                "name": "",
+                "score": "",
+                "url": ""
             },
             {
-                "name": "Sassiy",
-                "score": "9730k",
-                "url": "https://media.discordapp.net/attachments/742114134400958589/1197914616999706654/image.png"
+                "name": "",
+                "score": "",
+                "url": ""
             }
         ]
     },
@@ -43,40 +43,39 @@
         "title": "Necromancy Hammer",
         "scores": [            
             {
-                "name": "Jedy",
-                "score": "9372k",
-                "url": "https://media.discordapp.net/attachments/742114134400958589/1199004591778439228/aeb6d1d2f293b978a7a35f425933fd8f.png"
+                "name": "",
+                "score": "",
+                "url": ""
             },
             {
-                "name": "Axy",
-                "score": "9365k",
-                "url": "https://media.discordapp.net/attachments/742114134400958589/1175103503736250478/9366-NecroNerf-Hammer.png"
-            },            
+                "name": "",
+                "score": "",
+                "url": ""
+            },
             {
-                "name": "DiamondFang",
-                "score": "9163k",
-                "url": "https://media.discordapp.net/attachments/742114134400958589/1198281050875510854/image.png"
+                "name": "",
+                "score": "",
+                "url": ""
             }
         ]
     },
     "base": {
         "title": "Necromancy Base",
         "scores": [
-            
             {
-                "name": "Axy",
-                "score": "11386k",
-                "url": "https://media.discordapp.net/attachments/742114134400958589/1199825306748473364/11386-NecroNerf-Base.png"
+                "name": "",
+                "score": "",
+                "url": ""
             },
             {
-                "name": "Jedy",
-                "score": "10896k",
-                "url": "https://media.discordapp.net/attachments/742114134400958589/1200557081929973963/56d374524d723ac8eb822fac3368892d.png"
+                "name": "",
+                "score": "",
+                "url": ""
             },
             {
-                "name": "agl",
-                "score": "10720k",
-                "url": "https://cdn.discordapp.com/attachments/742114134400958589/1211109594626261113/Screenshot_2024-02-25_002308.png"
+                "name": "",
+                "score": "",
+                "url": ""
             }
         ]
     }
