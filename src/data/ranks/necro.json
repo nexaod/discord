@@ -6,7 +6,7 @@
             "role": "necroEnt"
         },
         "adept": {
-            "score": "8200k",
+            "score": "8400k",
             "role": "necroEntAdept"
         },
         "mastery": {
@@ -14,7 +14,7 @@
             "role": "necroEntMastery"
         },
         "extreme": {
-            "score": "9600k",
+            "score": "9300k",
             "role": "necroEntExtreme"
         }
     },
@@ -33,7 +33,7 @@
             "role": "necroFreeMastery"
         },
         "extreme": {
-            "score": "9600k",
+            "score": "9300k",
             "role": "necroFreeExtreme"
         }
     },
@@ -48,11 +48,11 @@
             "role": "necroHammerAdept"
         },
         "mastery": {
-            "score": "8600k",
+            "score": "8500k",
             "role": "necroHammerMastery"
         },
         "extreme": {
-            "score": "9000K",
+            "score": "8700k",
             "role": "necroHammerExtreme"
         }
     },
@@ -63,7 +63,7 @@
             "role": "necroBase"
         },
         "adept": {
-            "score": "9100k",
+            "score": "9400k",
             "role": "necroBaseAdept"
         },
         "mastery": {
@@ -71,7 +71,7 @@
             "role": "necroBaseMastery"
         },
         "extreme": {
-            "score": "10300k",
+            "score": "10100k",
             "role": "necroBaseExtreme"
         }
     }
