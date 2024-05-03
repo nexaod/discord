@@ -3,6 +3,11 @@
         "title": "Ranged Ent",
         "scores": [
             {
+                "name": "DiamondFang",
+                "score": "11334k",
+                "url": "https://cdn.discordapp.com/attachments/742114134400958589/1235979719627903067/image.png?ex=66365750&is=663505d0&hm=8e7d6eb9b05ba717e8206eec6f0b79080d6ca7a9a7d4a7979d3ecd229efa1f5e&"
+            },
+            {
                 "name": "x Neon",
                 "score": "11178K",
                 "url": "https://cdn.discordapp.com/attachments/742114134400958589/1220791955571609600/image.png?ex=66103a1b&is=65fdc51b&hm=672c2ff65b8509da618108867979fe12e7aa26c2c406c89771f8652671201620&"
@@ -11,11 +16,6 @@
                 "name": "Sad Riven",
                 "score": "7894k",
                 "url": "https://cdn.discordapp.com/attachments/742114134400958589/1011391021982167161/unknown.png"
-            },
-            {
-                "name": "First Prod",
-                "score": "7719k",
-                "url": "https://imgur.com/17v6FoX"
             }
         ]
     },
