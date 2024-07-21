@@ -43,6 +43,11 @@
         "title": "Free Ranged",
         "scores": [
             {
+                "name": "Dave J",
+                "score": "11842k",
+                "url": "https://i.imgur.com/bfXtTNJ.png"
+            },
+            {
                 "name": "Foam Mace",
                 "score": "11533k",
                 "url": "https://gyazo.com/8627e759e760e5cb2f89030f9ea4801d"
@@ -51,11 +56,6 @@
                 "name": "Miss Kay Z",
                 "score": "11240k",
                 "url": "https://i.imgur.com/1fFSrDd.png"
-            },
-            {
-                "name": "T yn",
-                "score": "11159k",
-                "url": "https://i.imgur.com/WebQgy6.png"
             }
         ]
     }
