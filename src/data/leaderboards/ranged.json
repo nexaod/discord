@@ -1,21 +1,21 @@
 {
     "ent": {
         "title": "Ranged Ent",
-        "scores": [
+        "scores": [            
             {
-                "name": "baguette",
+                "name": "Dave J",
+                "score": "11595k",
+                "url": "https://i.imgur.com/e6L6fkf.png"
+            },
+            {
+                "name": "x Neon",
                 "score": "11519k",
                 "url": "https://cdn.discordapp.com/attachments/742114134400958589/1256771919504474193/image.png?ex=6681fb8f&is=6680aa0f&hm=8634a77238eba919e14f61ae6e16085539639d715307249dfd02629bda9d8cae&"
             },
             {
-                "name": "DiamondFang (toxic Finnish guy)",
+                "name": "DiamondFang",
                 "score": "11334k",
                 "url": "https://cdn.discordapp.com/attachments/742114134400958589/1235979719627903067/image.png?ex=66365750&is=663505d0&hm=8e7d6eb9b05ba717e8206eec6f0b79080d6ca7a9a7d4a7979d3ecd229efa1f5e&"
-            },
-            {
-                "name": "Sad Riven",
-                "score": "7894k",
-                "url": "https://cdn.discordapp.com/attachments/742114134400958589/1011391021982167161/unknown.png"
             }
         ]
     },
@@ -53,9 +53,9 @@
                 "url": "https://i.imgur.com/1fFSrDd.png"
             },
             {
-                "name": "Camps",
-                "score": "10922k",
-                "url": "https://cdn.discordapp.com/attachments/742114134400958589/1262501176042066011/20240715215216_1.jpg?ex=669b7098&is=669a1f18&hm=66538443facd906f1e48acc0ed0283243abe2f50bb32cdd0339470004128a722&"
+                "name": "T yn",
+                "score": "11159",
+                "url": "https://i.imgur.com/WebQgy6.png"
             }
         ]
     }
