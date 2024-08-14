@@ -10,7 +10,7 @@ export const startingMessage = `
 ⬥ The screenshot must contain codeword, summoning interface, group and challenge gem.\n
 ⬥ Submitted role gems must at least qualify for the corresponding ${Roles.extreme} role.\n
 > __**Kill Times**__\n
-⬥ All submissions must be full FC teams (7/7).\n
+⬥ All submissions must be full FC teams (7/7 on role).\n
 ⬥ A screenshot of the full client interface with the group interface with 7/7 members showing is required.\n
 ⬥ You can apply for a spot on the leaderboard via the <#${Channels.applyForRank}> channel.\n
 `;
