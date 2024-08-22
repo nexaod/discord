@@ -2,7 +2,7 @@
     "ent": {
         "title": "Necromancy Entangle",
         "entry": {
-            "score": "7600k",
+            "score": "7800k",
             "role": "necroEnt"
         },
         "adept": {
@@ -10,11 +10,11 @@
             "role": "necroEntAdept"
         },
         "mastery": {
-            "score": "8700k",
+            "score": "8800k",
             "role": "necroEntMastery"
         },
         "extreme": {
-            "score": "9000k",
+            "score": "9200k",
             "role": "necroEntExtreme"
         }
     },
@@ -29,18 +29,18 @@
             "role": ""
         },
         "mastery": {
-            "score": "8700k",
+            "score": "8800k",
             "role": "necroFreeMastery"
         },
         "extreme": {
-            "score": "9000k",
+            "score": "9200k",
             "role": "necroFreeExtreme"
         }
     },
     "hammer": {
         "title": "Necromancy Hammer",
         "entry": {
-            "score": "7400k",
+            "score": "7600k",
             "role": "necroHammer"
         },
         "adept": {
@@ -48,30 +48,30 @@
             "role": "necroHammerAdept"
         },
         "mastery": {
-            "score": "8300k",
+            "score": "8500k",
             "role": "necroHammerMastery"
         },
         "extreme": {
-            "score": "8600k",
+            "score": "8900k",
             "role": "necroHammerExtreme"
         }
     },
     "base": {
         "title": "Necromancy Base",
         "entry": {
-            "score": "8700k",
+            "score": "9000k",
             "role": "necroBase"
         },
         "adept": {
-            "score": "9400k",
+            "score": "9600k",
             "role": "necroBaseAdept"
         },
         "mastery": {
-            "score": "9700k",
+            "score": "10000k",
             "role": "necroBaseMastery"
         },
         "extreme": {
-            "score": "10000k",
+            "score": "10300k",
             "role": "necroBaseExtreme"
         }
     }
